@@ -5,11 +5,6 @@
 add_theme_support( 'title-tag' );
 
 function register_assets(){
-    wp_enqueue_script(
-		'script-burger',
-		get_template_directory_uri().'/assets/scripts/burger.js',
-		 array(),
-		'1.0');
 /* 	wp_enqueue_script(
 		'script-contact',
 		get_template_directory_uri().'/assets/scripts/contact.js',
