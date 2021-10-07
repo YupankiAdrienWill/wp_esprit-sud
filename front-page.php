@@ -28,7 +28,7 @@
     </section>
 
     <section class='page'>
-        <h2>Notre Catalogue</h2>
+        <h2><?php get_the_title()?></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus est, feugiat quis lacinia in, blandit at sem. Ut vitae magna vel lectus blandit vestibulum at ac nunc. Vivamus rhoncus justo ac sapien porttitor, ut cursus elit pellentesque. Phasellus viverra porta mauris, non pretium neque feugiat quis.<p>
                 <div><img src="../assets/img/slide-1.jpg" alt="" srcset=""></div>
                     <div><a href="../pages/catalogue.php"><button>Venez découvir nos produits</button></a></div>

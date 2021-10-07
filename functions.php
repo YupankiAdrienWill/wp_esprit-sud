@@ -71,3 +71,16 @@ function register_assets(){
 }
 add_action('wp_enqueue_scripts', 'register_assets');
 
+register_nav_menus( array(
+	'main' => 'Menu Principal',
+	'footer' => 'Bas de page',
+    'container' => 'ul', // afin d'éviter d'avoir une div autour 
+    'menu_class' => 'navbar', // ma classe personnalisée 
+) );
+
+
+
+
+
+// register a new menu
+register_nav_menu('main-menu', 'Main menu');
