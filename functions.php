@@ -7,32 +7,32 @@ add_theme_support( 'title-tag' );
 function register_assets(){
 	wp_enqueue_script(
 		'script-burger',
-		get_template_directory_uri().'/scripts/burger.js',
+		get_template_directory_uri().'assets/scripts/burger.js',
 		 array(),
 		'1.0');
 	wp_enqueue_script(
 		'script-contact',
-		get_template_directory_uri().'/scripts/contact.js',
+		get_template_directory_uri().'/assets/scripts/contact.js',
 		 array(),
 		'1.0');
 	wp_enqueue_script(
 		'script-dropdown',
-		get_template_directory_uri().'/scripts/dropdown.js',
+		get_template_directory_uri().'/assets/scripts/dropdown.js',
 		 array(),
 		'1.0');
 	wp_enqueue_script(
 		'script-gallery',
-		get_template_directory_uri().'/scripts/gallery.js',
+		get_template_directory_uri().'/assets/scripts/gallery.js',
 		 array(),
 		'1.0');
 	wp_enqueue_script(
 		'script-slideshow',
-		get_template_directory_uri().'/scripts/slideshow.js',
+		get_template_directory_uri().'/assets/scripts/slideshow.js',
 		 array(),
 		'1.0');
 	wp_enqueue_script(
 		'script-top',
-		get_template_directory_uri().'/scripts/top.js',
+		get_template_directory_uri().'/assets/scripts/top.js',
 		 array(),
 		'1.0');
 
