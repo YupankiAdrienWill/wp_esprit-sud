@@ -9,9 +9,13 @@
 
 <body <?php body_class(); ?>>
     
-    <?php wp_body_open(); ?>
-    <img class="bandeau__child" src="../assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
-   
+<?php wp_body_open(); ?>
+
+<header>
+
+      <?php if($page_courrante === 'cmtp'){}else{ ?>
+      <img class="bandeau__child" src="../assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+      <?php } ?>
       
       <div class="bandeau__child">
             <img class="logoTxt" src="<?php if($page_courrante === 'cmtp'){echo '../assets/ico/logo_cmtp.png';}else{echo '../assets/ico/logo_esprit_sud_text_alpha.png';} ?>" alt="">
@@ -20,7 +24,9 @@
             <a href="https://facebook.com"><img class="logoSocialNetwork" src="../assets/ico/facebook.png" alt=""></a>
             <div class="tel">06 21 00 45 10</div>
       </div>
-      <nav id="nav">
+</header>
+
+<nav id="nav">
       <div class="burger burger--logo">
             <a href="index.php"><img src="../assets/ico/logo_esprit_sud_dessin_alpha.png" alt=""></a>
       </div>
@@ -68,4 +74,5 @@
             <div></div>
       </div>
 </nav>
+
     header
