@@ -43,7 +43,7 @@ footer
     <section class="footer__top--bleu">
         <span>Mentions légales</span>
         <span>Politique de confidentialité</span>
-        <span>Site réalisé par : YUPANKI</span>
+        <span><a href="https://yupanki.fr">Site réalisé par : YUPANKI</a></span>
     </sec
 </body>
 </html>

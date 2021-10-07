@@ -6,10 +6,9 @@
 }
 
 @font-face {
-  font-family: 'ITCAvantGardePro-Md';
+  font-family: "ITCAvantGardePro-Md";
   src: url("../fonts/ITCAvantGardePro-Md.otf");
 }
-
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -18,7 +17,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'ITCAvantGardePro-Md';
+  font-family: "ITCAvantGardePro-Md";
 }
 
 a {
@@ -28,5 +27,4 @@ a {
 a.buttonContact {
   border: 3px solid yellow;
   color: #10B1B9;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
