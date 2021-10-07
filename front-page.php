@@ -1,7 +1,7 @@
 <?php get_header();?>
-<img alt="" src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>">
 
-<h1>Esprit Sud</h1>
+
+<h1>Accueil</h1>
 
 <div class="main__container">
     <section class='header'> 
@@ -22,6 +22,32 @@
                     </span>
                 </div>
             </div>
-     </section>
+        </div>
+        
+       
+    </section>
+
+    <section class='page'>
+        <h2>Notre Catalogue</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus est, feugiat quis lacinia in, blandit at sem. Ut vitae magna vel lectus blandit vestibulum at ac nunc. Vivamus rhoncus justo ac sapien porttitor, ut cursus elit pellentesque. Phasellus viverra porta mauris, non pretium neque feugiat quis.<p>
+                <div><img src="../assets/img/slide-1.jpg" alt="" srcset=""></div>
+                    <div><a href="../pages/catalogue.php"><button>Venez découvir nos produits</button></a></div>
+
+    </section >
+
+    <section class='page'>
+        <h2>Notre Showroom</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus est, feugiat quis lacinia in, blandit at sem. Ut vitae magna vel lectus blandit vestibulum at ac nunc. Vivamus rhoncus justo ac sapien porttitor, ut cursus elit pellentesque. Phasellus viverra porta mauris, non pretium neque feugiat quis.<p>
+        <div class="container">
+            <div><img src="../assets/img/pool.png" alt="" srcset=""></div>
+            <div><img src="../assets/img/pool.png" alt="" srcset=""></div>
+            <div><img src="../assets/img/pool.png" alt="" srcset=""></div>
+            <div><img src="../assets/img/pool.png" alt="" srcset=""></div>
+            <div><img src="../assets/img/pool.png" alt="" srcset=""></div>
+            <div><img src="../assets/img/pool.png" alt="" srcset=""></div>
+        </div>
+            <div><a href="../pages/about.php"><button>Venez découvir notre Showroom</button></a></div>
+    
+</section>
 </div>
 <?php get_footer();?>

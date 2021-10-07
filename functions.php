@@ -56,7 +56,22 @@ function register_assets(){
         array(),
         '1.0'
     );
-
+    if (is_front_page()) {
+        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
+            'front-page-css',
+            get_template_directory_uri() . '/assets/styles/index.css',
+            array(),
+            '1.0'
+        );
+        }
+    if (is_home()) {
+        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
+            'home-css',
+            get_template_directory_uri() . '/assets/styles/catalogue.css',
+            array(),
+            '1.0'
+        );
+        }
 
 }
 add_action('wp_enqueue_scripts', 'register_assets');
