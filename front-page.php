@@ -1,17 +1,19 @@
 <?php get_header();?>
-
+<img alt="" src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>">
 
 <h1>Esprit Sud</h1>
 
 <div class="main__container">
     <section class='header'> 
-    i<?php if ( get_header_image() ) : ?>
-    <div id="site-header">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-            <img src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-        </a>
-    </div>
-<?php endif; ?>
+        <div><h1>ESPRIT SUD</h1></div>
+        <div class ='container__bandeau'>
+            <div><img src="../assets/ico/feuille-2.svg" alt="" srcset=""></div>
+            <div class='container__bandeau--2'>
+                <div class="texte">
+                    <h2>Aménagements extérieurs</h2>
+                    <h2>Plantes Méditerranéennes</h2>
+                    <h2>Piscines bétons</h2>
+                    <h2>Statues résine</h2>
                 </div>
                 <div class="carré">
                     <span id='carré'>
