@@ -37,9 +37,15 @@ header{
 nav{
       div{
             ul{
+                  
                   display: flex;
                         li{
                               list-style: none;
+                                    &:nth-last-child(1){
+                                                border: 3px solid yellow;
+                                                color: #10B1B9;
+                                           }
+                                    
                         }
             }
       }

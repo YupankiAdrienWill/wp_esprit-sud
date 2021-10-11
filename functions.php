@@ -76,7 +76,15 @@ function register_assets(){
             '1.0'
         );
         }
-    if (is_post_type_archive('catalogue')){
+    if (is_post_type_archive('plante')){
+        wp_enqueue_style(
+            'catalogue',
+            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            array(),
+            '1.0'
+        );
+    }
+    if (is_singular('plante')){
         wp_enqueue_style(
             'catalogue',
             get_template_directory_uri() .'/assets/styles/catalogue.css',
@@ -94,15 +102,38 @@ register_nav_menus( array(
     'container' => 'ul', // afin d'éviter d'avoir une div autour 
     'menu_class' => 'navbar', // ma classe personnalisée 
 ) );
-
-
-
-
-
 // register a new menu
 register_nav_menu('main-menu', 'Main menu');
 
 
+function espritSud_register_post_types() {
+	// La déclaration de nos Custom Post Types et Taxonomies ira ici
+    
+	
+        // CPT Plantes
+        $labels = array(
+            'name' => 'Plante',
+            'all_items' => 'Toutes les plantes',  // affiché dans le sous menu
+            'singular_name' => 'Plante',
+            'add_new_item' => 'Ajouter une plante',
+            'edit_item' => 'Modifier la plante',
+            'menu_name' => 'Plantes'
+        );
+    
+        $args = array(
+            'labels' => $labels,
+            'public' => true,
+            'show_in_rest' => true,
+            'has_archive' => true,
+            'supports' => array( 'title', 'editor','thumbnail' ),
+            'menu_position' => 5, 
+            'menu_icon' => 'dashicons-palmtree',
+        );
+    
+        register_post_type( 'plante', $args );
+    
+}
+add_action( 'init', 'espritSud_register_post_types' );
 
 
 

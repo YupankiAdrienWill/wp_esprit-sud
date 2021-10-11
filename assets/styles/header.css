@@ -61,6 +61,11 @@ nav div ul li {
   list-style: none;
 }
 
+nav div ul li:nth-last-child(1) {
+  border: 3px solid yellow;
+  color: #10B1B9;
+}
+
 nav {
   z-index: 99999;
   display: -webkit-box;
