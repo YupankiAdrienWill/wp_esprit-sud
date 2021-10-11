@@ -163,7 +163,7 @@ function espritSud_register_post_types() {
             'show_in_rest' => true,
             'hierarchical' => true,
             'has_archive' => true,
-            'supports' => array( 'title', 'editor','thumbnail' ),
+            'supports' => array( 'title', 'excerpt','editor','thumbnail' ),
             'menu_position' => 5, 
             'menu_icon' => 'dashicons-category',
         );
