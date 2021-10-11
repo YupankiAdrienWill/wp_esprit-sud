@@ -101,31 +101,7 @@ register_nav_menus( array(
 // register a new menu
 register_nav_menu('main-menu', 'Main menu');
 
-function capitaine_register_post_types() {
-	
-    // CPT Catalogue
-    $labels = array(
-        'name' => 'Catalogue',
-        'all_items' => 'Tous les projets',  // affiché dans le sous menu
-        'singular_name' => 'Projet',
-        'add_new_item' => 'Ajouter un projet',
-        'edit_item' => 'Modifier le projet',
-        'menu_name' => 'Catalogue'
-    );
 
-	$args = array(
-        'labels' => $labels,
-        'public' => true,
-        'show_in_rest' => true,
-        'has_archive' => true,
-        'supports' => array( 'title', 'editor','thumbnail' ),
-        'menu_position' => 5, 
-        'menu_icon' => 'dashicons-admin-customizer',
-	);
-
-	register_post_type( 'Catalogue', $args );
-}
-add_action( 'init', 'capitaine_register_post_types' ); // Le hook init lance la fonction
 
 
 
