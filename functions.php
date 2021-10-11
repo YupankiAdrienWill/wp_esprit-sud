@@ -103,7 +103,7 @@ function register_assets(){
     if (is_singular('catalogue')){
         wp_enqueue_style(
             'catalogue',
-            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            get_template_directory_uri() .'/assets/styles/page.css',
             array(),
             '1.0'
         );
