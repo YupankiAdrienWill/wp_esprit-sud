@@ -92,6 +92,22 @@ function register_assets(){
             '1.0'
         );
     }
+    if (is_post_type_archive('catalogue')){
+        wp_enqueue_style(
+            'catalogue',
+            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            array(),
+            '1.0'
+        );
+    }
+    if (is_singular('catalogue')){
+        wp_enqueue_style(
+            'catalogue',
+            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            array(),
+            '1.0'
+        );
+    }
 
 }
 add_action('wp_enqueue_scripts', 'register_assets');
@@ -131,9 +147,36 @@ function espritSud_register_post_types() {
         );
     
         register_post_type( 'plante', $args );
+          // CPT Catalogue
+          $labels = array(
+            'name' => 'Catalogue',
+            'all_items' => 'Tous le catalogue',  // affiché dans le sous menu
+            'singular_name' => 'Catalogue',
+            'add_new_item' => 'Ajouter un catalogue',
+            'edit_item' => 'Modifier le catalogue',
+            'menu_name' => 'Catalogue'
+        );
+    
+        $args = array(
+            'labels' => $labels,
+            'public' => true,
+            'show_in_rest' => true,
+            'hierarchical' => true,
+            'has_archive' => true,
+            'supports' => array( 'title', 'editor','thumbnail' ),
+            'menu_position' => 5, 
+            'menu_icon' => 'dashicons-category',
+        );
+    
+        register_post_type( 'catalogue', $args );
     
 }
 add_action( 'init', 'espritSud_register_post_types' );
+
+    
+	
+      
+
 
 
 
