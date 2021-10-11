@@ -67,6 +67,22 @@ function register_assets(){
             '1.0'
         );
         }
+    if (is_page()) {
+        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
+            'page-css',
+            get_template_directory_uri() . '/assets/styles/page.css',
+            array(),
+            '1.0'
+        );
+        }
+    if (is_post_type_archive('catalogue')){
+        wp_enqueue_style(
+            'catalogue',
+            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            array(),
+            '1.0'
+        );
+    }
 
 }
 add_action('wp_enqueue_scripts', 'register_assets');
@@ -84,3 +100,32 @@ register_nav_menus( array(
 
 // register a new menu
 register_nav_menu('main-menu', 'Main menu');
+
+function capitaine_register_post_types() {
+	
+    // CPT Catalogue
+    $labels = array(
+        'name' => 'Catalogue',
+        'all_items' => 'Tous les projets',  // affiché dans le sous menu
+        'singular_name' => 'Projet',
+        'add_new_item' => 'Ajouter un projet',
+        'edit_item' => 'Modifier le projet',
+        'menu_name' => 'Catalogue'
+    );
+
+	$args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array( 'title', 'editor','thumbnail' ),
+        'menu_position' => 5, 
+        'menu_icon' => 'dashicons-admin-customizer',
+	);
+
+	register_post_type( 'Catalogue', $args );
+}
+add_action( 'init', 'capitaine_register_post_types' ); // Le hook init lance la fonction
+
+
+

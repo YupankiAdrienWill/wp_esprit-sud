@@ -8,94 +8,141 @@
 footer {
   color: white;
 }
+
 footer section:nth-child(1) {
   height: 5rem;
 }
+
 footer section:nth-child(2) {
   height: 4rem;
   background-color: rgba(16, 177, 185, 0.2);
 }
+
 footer section:nth-child(3) {
   background-color: var(--couleur-quaternaire);
   padding-top: 2rem;
 }
+
 footer section:nth-child(4) {
   background-color: var(--couleur-secondaire);
   /* height: 4rem; */
 }
+
 footer .footer__container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-bottom: 2rem;
 }
+
 footer .footer__feuille {
   position: absolute;
   height: 28rem;
   top: -17rem;
 }
+
 footer div:nth-child(odd) {
   padding-top: 2rem;
 }
+
 footer .footer__container--horaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 footer .footer__container--horaire span:nth-child(1) {
   color: var(--couleur-primaire);
   text-align: center;
 }
+
 footer .footer__container--horaire span:nth-child(even) {
   color: var(--couleur-tertiaire);
 }
+
 footer .padding {
   padding: 0.5rem;
 }
+
 footer .footer__container--adresse {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
+
 footer .footer__container--adresse img {
   height: 80px;
   width: 80px;
 }
+
 footer .footer__container--adresse span:nth-child(2) {
   color: var(--couleur-primaire);
 }
+
 footer .footer__container--contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   color: white !important;
 }
+
 footer .footer__container--contact img {
   height: 40px;
 }
+
 footer .footer__container--contact a {
   text-decoration: none;
 }
+
 footer .footer__container--contact a.footer__buttonContact {
   padding: 1rem;
   border: 3px solid yellow;
   color: white;
 }
+
 footer .padding--spec {
   padding: 1.5rem;
 }
+
 footer .footer__top--bleu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 1rem 1rem 1rem 1rem;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 footer .footer__top--bleu a {
   color: white;
 }
+
 footer .footer__top--bleu span {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
 footer .footer__top--bleu span:nth-child(3) {
   color: var(--couleur-primaire);
 }
@@ -111,17 +158,26 @@ footer .footer__top--bleu span:nth-child(3) {
     display: none;
   }
   footer .footer__container {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-bottom: 1rem;
   }
   footer .footer__container div:nth-child(odd) {
     padding-top: 0;
   }
   footer .footer__container--horaire {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
     padding-bottom: 1rem;
   }
@@ -129,8 +185,13 @@ footer .footer__top--bleu span:nth-child(3) {
     padding-bottom: 1rem;
   }
   footer .footer__top--bleu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
-}/*# sourceMappingURL=footer.css.map */
+}
+/*# sourceMappingURL=footer.css.map */

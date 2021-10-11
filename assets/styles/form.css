@@ -11,6 +11,8 @@ section.form {
 }
 
 section.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 0;
@@ -21,6 +23,7 @@ section.show {
   z-index: 200000;
   border: 1px solid red;
 }
+
 section.show .txt {
   background-color: var(--couleur-primaire);
   overflow: auto;
@@ -31,48 +34,69 @@ section.show .txt {
   width: auto;
   border: 1px solid green;
 }
+
 section.show .txt h1 {
   text-align: center;
 }
+
 section.show .txt .txt_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-around;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
+
 section.show .txt .txt_flex #submit {
   margin: auto;
 }
+
 section.show .txt .txt_flex .txt_flex__child {
   max-width: 25rem;
 }
+
 section.show .txt .txt_flex .txt_flex__child iframe {
   width: 100%;
   height: 15rem;
 }
+
 section.show .txt .txt_flex .txt_flex__child form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 section.show .txt .txt_flex .txt_flex__child form .form__child {
   width: 17rem;
   min-width: 17rem;
   max-width: 17rem;
   padding: 0rem;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
-section.show .txt .txt_flex .txt_flex__child form .form__child input[type=text], section.show .txt .txt_flex .txt_flex__child form .form__child input[type=email], section.show .txt .txt_flex .txt_flex__child form .form__child input[type=tel], section.show .txt .txt_flex .txt_flex__child form .form__child textarea {
+
+section.show .txt .txt_flex .txt_flex__child form .form__child input[type="text"], section.show .txt .txt_flex .txt_flex__child form .form__child input[type="email"], section.show .txt .txt_flex .txt_flex__child form .form__child input[type="tel"], section.show .txt .txt_flex .txt_flex__child form .form__child textarea {
   background-color: transparent;
   border: 2px solid white;
 }
-section.show .txt .txt_flex .txt_flex__child form .form__child input[type=submit] {
+
+section.show .txt .txt_flex .txt_flex__child form .form__child input[type="submit"] {
   background-color: var(--couleur-secondaire);
   border: none;
 }
+
 section.show .txt .txt_flex .txt_flex__child form .form__child input, section.show .txt .txt_flex .txt_flex__child form .form__child textarea {
   padding-bottom: 0.5rem;
   color: white;
-  font-family: "ITCAvantGardePro-Md";
+  font-family: 'ITCAvantGardePro-Md';
   padding: 0.5rem;
   margin: 0;
   margin-top: 1rem;
@@ -80,14 +104,19 @@ section.show .txt .txt_flex .txt_flex__child form .form__child input, section.sh
   min-width: 16rem;
   max-width: 16rem;
 }
+
 section.show .txt .txt_flex .txt_flex__child form .form__child textarea {
   height: 8rem;
 }
+
 section.show .txt .txt_flex .txt_flex__child:nth-child(1) {
-  flex: 4;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
   max-width: none;
   margin-right: 25px;
 }
+
 section.show .txt #close {
   color: var(--couleur-secondaire);
   cursor: pointer;
@@ -95,6 +124,7 @@ section.show .txt #close {
   text-align: right;
   font-weight: bolder;
 }
+
 section.show .txt #close2 {
   display: none;
 }
@@ -110,7 +140,8 @@ section.show .txt #close2 {
     display: none;
   }
   section.show .txt .txt_flex .txt_flex__child form {
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   section.show .txt .txt_flex .txt_flex__child form .form__child {
     min-width: none;
@@ -137,4 +168,5 @@ section.show .txt #close2 {
     cursor: pointer;
     padding: 0;
   }
-}/*# sourceMappingURL=form.css.map */
+}
+/*# sourceMappingURL=form.css.map */

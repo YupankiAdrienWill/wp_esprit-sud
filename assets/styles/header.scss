@@ -34,7 +34,16 @@ header{
       }
 }
 
-
+nav{
+      div{
+            ul{
+                  display: flex;
+                        li{
+                              list-style: none;
+                        }
+            }
+      }
+}
 
 nav{
       z-index: 99999;
@@ -129,13 +138,23 @@ nav{
       }
 
 
-
+      nav{
+            div{
+                  ul{
+                        display: flex;
+                              li{
+                                    list-style: none;
+                              }
+                  }
+            }
+      }
       nav{
             justify-content: space-between;
             padding: 0;
             #dropdown_catalog:hover .dropdown_content, #dropdown_cmtp:hover .dropdown_content {
                   display: none;
             }
+ 
             .menu{
                   z-index: 999;
                   justify-content: start;
@@ -161,6 +180,7 @@ nav{
                   div:nth-child(7){
                         margin-top: 2rem;
                   }
+                 
             }
             .show{
                   display: flex;

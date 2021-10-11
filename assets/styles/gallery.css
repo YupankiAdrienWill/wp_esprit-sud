@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -85,4 +86,5 @@
 .active,
 .demo:hover {
   opacity: 1;
-}/*# sourceMappingURL=gallery.css.map */
+}
+/*# sourceMappingURL=gallery.css.map */

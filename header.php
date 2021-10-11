@@ -34,5 +34,5 @@
       function functionBurger() {
             document.getElementById('navMenu').classList.toggle("show");
             document.getElementById('nav').classList.toggle('reset');
-      
+            }
 </script>

@@ -4,18 +4,33 @@
 section.catalogue {
   z-index: 99;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 2rem;
   background-color: #fcc92313;
 }
+
 section.catalogue div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 20%;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   gap: 1rem;
   padding-top: 1rem;
@@ -24,17 +39,20 @@ section.catalogue div {
   background-color: rgba(16, 177, 185, 0.2);
   border: solid 2px var(--couleur-primaire);
 }
+
 section.catalogue p {
   width: 100%;
   margin: auto;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
+
 section.catalogue img {
   width: 100%;
   height: auto;
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 section.catalogue button {
   width: 200.75px;
   height: 51px;
@@ -44,6 +62,7 @@ section.catalogue button {
   border: 8px solid var(--couleur-secondaire);
   border-radius: 14px;
 }
+
 section.catalogue button:hover {
   cursor: pointer;
   width: 200.75px;
@@ -51,7 +70,8 @@ section.catalogue button:hover {
   left: 766.53px;
   top: 1459px;
   border-radius: 14px;
-  filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
+  -webkit-filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
+          filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
   background: #FFFFFF;
   border: 8px solid #FECF34;
 }
@@ -60,18 +80,32 @@ section.catalogue button:hover {
   section.catalogue {
     z-index: 99;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 2rem;
     background-color: #fcc92313;
   }
   section.catalogue div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 70%;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
     gap: 1rem;
     padding-top: 1rem;
@@ -102,22 +136,37 @@ section.catalogue button:hover {
     border-radius: 14px;
   }
 }
+
 @media (max-width: 720px) {
   section.catalogue {
     z-index: 99;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 2rem;
     background-color: #fcc92313;
   }
   section.catalogue div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
     gap: 1rem;
     padding-top: 1rem;
@@ -154,6 +203,8 @@ section.catalogue button:hover {
     background: var(--couleur-primaire);
     border: 8px solid var(--couleur-secondaire);
     border-radius: 14px;
-    filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
+    -webkit-filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
+            filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
   }
-}/*# sourceMappingURL=catalogue.css.map */
+}
+/*# sourceMappingURL=catalogue.css.map */
