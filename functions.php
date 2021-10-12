@@ -126,29 +126,6 @@ register_nav_menu('main-menu', 'Main menu');
 function espritSud_register_post_types() {
 	// La déclaration de nos Custom Post Types et Taxonomies ira ici
     
-	
-        // CPT Plantes
-        $labels = array(
-            'name' => 'Plante',
-            'all_items' => 'Toutes les plantes',  // affiché dans le sous menu
-            'singular_name' => 'Plante',
-            'add_new_item' => 'Ajouter une plante',
-            'edit_item' => 'Modifier la plante',
-            'menu_name' => 'Plantes'
-        );
-    
-        $args = array(
-            'labels' => $labels,
-            'public' => true,
-            'show_in_rest' => true,
-            'has_archive' => true,
-            'supports' => array( 'title', 'editor','thumbnail' ),
-            'menu_position' => 5, 
-            'menu_icon' => 'dashicons-palmtree',
-        );
-    
-        register_post_type( 'plante', $args );
-
           // CPT Catalogue
           $labels = array(
             'name' => 'Catalogue',
