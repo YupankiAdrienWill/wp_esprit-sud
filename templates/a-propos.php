@@ -38,7 +38,8 @@
     $link = get_page_link( $page); 
     $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
     ?>
-    <h2><?php echo $title; ?></h2>
+<div  id='showroom'></div>
+    <h2 ><?php echo $title; ?></h2>
     <?php echo $content; ?>
     <?php if ( function_exists( 'easingslider' ) ) { easingslider( 178 ); } ?>
 </section >

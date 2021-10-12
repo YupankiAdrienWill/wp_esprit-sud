@@ -43,6 +43,6 @@
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
         <div> <?php echo $thumb; ?></div>
-        <div><a href="<?php echo $link; ?>"><button>Venez découvir nos produits</button></a></div>
+        <div><a href="http://localhost/wordpress/qui-sommes-nous/#showroom"><button>Venez découvir nos produits</button></a></div>
 </section >
 <?php get_footer();?>
