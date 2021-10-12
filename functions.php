@@ -7,8 +7,8 @@ add_post_type_support( 'page', 'excerpt' );
 
 function register_assets(){
     wp_enqueue_script(
-		'script-dropdown',
-		get_template_directory_uri().'/assets/scripts/dropdown.js',
+		'script-gallery',
+		get_template_directory_uri().'/assets/scripts/gallery.js',
 		 array(),
 		'1.0');
 /* 	wp_enqueue_script(
@@ -17,11 +17,7 @@ function register_assets(){
 		 array(),
 		'1.0');
 
-	wp_enqueue_script(
-		'script-gallery',
-		get_template_directory_uri().'/assets/scripts/gallery.js',
-		 array(),
-		'1.0');
+
 	wp_enqueue_script(
 		'script-slideshow',
 		get_template_directory_uri().'/assets/scripts/slideshow.js',
@@ -125,7 +121,7 @@ register_nav_menu('main-menu', 'Main menu');
 
 function espritSud_register_post_types() {
 	// La déclaration de nos Custom Post Types et Taxonomies ira ici
-    
+
           // CPT Catalogue
           $labels = array(
             'name' => 'Catalogue',
@@ -147,6 +143,27 @@ function espritSud_register_post_types() {
         );
     
         register_post_type( 'catalogue', $args );
+          // CPT Réalisations
+          $labels = array(
+            'name' => 'Réalisation',
+            'all_items' => 'Toutes les réalisations',  // affiché dans le sous menu
+            'singular_name' => 'Réalisation',
+            'add_new_item' => 'Ajouter une reélisation',
+            'edit_item' => 'Modifier les réalisations',
+            'menu_name' => 'Réalisation'
+        );
+    
+        $args = array(
+            'labels' => $labels,
+            'public' => true,
+            'show_in_rest' => true,
+            'has_archive' => true,
+            'supports' => array( 'title', 'excerpt','thumbnail' ),
+            'menu_position' => 5, 
+            'menu_icon' => 'dashicons-plamtree',
+        );
+    
+        register_post_type( 'réalisation', $args );
     
 }
 add_action( 'init', 'espritSud_register_post_types' );
