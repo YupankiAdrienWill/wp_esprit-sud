@@ -31,13 +31,8 @@
     <?php the_content(); ?>
 </section>
 
-<?php
-$loop = new WP_Query( array(
-    'post_type' => 'réalisation'
-  )
-);
 
-?>
+
 <?php
 
 	get_footer();

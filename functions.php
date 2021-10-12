@@ -145,12 +145,12 @@ function espritSud_register_post_types() {
         register_post_type( 'catalogue', $args );
           // CPT Réalisations
           $labels = array(
-            'name' => 'Réalisation',
-            'all_items' => 'Toutes les réalisations',  // affiché dans le sous menu
-            'singular_name' => 'Réalisation',
-            'add_new_item' => 'Ajouter une reélisation',
-            'edit_item' => 'Modifier les réalisations',
-            'menu_name' => 'Réalisation'
+            'name' => 'Realisation',
+            'all_items' => 'Toutes les realisations',  // affiché dans le sous menu
+            'singular_name' => 'Realisation',
+            'add_new_item' => 'Ajouter une realisation',
+            'edit_item' => 'Modifier les realisations',
+            'menu_name' => 'Realisation'
         );
     
         $args = array(
@@ -163,7 +163,7 @@ function espritSud_register_post_types() {
             'menu_icon' => 'dashicons-plamtree',
         );
     
-        register_post_type( 'réalisation', $args );
+        register_post_type( 'realisation', $args );
     
 }
 add_action( 'init', 'espritSud_register_post_types' );
