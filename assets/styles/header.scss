@@ -78,7 +78,7 @@ nav{
       div{
             position: relative;
       }
-      .dropdown_content{
+      .sub-menu{
             display: none;
             position: absolute;
             top: 1.8rem;
@@ -101,7 +101,7 @@ nav{
                   border-bottom: var(--couleur-tertiaire) 3px solid;
             }
       }
-      #dropdown_catalog:hover .dropdown_content, #dropdown_cmtp:hover .dropdown_content {
+      #menu-item-109:hover .sub-menu, #dropdown_cmtp:hover .dropdown_content {
             display: block;
       }
       #dropdown_cmtp{
