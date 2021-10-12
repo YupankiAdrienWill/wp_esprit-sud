@@ -30,7 +30,18 @@
 <h2><?php the_title(); ?></h2><br>
     <?php the_content(); ?>
 </section>
-
+<section class='page'>
+    <?php 
+    $page = get_page_by_title('Notre Showroom'); 
+    $content = apply_filters('the_content', $page->post_excerpt); 
+    $title = apply_filters('the_title', $page->post_title); 
+    $link = get_page_link( $page); 
+    $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
+    ?>
+    <h2><?php echo $title; ?></h2>
+    <?php echo $content; ?>
+    <?php if ( function_exists( 'easingslider' ) ) { easingslider( 178 ); } ?>
+</section >
 
 <?php
 

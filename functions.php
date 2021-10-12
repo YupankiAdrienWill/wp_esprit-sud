@@ -73,22 +73,15 @@ function register_assets(){
             '1.0'
         );
         }
-    if (is_post_type_archive('plante')){
+    if (is_post_type_archive('ralisation')){
         wp_enqueue_style(
             'catalogue',
-            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            get_template_directory_uri() .'/assets/styles/gallery.css',
             array(),
             '1.0'
         );
     }
-    if (is_singular('plante')){
-        wp_enqueue_style(
-            'catalogue',
-            get_template_directory_uri() .'/assets/styles/catalogue.css',
-            array(),
-            '1.0'
-        );
-    }
+
     if (is_post_type_archive('catalogue')){
         wp_enqueue_style(
             'catalogue',
@@ -145,12 +138,12 @@ function espritSud_register_post_types() {
         register_post_type( 'catalogue', $args );
           // CPT Réalisations
           $labels = array(
-            'name' => 'Realisation',
-            'all_items' => 'Toutes les realisations',  // affiché dans le sous menu
-            'singular_name' => 'Realisation',
-            'add_new_item' => 'Ajouter une realisation',
-            'edit_item' => 'Modifier les realisations',
-            'menu_name' => 'Realisation'
+            'name' => 'réalisation',
+            'all_items' => 'Toutes les réalisations',  // affiché dans le sous menu
+            'singular_name' => 'Réalisation',
+            'add_new_item' => 'Ajouter une réalisation',
+            'edit_item' => 'Modifier les réalisations',
+            'menu_name' => 'Réalisations'
         );
     
         $args = array(
@@ -160,10 +153,10 @@ function espritSud_register_post_types() {
             'has_archive' => true,
             'supports' => array( 'title', 'excerpt','thumbnail' ),
             'menu_position' => 5, 
-            'menu_icon' => 'dashicons-plamtree',
+            'menu_icon' => 'dashicons-portfolio',
         );
     
-        register_post_type( 'realisation', $args );
+        register_post_type( 'réalisation', $args );
     
 }
 add_action( 'init', 'espritSud_register_post_types' );
