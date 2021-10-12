@@ -32,7 +32,7 @@
 </section>
 
 <section>
-    hello
+<?php get_template_part ('parts/slider-real' )?>
   
 </section>
 
