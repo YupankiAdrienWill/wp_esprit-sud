@@ -37,6 +37,7 @@ $loop = new WP_Query( array(
     'post_type' => 'catalogue'
   )
 );
+
 ?>
 
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>

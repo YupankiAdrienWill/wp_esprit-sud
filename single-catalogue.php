@@ -19,6 +19,9 @@
             <div class="produits-separateur"></div>
     </section>
 </div>
+<section class='produits'>
 <?php the_content();?>
+</section>
+
 
 <?php get_footer();?>

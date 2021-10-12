@@ -6,16 +6,17 @@ add_theme_support( 'title-tag' );
 add_post_type_support( 'page', 'excerpt' );
 
 function register_assets(){
+    wp_enqueue_script(
+		'script-dropdown',
+		get_template_directory_uri().'/assets/scripts/dropdown.js',
+		 array(),
+		'1.0');
 /* 	wp_enqueue_script(
 		'script-contact',
 		get_template_directory_uri().'/assets/scripts/contact.js',
 		 array(),
 		'1.0');
-	wp_enqueue_script(
-		'script-dropdown',
-		get_template_directory_uri().'/assets/scripts/dropdown.js',
-		 array(),
-		'1.0');
+
 	wp_enqueue_script(
 		'script-gallery',
 		get_template_directory_uri().'/assets/scripts/gallery.js',
@@ -103,7 +104,7 @@ function register_assets(){
     if (is_singular('catalogue')){
         wp_enqueue_style(
             'catalogue',
-            get_template_directory_uri() .'/assets/styles/page.css',
+            get_template_directory_uri() .'/assets/styles/produits.css',
             array(),
             '1.0'
         );
@@ -147,6 +148,7 @@ function espritSud_register_post_types() {
         );
     
         register_post_type( 'plante', $args );
+
           // CPT Catalogue
           $labels = array(
             'name' => 'Catalogue',
@@ -161,7 +163,6 @@ function espritSud_register_post_types() {
             'labels' => $labels,
             'public' => true,
             'show_in_rest' => true,
-            'hierarchical' => true,
             'has_archive' => true,
             'supports' => array( 'title', 'excerpt','editor','thumbnail' ),
             'menu_position' => 5, 
