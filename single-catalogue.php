@@ -6,7 +6,7 @@
                 <div><img src="../assets/ico/feuille-2.svg" alt="" srcset=""></div>
                 <div class='container__bandeau--2--produits'>
                     <div class="texte--produits">
-                        <h2>Nos </h2>
+                        <h2> Esprit Sud by CMTP,</h2>
                         <h2> <?php the_title(); ?></h2>
                     </div>
                     <div class="carré--produits">

@@ -7,7 +7,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url(../img/piscine.jpg);
         width: 100%;
         height: auto;
         /* height: 70vh; */
@@ -194,7 +193,8 @@ section.produits{
             p{
                 width: 100%;
                 margin: auto;
-                padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+                /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */
+                text-align: center;
             }
             img{
                 width: 100%;

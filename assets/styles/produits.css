@@ -20,7 +20,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../img/piscine.jpg);
   width: 100%;
   height: auto;
   /* height: 70vh; */
@@ -281,7 +280,8 @@ section.produits div.wp-block-media-text {
 section.produits div.wp-block-media-text__content p {
   width: 100%;
   margin: auto;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */
+  text-align: center;
 }
 
 section.produits div.wp-block-media-text__content img {
