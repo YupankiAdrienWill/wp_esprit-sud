@@ -22,9 +22,9 @@
 <section class='page'>
     <?php 
     $page = get_page_by_title('Notre catalogue'); 
-    $content = apply_filters('the_content', $page->post_content); 
+    $content = apply_filters('the_excerpt', $page->post_excerpt); 
     $title = apply_filters('the_title', $page->post_title); 
-    $link = get_page_link( $page->permalink); 
+    $link = get_page_link( $page); 
     $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
     ?>
     <h2><?php echo $title; ?></h2>
