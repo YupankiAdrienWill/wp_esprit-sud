@@ -1,10 +1,15 @@
 <div class="bigImg">
+      <!-- Next and previous buttons -->
+
       <?php $loop = new WP_Query((array('post_type' => 'ralisation'.$id,'order'=>'DSC', 'posts_per_page'=>1)));
       while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <div id="bigImg__child__<?= $id2 ?>" class="bigImg__child" style="background-image: url('<?= the_post_thumbnail_url(); ?>');">
+            <a class="prev" onclick="changeback()">&#10094;</a>
+            <a class="next" onclick="changeback()">&#10095;</a>
             </div>
       <?php endwhile; wp_reset_query(); ?>
 </div>
+
 <div class="gallerie">
       <?php $loop = new WP_Query((array('post_type' => 'ralisation'.$id2,'order'=>'DSC', 'posts_per_page'=>50)));
       while ( $loop->have_posts() ) : $loop->the_post(); ?>
