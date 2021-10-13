@@ -10,21 +10,32 @@ footer
 
         <div class="footer__container--horaire">
         <div><img class='footer__feuille' src="../assets/ico/feuille.svg" alt="" srcset=""></div>
-            <span class="padding">HORAIRES D’OUVERTURE</span>
-            <span class="padding">Lundi / Mardi / Jeudi /Vendredi</span>
-            <span class="padding">10h - 12h / 14 - 18h</span>
-            <span class="padding">Mercredi / Samedi</span>
-            <span class="padding">9h  - 12h</span>
+        <?php
+$loop = new WP_Query( array(
+    'post_type' => 'horaires'
+  )
+);
+
+?> <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <span class="padding"><?php the_content();?></span>
+            <?php endwhile; wp_reset_query(); ?>     
         </div>
 
         <div class="footer__container--adresse">
-            <span class="padding"><img class="footer__logo" src="<?php if($page_courrante === 'cmtp'){echo '../assets/ico/logo_cmtp.png';}else{echo '../assets/ico/logo_esprit_sud_dessin_alpha.png';} ?>" alt="logo de l'entreprise"></span>
+        <?php
+$loop = new WP_Query( array(
+    'post_type' => 'adresse'
+  )
+);?>
+            <span class="padding"><img class="footer__logo" src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+      <?php  ?></span>
             <?php if($page_courrante === 'cmtp'){ ?>
                 <span class="padding">AU SERVICE DES PARTICULIERS, DES PROFESSIONNELS & DES COLLECTIVITÉS DEPUIS 1990</span>
             <?php }else{ ?>
-                <span class="padding">ESPRIT SUD BY CMTP</span>
-                <span class="padding">D 1079 - 01310 Polliat </span>
-                <span class="padding">espritsud.cmtp@gmail.com</span>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <span class="padding"><?php the_content();?></span>
+            <?php endwhile; wp_reset_query(); ?> 
+
             <?php } ?>
         </div>
 

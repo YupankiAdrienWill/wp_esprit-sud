@@ -172,8 +172,51 @@ function espritSud_register_post_types() {
         );
     
         register_post_type( 'showroom', $args );
-    
+
+                // CPT horaires
+     $labels = array(
+        'name' => 'horaires',
+        'singular_name' => 'horaire',
+        'add_new_item' => 'Ajouter un horaires',
+        'edit_item' => 'Modifier l\'horaires',
+        'menu_name' => 'horaires'
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array('title', 'editor'),
+        'menu_position' => 5,
+        'menu_icon'   => 'dashicons-clock',
+    );
+
+    register_post_type('horaires', $args);
+
+             // CPT adresse
+     $labels = array(
+        'name' => 'adresse',
+        'singular_name' => 'adresse',
+        'add_new_item' => 'Ajouter une adresse',
+        'edit_item' => 'Modifier l\'adresse',
+        'menu_name' => 'adresse'
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array('title', 'editor'),
+        'menu_position' => 5,
+        'menu_icon'   => 'dashicons-admin-home',
+    );
+
+    register_post_type('adresse', $args);
 }
+    
+
 add_action( 'init', 'espritSud_register_post_types' );
 
     
