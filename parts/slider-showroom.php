@@ -12,7 +12,8 @@ $loop = new WP_Query( array(
             
       
       <div class="parent_cadre_avis">
-            <img class="return" id="avis_return" src="<?php bloginfo('template_directory'); ?>/assets/ico/circled-left.svg" alt="">
+            <div class="return prev" id="avis_return">&#10094;</div>
+            <div class="after next" id="avis_after">&#10095;</div>
             <div class="cadre_avis">
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <?php $nbr_avis++; ?>
@@ -23,8 +24,9 @@ $loop = new WP_Query( array(
                         <div class="cadre_avis__child">avis 3</div> -->
                   </div>
             </div>
-            <img class="after" id="avis_after" src="<?php bloginfo('template_directory'); ?>/assets/ico/circled-right.svg" alt="">
+            
       </div>
+      
 </section>
 
 <script>
