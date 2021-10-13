@@ -22,12 +22,29 @@
     $page = get_page_by_title('Notre Showroom'); 
     $content = apply_filters('the_excerpt', $page->post_excerpt); 
     $title = apply_filters('the_title', $page->post_title); 
-    $link = get_page_link( $page); 
-    $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
+    $link = get_page_link( $page);
     ?>
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
-        <div> <?php /* echo $thumb; */ ?></div>
+
+
+
+
+        <div class='container'> 
+        <?php
+$loop = new WP_Query( array(
+    'post_type' => 'showroom'
+  )
+);
+
+?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <div><img src="<?= the_post_thumbnail_url(); ?>" alt="" srcset=""></div>
+            <?php endwhile; wp_reset_query(); ?>
+        </div>
+
+
+
         <div><a href="http://localhost/wordpress/qui-sommes-nous/#showroom"><button>Venez découvir nos produits</button></a></div>
 </section >
 <?php get_footer();?>
