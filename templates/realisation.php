@@ -16,8 +16,7 @@
 </section>
 
 <section>
-<?php get_template_part ('parts/slider-real' )?>
-  
+<?php get_template_part ('parts/slider-real' )?> 
 </section>
 
 

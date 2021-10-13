@@ -8,10 +8,10 @@
 
 <?php get_template_part ('parts/customHeader' )?>
 <section class='page'>
-<h2><?php the_title(); ?></h2><br>
+<h1><?php the_title(); ?></h1><br>
     <?php the_content(); ?>
 </section>
-<section class='page'>
+<section class='page--2'>
     <?php 
     $page = get_page_by_title('Notre Showroom'); 
     $content = apply_filters('the_content', $page->post_excerpt); 

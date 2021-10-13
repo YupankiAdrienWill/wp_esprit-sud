@@ -17,7 +17,7 @@
         <div> <?php echo $thumb; ?></div>
         <div><a href="<?php echo $link; ?>"><button>Venez découvir nos produits</button></a></div>
 </section >
-<section class='front_page'>
+<section class='front_page--2'>
     <?php 
     $page = get_page_by_title('Notre Showroom'); 
     $content = apply_filters('the_excerpt', $page->post_excerpt); 
@@ -27,7 +27,7 @@
     ?>
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
-        <div> <?php echo $thumb; ?></div>
+        <div> <?php /* echo $thumb; */ ?></div>
         <div><a href="http://localhost/wordpress/qui-sommes-nous/#showroom"><button>Venez découvir nos produits</button></a></div>
 </section >
 <?php get_footer();?>
