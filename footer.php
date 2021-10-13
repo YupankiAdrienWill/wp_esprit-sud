@@ -52,9 +52,9 @@ $loop = new WP_Query( array(
     </section>
 
     <section class="footer__top--bleu">
-        <span>Mentions légales</span>
-        <span>Politique de confidentialité</span>
+       <div><?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?></div>
+       
         <span><a href="https://yupanki.fr">Site réalisé par : YUPANKI</a></span>
-    </sec
+            </section>
 </body>
 </html>
