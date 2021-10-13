@@ -54,7 +54,7 @@ $loop = new WP_Query( array(
     <section class="footer__top--bleu">
        <div><?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?></div>
        
-        <span><a href="https://yupanki.fr">Site réalisé par : YUPANKI</a></span>
+        
             </section>
 </body>
 </html>
