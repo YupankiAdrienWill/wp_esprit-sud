@@ -73,14 +73,7 @@ function register_assets(){
             '1.0'
         );
         }
-    if (is_post_type_archive('ralisation')){
-        wp_enqueue_style(
-            'catalogue',
-            get_template_directory_uri() .'/assets/styles/gallery.css',
-            array(),
-            '1.0'
-        );
-    }
+
 
     if (is_post_type_archive('catalogue')){
         wp_enqueue_style(

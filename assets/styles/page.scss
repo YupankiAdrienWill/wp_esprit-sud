@@ -45,15 +45,23 @@
       background-repeat: no-repeat;
     }
   }
+.titleImg{
+    text-align: center;
+    color: red;
+    border: red solid 1px;
+    height: 50px;
+    margin-bottom: 20px;
+}
   .gallerie{
     text-align: center;
+    margin-top: 50px;
     img{
       width: 6rem;
       height: 6rem;
       object-fit: cover;
     }
   }
-  
+
 
 
 .feuille{
