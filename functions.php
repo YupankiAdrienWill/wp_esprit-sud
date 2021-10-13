@@ -11,6 +11,11 @@ function register_assets(){
 		get_template_directory_uri().'/assets/scripts/gallery.js',
 		 array(),
 		'1.0');
+    wp_enqueue_script(
+            'script-slideshow',
+            get_template_directory_uri().'/assets/scripts/slideshow.js',
+             array(),
+            '1.0');
 /* 	wp_enqueue_script(
 		'script-contact',
 		get_template_directory_uri().'/assets/scripts/contact.js',
@@ -18,11 +23,7 @@ function register_assets(){
 		'1.0');
 
 
-	wp_enqueue_script(
-		'script-slideshow',
-		get_template_directory_uri().'/assets/scripts/slideshow.js',
-		 array(),
-		'1.0');
+	
 	wp_enqueue_script(
 		'script-top',
 		get_template_directory_uri().'/assets/scripts/top.js',
@@ -31,28 +32,28 @@ function register_assets(){
 
     wp_enqueue_style(
         'content-css',
-        get_template_directory_uri().'/assets/styles/main.css',
+        get_template_directory_uri().'/assets/css/main.css',
         array(),
         '1.0'
     );
 
     wp_enqueue_style(
         'header-css',
-        get_template_directory_uri().'/assets/styles/header.css',
+        get_template_directory_uri().'/assets/css/header.css',
         array(),
         '1.0'
     );
 
     wp_enqueue_style(
         'footer-css',
-        get_template_directory_uri().'/assets/styles/footer.css',
+        get_template_directory_uri().'/assets/css/footer.css',
         array(),
         '1.0'
     );
     if (is_front_page()) {
         wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
             'front-page-css',
-            get_template_directory_uri() . '/assets/styles/index.css',
+            get_template_directory_uri() . '/assets/css/front-page.css',
             array(),
             '1.0'
         );
@@ -68,7 +69,7 @@ function register_assets(){
     if (is_page()) {
         wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
             'page-css',
-            get_template_directory_uri() . '/assets/styles/page.css',
+            get_template_directory_uri() . '/assets/css/page.css',
             array(),
             '1.0'
         );
@@ -78,7 +79,7 @@ function register_assets(){
     if (is_post_type_archive('catalogue')){
         wp_enqueue_style(
             'catalogue',
-            get_template_directory_uri() .'/assets/styles/catalogue.css',
+            get_template_directory_uri() .'/assets/css/catalogue.css',
             array(),
             '1.0'
         );
@@ -86,7 +87,7 @@ function register_assets(){
     if (is_singular('catalogue')){
         wp_enqueue_style(
             'catalogue',
-            get_template_directory_uri() .'/assets/styles/produits.css',
+            get_template_directory_uri() .'/assets/css/produits.css',
             array(),
             '1.0'
         );
@@ -150,6 +151,27 @@ function espritSud_register_post_types() {
         );
     
         register_post_type( 'réalisation', $args );
+          // CPT Showroom
+          $labels = array(
+            'name' => 'showroom',
+            'all_items' => 'Tout le showroom',  // affiché dans le sous menu
+            'singular_name' => 'Showroom',
+            'add_new_item' => 'Ajouter une image',
+            'edit_item' => 'Modifier les images',
+            'menu_name' => 'Showroom'
+        );
+    
+        $args = array(
+            'labels' => $labels,
+            'public' => true,
+            'show_in_rest' => true,
+            'has_archive' => true,
+            'supports' => array( 'title','thumbnail' ),
+            'menu_position' => 5, 
+            'menu_icon' => 'dashicons-format-gallery',
+        );
+    
+        register_post_type( 'showroom', $args );
     
 }
 add_action( 'init', 'espritSud_register_post_types' );

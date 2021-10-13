@@ -1,0 +1,99 @@
+section.front_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgba(16, 177, 185, 0.2);
+}
+
+section.front_page h2 {
+  font-size: 3rem;
+  color: var(--couleur-primaire);
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  -webkit-text-decoration-color: var(--couleur-tertiaire);
+          text-decoration-color: var(--couleur-tertiaire);
+  text-underline-offset: 0.5rem;
+}
+
+section.front_page h3 {
+  font-size: 2rem;
+  color: var(--couleur-primaire);
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  -webkit-text-decoration-color: var(--couleur-tertiaire);
+          text-decoration-color: var(--couleur-tertiaire);
+  text-underline-offset: 0.5rem;
+}
+
+section.front_page img {
+  padding: 1.5rem 0 1.5rem 01.5rem;
+}
+
+section.front_page p {
+  width: 70%;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 2rem 0 0 2rem;
+}
+
+section.front_page button {
+  width: 595px;
+  height: 55px;
+  left: 296px;
+  top: 1437px;
+  text-shadow: 2px 2px 2px white;
+  background: var(--couleur-primaire);
+  border: 8px solid var(--couleur-secondaire);
+  border-radius: 14px;
+}
+
+section.front_page button:hover {
+  cursor: pointer;
+  width: 595px;
+  height: 55px;
+  left: 296px;
+  top: 1437px;
+  background: #FFFFFF;
+  border: 8px solid #FECF34;
+  border-radius: 14px;
+}
+
+section.front_page:nth-child(2) {
+  background-color: rgba(16, 177, 185, 0.2) !important;
+}
+
+section.front_page:nth-child(3) {
+  background-color: white !important;
+}
+
+section.front_page .container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.front_page .container div {
+  width: 33%;
+}
+/*# sourceMappingURL=front-page.css.map */
