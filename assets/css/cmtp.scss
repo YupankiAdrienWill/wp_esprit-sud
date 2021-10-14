@@ -1,11 +1,13 @@
+
+
 header.cmtp{
       z-index: 999;
       font-size: 1.2rem;
       display: flex;
       justify-content: space-between;
       background-color: var(--couleur-secondaire);
-      padding: 0.5rem;
-      width: 100%;
+      padding: 0.5rem;/* 
+      width: 100%; */
       .bandeau__child{
             height: 5rem;
             img.logoTxt{

@@ -9,7 +9,8 @@ header.cmtp {
           justify-content: space-between;
   background-color: var(--couleur-secondaire);
   padding: 0.5rem;
-  width: 100%;
+  /* 
+      width: 100%; */
 }
 
 header.cmtp .bandeau__child {
