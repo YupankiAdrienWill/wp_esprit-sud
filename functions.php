@@ -50,6 +50,13 @@ function register_assets(){
         array(),
         '1.0'
     );
+    
+    wp_enqueue_style(
+        'cmtp-css',
+        get_template_directory_uri().'/assets/css/cmtp.css',
+        array(),
+        '1.0'
+    );
     if (is_front_page()) {
         wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
             'front-page-css',
@@ -74,22 +81,7 @@ function register_assets(){
             '1.0'
         );
         }
-    if (is_page('page-cmtp')) {
-        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
-            'cmtp-css',
-            get_template_directory_uri() . '/assets/css/cmtp.css',
-            array(),
-            '1.0'
-        );
-        }
-    if (is_page_template('templates/cmtp.php')) {
-        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
-            'cmtp-css',
-            get_template_directory_uri() . 'assets/css/cmtp.css',
-            array(),
-            '1.0'
-        );
-        }
+
 
 
     if (is_post_type_archive('catalogue')){
@@ -230,13 +222,58 @@ function espritSud_register_post_types() {
     );
 
     register_post_type('adresse', $args);
+
+             // CPT CMTP
+     $labels = array(
+        'name' => 'CMTP',
+        'singular_name' => 'CMTP',
+        'add_new_item' => 'Ajouter une activité',
+        'edit_item' => 'Modifier les activité',
+        'menu_name' => 'CMTP'
+    );
+
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'supports' => array('title', 'editor'),
+        'menu_position' => 5,
+        'menu_icon'   => 'dashicons-car',
+    );
+
+    register_post_type('activites_CMTP', $args);
 }
     
 
 add_action( 'init', 'espritSud_register_post_types' );
 
     
-	
+/**
+ * Just adds a column without content
+ *
+ * @param array $columns Array of all the current columns IDs and titles
+ */
+function espritSud_add_column( $columns ){
+	$columns['espritSud_post_id_clmn'] = 'ID'; // $columns['Column ID'] = 'Column Title';
+	return $columns;
+}
+add_filter('manage_posts_columns', 'espritSud_add_column', 5);
+//add_filter('manage_pages_columns', 'espritSud_add_column', 5); // for Pages
+
+
+/**
+ * Fills the column content
+ *
+ * @param string $column ID of the column
+ * @param integer $id Post ID
+ */
+function espritSud_column_content( $column, $id ){
+	if( $column === 'espritSud_post_id_clmn')
+		echo $id;
+}
+add_action('manage_posts_custom_column', 'espritSud_column_content', 5, 2);
+//add_action('manage_pages_custom_column', 'espritSud_column_content', 5, 2); // for Pages
       
 
 
