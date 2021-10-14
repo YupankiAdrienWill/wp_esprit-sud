@@ -237,7 +237,7 @@ function espritSud_register_post_types() {
         'public' => true,
         'show_in_rest' => true,
         'has_archive' => true,
-        'supports' => array('title', 'editor'),
+        'supports' => array('title', 'editor', 'thumbnail'),
         'menu_position' => 5,
         'menu_icon'   => 'dashicons-car',
     );
