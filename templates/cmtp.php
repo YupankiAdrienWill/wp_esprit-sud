@@ -9,29 +9,14 @@
 <?php get_template_part ('parts/navbarCmtp' )?> 
 <div class="main__container--cmtp"> 
   
-<section class='header--cmtp' style="background-image: url('<?php the_post_thumbnail_url() ?>');"> 
-
-            <div class ='container__bandeau--cmtp'>
-                <div><img src="../assets/ico/feuille-2.svg" alt="" srcset=""></div>
-                <div class='container__bandeau--2--cmtp'>
-                    <div class="texte--cmtp">
-                        <h1><?php the_title(); ?></h1>
-                    </div>
-                    <div class="carré--cmtp">
-                        <span id='carré--cmtp'>
-                        <H2><?php the_excerpt(); ?></H2>
-                        </span>
-                    </div>
-                </div>
-            </div>
-</section>
+<?php get_template_part ('parts/customHeaderCmtp' )?> 
 
 </div>
 
 <section class="section__cmtp" id="1">
 <?php the_content(); ?>
 </section>
-<section>
+<section class="section__cmtp--1">
 <?php
 $loop = new WP_Query( array(
     'post_type' => 'activites_CMTP',
@@ -42,13 +27,13 @@ $loop = new WP_Query( array(
 ?>
 
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-    <div><?php the_title(); ?></div>
-    <div><?php the_content(); ?></div>
+    <div class='slide_gutemberg slide_text'><?php //the_title(); ?></div>
+    <div class='slide_gutemberg slide_text'><?php the_content(); ?></div>
     <?php endwhile; wp_reset_query(); ?>
 </section>
 
 
-<section>
+<section class="section__cmtp__form">
 
 <?php
 $id=262;

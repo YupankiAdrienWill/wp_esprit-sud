@@ -114,8 +114,117 @@ nav.cmtp{
             display: none;
       }
 }
+.section__cmtp{
+      
+            background-color: var(--couleur-secondaire);
+      
+      /* background: linear-gradient(90deg, #061f2cce 0%, var(--couleur-secondaire) 10%, var(--couleur-secondaire) 90%, #061f2cce 100%); */
+      padding: 2rem;
+      color: white;
+      font-size: 1.2rem;
+      h2{
+            text-align: center;
+            margin: 2.5rem 0;
+            color: rgb(255, 0, 0);
+      }
+      .slide_gutemberg{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 5rem;
+            font-size: 24px;
+                  h3{
+                        color: rgb(255, 0, 0);
+                  }
+/*             img{
+                  max-width: 100%;
+                  max-height: 50vh;
+            } */
+      }
+      .slide_text{
+/*             p{
+                  max-width: 40rem;
+                  margin: auto;
+            } */
+      }
+}
+.section__cmtp--1{
+      
+           
+      
+      /* background: linear-gradient(90deg, #061f2cce 0%, var(--couleur-secondaire) 10%, var(--couleur-secondaire) 90%, #061f2cce 100%); */
+      padding: 2rem;
+      
+      color: var(--couleur-secondaire);
+      font-size: 1.2rem;
+      h2{
+            text-align: center;
+            margin: 2.5rem 0;
+            color: rgb(255, 0, 0);
+      }
+      .slide_gutemberg{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            font-size: 5rem;
+            font-size: 24px;
+                  h3{
+                        color: rgb(255, 0, 0);
+                  }
+/*             img{
+                  max-width: 100%;
+                  max-height: 50vh;
+            } */
+      }
+      .slide_text{
+/*             p{
+                  max-width: 40rem;
+                  margin: auto;
+            } */
+      }
+}
+.section__cmtp__form{
+      padding: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: black;
+      .section__cmtp__form__child:nth-child(1){
+            margin: 1rem;
+            padding-top: 2rem;
+      }
+      .section__cmtp__form__child:nth-child(2){
+            background-color: var(--couleur-secondaire);
+            color: white;
+            padding-bottom: 2rem;
+            form{
+                  max-width: 25rem;
+                  margin: auto;
+                  padding: 0 1rem;
+                  input,textarea{
+                        width:100%;
+                        font-size:1rem;
+                        font-family: 'ITCAvantGardePro-Md';
+                        margin: 0.5rem 0;
+                        padding: 0.5rem;
+                        border-radius: 5px;
+                        border: none;
+                  }
+            }
+      }
+      h2, h3{
+            text-align: center;
+            padding: 2rem 0;
+            margin: 0;
+      }
+      hr{
+            background-color: rgb(255, 64, 64);
+            border: none;
+            height: 7px;
+      }
+}
 
-div.cmtp{
+
+/* div.cmtp{
       background-color:var(--couleur-secondaire);
             h1{
                   color: white;
@@ -126,7 +235,7 @@ div.cmtp{
             p{
                   color: white;
             }
-}
+} */
 footer.cmtp {
 	color: white;
 
@@ -244,4 +353,100 @@ footer.cmtp {
 	.footer__top--bleu span:nth-child(3) {
 		color: var(--couleur-primaire);
 	}
+}
+
+
+
+@media (max-width:867px) {
+      header.cmtp{
+            .bandeau__child:nth-child(1), .bandeau__child:nth-child(3){
+                  display: none;
+            }
+      }
+
+
+      nav{
+            div{
+                  ul{
+                        display: flex;
+                              li{
+                                    list-style: none;
+                              }
+                  }
+            }
+      }
+      nav.cmtp{
+            justify-content: space-between;
+            padding: 0;
+            #dropdown_catalog:hover .dropdown_content, #dropdown_cmtp:hover .dropdown_content {
+                  display: none;
+            }
+ 
+            .menu{
+                  z-index: 999;
+                  justify-content: start;
+                  padding: 0.8rem;
+                  display: none;
+                  .anav:nth-child(7){
+                        margin-top: 1rem;
+                  }
+                  .forMobile{
+                        display: block;
+                        text-align: center;
+                        padding-bottom: 2rem;
+                        margin-bottom: 2rem;
+                        border-bottom: 3px solid var(--couleur-primaire);
+                        color: white;
+                        img{
+                              height: 4rem;
+                        }
+                  }
+                  div{
+                        padding-bottom: 1rem;
+                  }
+                  div:nth-child(7){
+                        margin-top: 2rem;
+                  }
+                 
+            }
+            .show{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  height: 100vh;
+                  width: 100vw;
+                  background-color: var(--couleur-secondaire);
+            }
+            .burger{
+                  margin: 1.5rem;
+                  width: 3rem;
+                  height: 3rem;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                  div{
+                        height: 0.5rem;
+                        width: 100%;
+                        border-radius: 0.25rem;
+                        background-color: white;
+                  }
+                  a{
+                        margin: 0;
+                        padding: 0;
+                  }
+            }
+            .burger--logo{
+                  margin: 0.5rem;
+                  img{
+                        height: 5rem;
+                  }
+            }
+      }
+      nav.reset{
+            position: static;
+      }
 }
