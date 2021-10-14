@@ -74,6 +74,22 @@ function register_assets(){
             '1.0'
         );
         }
+    if (is_page('page-cmtp')) {
+        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
+            'cmtp-css',
+            get_template_directory_uri() . '/assets/css/cmtp.css',
+            array(),
+            '1.0'
+        );
+        }
+    if (is_page_template('templates/cmtp.php')) {
+        wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
+            'cmtp-css',
+            get_template_directory_uri() . 'assets/css/cmtp.css',
+            array(),
+            '1.0'
+        );
+        }
 
 
     if (is_post_type_archive('catalogue')){

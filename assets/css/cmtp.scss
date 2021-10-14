@@ -1,0 +1,216 @@
+body{
+    background-color: red;
+}
+
+header{
+          background-color: rgba(255, 255, 255, 0.5);
+          .bandeau__child:nth-child(1){
+                flex: 1;
+                text-align: center;
+                img{
+                      position: relative;
+                      bottom: 0.5rem;
+                }
+          }
+          .bandeau__child:nth-child(2){
+                /* en tant qu'enfant */
+                height: fit-content;
+                align-self: flex-end;
+                /* en tant que parent */
+                display: flex;
+                align-items: center;
+                .tel{
+                      margin: 0 0.5rem;
+                      padding: 0 0.5rem;
+                      background-color: var(--couleur-secondaire);
+                      border-radius: 0.7rem;
+                      color: white;
+                }
+          }
+    }
+    nav,footer{
+          background-color: var(--couleur-secondaire);
+          .underline{
+                border-bottom: rgb(255, 64, 64) 3px solid;
+          }
+          a#contact--0,a#contact--2{
+                border-color: rgb(255, 64, 64);
+                color: white;
+          }
+          a#contact--0:hover,a#contact--2:hover{
+                color: rgb(255, 64, 64);
+          }
+          a:hover{
+                color: rgb(255, 64, 64);
+          }
+    }
+    footer{
+          section{
+                background-color: transparent;
+          }
+          section:nth-child(1), section:nth-child(2){
+                display: none;
+          }
+          .footer__feuille{
+                display: none;
+          }
+          
+          .footer__container {
+                align-items: center;
+          }
+          .footer__container--horaire{
+                min-width: 13rem;
+          }
+          .footer__container--horaire span:nth-child(even) {
+                color: rgb(255, 64, 64);
+          }
+          .footer__logo{
+                width: auto;
+          }
+          span.padding{
+                color: white;
+                font-size: 1.3rem;
+          }
+          .footer__container--contact {
+                margin: 1rem;
+                small a{
+                      color: white;
+                }
+                small a:hover{
+                      color: rgb(255, 64, 64);
+                }
+          }
+    }
+    .main__container{
+          section.header{
+                background-image: none;
+          }
+          div.texte a:nth-child(2n){
+                color: white;
+          }
+          div.texte a:nth-child(2n+1){
+                color: var(--couleur-secondaire);
+          }
+          div.texte a:hover{
+                color: rgb(158, 0, 0);
+          }
+          #carré{
+                width: 100% ;
+          }
+            .container__bandeau{
+                background-color: rgba(255, 64, 64, 0.3);
+    
+                
+            }
+    }
+    section{
+          margin-top: 5rem;
+    }
+    .section__cmtp{
+          background-color: var(--couleur-secondaire);
+          /* background: linear-gradient(90deg, #061f2cce 0%, var(--couleur-secondaire) 10%, var(--couleur-secondaire) 90%, #061f2cce 100%); */
+          padding: 2rem;
+          color: white;
+          font-size: 1.2rem;
+          h2{
+                text-align: center;
+                margin: 2.5rem 0;
+          }
+          .slide_gutemberg{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                font-size: 5rem;
+                img{
+                      max-width: 100%;
+                      max-height: 50vh;
+                }
+          }
+          .slide_text{
+                p{
+                      max-width: 40rem;
+                      margin: auto;
+                }
+          }
+    }
+    .section__cmtp__form{
+          padding: 0;
+          background-color: rgba(255, 255, 255, 0.8);
+          color: black;
+          .section__cmtp__form__child:nth-child(1){
+                margin: 1rem;
+                padding-top: 2rem;
+          }
+          .section__cmtp__form__child:nth-child(2){
+                background-color: var(--couleur-secondaire);
+                color: white;
+                padding-bottom: 2rem;
+                form{
+                      max-width: 25rem;
+                      margin: auto;
+                      padding: 0 1rem;
+                      input,textarea{
+                            width:100%;
+                            font-size:1rem;
+                            font-family: 'ITCAvantGardePro-Md';
+                            margin: 0.5rem 0;
+                            padding: 0.5rem;
+                            border-radius: 5px;
+                            border: none;
+                      }
+                }
+          }
+          h2, h3{
+                text-align: center;
+                padding: 2rem 0;
+                margin: 0;
+          }
+          hr{
+                background-color: rgb(255, 64, 64);
+                border: none;
+                height: 7px;
+          }
+    }
+
+
+
+
+/* section.red{
+    margin: 10rem 0;
+    padding: 2rem;
+    background-color: #ff887d77;
+} */
+
+
+@media (max-width:867px) {
+    .cmtp{
+          header{
+                .bandeau__child:nth-child(1){
+                      display: block;
+                }
+                .bandeau__child:nth-child(2){
+                      display: none;
+                }
+          }
+          nav{
+                justify-content: flex-end;
+                .burger--logo{
+                      display: none;
+                }
+          }
+          footer{
+                font-size: 0.8rem;
+                .footer__container--contact {
+                      small a:active{
+                            color: rgb(255, 64, 64);
+                      }
+                }
+                span.padding{
+                      font-size: 1rem;
+                }
+          }
+          .section__cmtp{
+                padding-top: 3.8rem;
+          }
+    }
+}
