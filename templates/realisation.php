@@ -19,7 +19,7 @@
 <?php get_template_part ('parts/slider-real' )?> 
 </section>
 
-
+<?php get_template_part ('parts/footerPart' )?>
 <?php
 
 	get_footer();

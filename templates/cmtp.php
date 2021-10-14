@@ -8,7 +8,7 @@
 
 <div class="main__container--cmtp">
 <section class='header--cmtp' style="background-image: url('<?php the_post_thumbnail_url() ?>');"> 
-            
+<?php get_template_part ('parts/navbarCmtp' )?>
             <div class ='container__bandeau--cmtp'>
                 <div><img src="../assets/ico/feuille-2.svg" alt="" srcset=""></div>
                 <div class='container__bandeau--2--cmtp'>

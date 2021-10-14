@@ -25,6 +25,7 @@
   
 </section >
 <?php get_template_part ('parts/slider-showroom' )?>
+<?php get_template_part ('parts/footerPart' )?>
 <?php
 
 	get_footer();

@@ -7,5 +7,5 @@
 <?php the_content();?>
 </section>
 
-
+<?php get_template_part ('parts/footerPart' )?>
 <?php get_footer();?>

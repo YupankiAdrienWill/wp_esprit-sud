@@ -38,7 +38,7 @@ $loop = new WP_Query( array(
 
 <?php endwhile; wp_reset_query(); ?>
 </section>
-
+<?php get_template_part ('parts/footerPart' )?>
 <?php
 
 	get_footer();

@@ -4,5 +4,5 @@
 <?php the_title(); ?>
 <?php the_content(); ?>
 
-
+<?php get_template_part ('parts/footerPart' )?>
 <?php get_footer();?>
