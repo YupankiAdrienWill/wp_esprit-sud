@@ -5,7 +5,7 @@
 	get_header();
 
 ?>
-
+<?php get_template_part ('parts/navbar' )?>
 <div class="main__container--page">
 <?php get_template_part ('parts/customHeader' )?>
 </div>

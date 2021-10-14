@@ -5,7 +5,7 @@
 	get_header();
 
 ?>
-
+<?php get_template_part ('parts/navbar' )?>
 <?php get_template_part ('parts/customHeader' )?>
 <section class='page'>
 <h1><?php the_title(); ?></h1><br>
