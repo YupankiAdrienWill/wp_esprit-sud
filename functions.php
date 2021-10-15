@@ -50,6 +50,12 @@ function register_assets(){
         array(),
         '1.0'
     );
+    wp_enqueue_style(
+        'navbar-css',
+        get_template_directory_uri().'/assets/css/navbar.css',
+        array(),
+        '1.0'
+    );
     
     wp_enqueue_style(
         'cmtp-css',

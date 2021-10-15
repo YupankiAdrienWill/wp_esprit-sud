@@ -1,10 +1,10 @@
 <?php get_header();?>
 <?php get_template_part ('parts/navbar' )?>
-<div class="main__container--page">
 
-</div>
-<?php get_template_part ('parts/customHeaderLanding' )?>
-<section class='front_page'>
+<?php get_template_part ('parts/customHeaderLanding')?>
+
+
+<section class='front_landing'>
     <?php 
     $page = get_page_by_title('Notre catalogue'); 
     $content = apply_filters('the_excerpt', $page->post_excerpt); 
@@ -14,10 +14,10 @@
     ?>
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
-        <div> <?php echo $thumb; ?></div>
+        <div class='thumb'> <?php echo $thumb; ?></div>
         <div><a href="<?php echo $link; ?>"><button>Venez découvir nos produits</button></a></div>
 </section >
-<section class='front_page--2'>
+<section class='front_landing--2'>
     <?php 
     $page = get_page_by_title('Notre Showroom'); 
     $content = apply_filters('the_excerpt', $page->post_excerpt); 
@@ -45,7 +45,7 @@ $loop = new WP_Query( array(
 
 
 
-        <div><a href="http://localhost/wordpress/qui-sommes-nous/#showroom"><button>Venez découvir nos produits</button></a></div>
+        <div><a href="http://localhost/wordpress/qui-sommes-nous/#showroom"><button>Venez découvir notre showroom</button></a></div>
 </section >
 <?php get_template_part ('parts/footerPart' )?>
 <?php get_footer();?>
