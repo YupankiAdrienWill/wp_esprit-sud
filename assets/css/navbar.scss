@@ -81,7 +81,9 @@ nav{
 
 @media (max-width:867px) {
 nav{
-
+    div{
+       
+  }
           justify-content: space-between;
           padding: 0;
           #menu-item-202:hover .sub-menu, #dropdown_cmtp:hover .dropdown_content {
@@ -98,7 +100,6 @@ nav{
                      
                 }
                 .forMobile{
-                      
                       display: block;
                       text-align: center;
                       padding-bottom: 2rem;
@@ -115,7 +116,18 @@ nav{
                       height: 100vh;
                       width: 100vw;
                       background-color: var(--couleur-secondaire);
-        
+                       ul{
+              
+                        display: flex;
+                              li{
+                                    list-style: none;
+                                          &:nth-last-child(1){
+                                                      border: 3px solid yellow;
+                                                      color: #10B1B9;
+                                                 }
+                                          
+                              }
+                  }
                       img{
                             height: 4rem;
                       }
