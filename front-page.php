@@ -14,7 +14,7 @@
     ?>
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
-        <div class='thumb'> <?php echo $thumb; ?></div>
+        <div class='thumb' > <?php echo $thumb; ?></div>
         <div><a href="<?php echo $link; ?>"><button>Venez découvir nos produits</button></a></div>
 </section >
 <section class='front_landing--2'>

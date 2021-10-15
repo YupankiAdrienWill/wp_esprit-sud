@@ -21,6 +21,17 @@ body{
       padding: 0;
       font-family: 'ITCAvantGardePro-Md';
 }
+
+.bloginfo{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 a{
       text-decoration: none;
 }
@@ -63,7 +74,10 @@ a.buttonContact{
 .main__container--page{
       display: flex;
       flex-direction: column;
-  
+
+      h1{
+        color: var(--couleur-tertiaire) !important;
+    }
       
           section.header--page{
           display: flex;
@@ -149,6 +163,9 @@ a.buttonContact{
       display: flex;
       flex-direction: column;
   
+      h1{
+        color: var(--couleur-tertiaire) !important;
+    }
       
           section.header--produits{
           display: flex;
