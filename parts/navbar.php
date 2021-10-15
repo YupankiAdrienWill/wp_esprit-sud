@@ -20,6 +20,7 @@
       </div>
       <div class="menu" id="navMenu" >
             <div class="forMobile">
+            <span id="close" onclick="closeFunction()">&times;</span>
                   <a href="https://facebook.com"><img class="logoSocialNetwork" src="../assets/ico/facebook.png" alt=""></a>
                   <div class="tel">06 21 00 45 10</div>
                   <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
@@ -27,7 +28,7 @@
             </div>
               
       </div>
-      <div class="burger" id="burger" onclick="myFunction()"> >
+      <div class="burger" id="burger" onclick="myFunction()"> 
             
             <div></div>
             <div></div>

@@ -1,4 +1,4 @@
-document.getElementById('menu-item-109').addEventListener("mouseover",dropdown('dropdown_catalog___content'));
+/* document.getElementById('menu-item-109').addEventListener("mouseover",dropdown('dropdown_catalog___content'));
 
 function dropdown(content) {
       console.log(content);
@@ -9,7 +9,7 @@ document.getElementById('navMenu').addEventListener('click',functionBurger);
       function functionBurger() {
             document.getElementById('navMenu').classList.toggle("show");
             document.getElementById('nav').classList.toggle('reset');
-            }
+            } */
 function myFunction() {
                   var x = document.getElementById("navMenu");
                   if (x.style.display === "none") {
@@ -18,3 +18,13 @@ function myFunction() {
                     x.style.display = "none";
                   }
                 }
+         
+
+function closeFunction() {
+  var y = document.getElementById("navMenu");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+}
