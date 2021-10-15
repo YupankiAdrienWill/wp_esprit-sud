@@ -11,7 +11,6 @@
 </div>
 
 <section class='page'>
-<h1><?php the_title(); ?></h1><br>
     <?php the_content(); ?>
 </section>
 
@@ -28,11 +27,11 @@ $loop = new WP_Query( array(
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
 <div>       
-        <h3><?php the_title(); ?></h3>
+        <span><?php the_title(); ?></span>
         <span>
         <?php the_post_thumbnail(); ?>
         </span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus est, feugiat quis lacinia in, blandit at sem. Ut vitae magna vel lectus blandit vestibulum at ac nunc.  </p>
+        <span><?php the_excerpt(); ?></span>
         <a href="<?php the_permalink(); ?>"><button>Venez découvrir nos produits</button></a>
     </div>
 

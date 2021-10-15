@@ -28,3 +28,12 @@ function closeFunction() {
     y.style.display = "block";
   }
 }
+
+var x =document.getElementById('forMobile');
+var y =document.getElementById('navMenu');
+
+window.onclick = function(event) {
+  if (event.target == x) {
+    y.style.display = "none";
+  }
+}

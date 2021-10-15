@@ -1,8 +1,4 @@
 @charset "UTF-8";
-* {
-  border: red 1px solid;
-}
-
 .main__container--landing {
   display: -webkit-box;
   display: -ms-flexbox;
