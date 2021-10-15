@@ -45,9 +45,47 @@ section.produits div.wp-block-media-text__content p {
 }
 
 section.produits div.wp-block-media-text__content img {
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 50%;
   margin: auto;
   border: var(--couleur-tertiaire) 2px solid;
+}
+
+@media (max-width: 867px) {
+  section.produits div.wp-block-media-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 2rem 1rem 1rem 1rem;
+    background-color: rgba(16, 177, 185, 0.2);
+    border: solid 2px var(--couleur-primaire);
+  }
+  section.produits div.wp-block-media-text__content p {
+    width: 100%;
+    margin: auto;
+    /* padding: 1.5rem 1.5rem 1.5rem 1.5rem; */
+    text-align: center;
+  }
+  section.produits div.wp-block-media-text__content img {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    border: var(--couleur-tertiaire) 2px solid;
+  }
 }
 /*# sourceMappingURL=produits.css.map */

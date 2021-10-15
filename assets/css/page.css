@@ -228,16 +228,14 @@ section.catalogue div {
 }
 
 section.catalogue p {
-  width: 100%;
+  width: 80%;
   margin: auto;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: auto;
 }
 
 section.catalogue img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 section.catalogue button {
@@ -302,15 +300,12 @@ section.catalogue button:hover {
     border: solid 2px var(--couleur-primaire);
   }
   section.catalogue p {
-    width: 100%;
+    width: 80%;
     margin: auto;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   }
   section.catalogue img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
   section.catalogue button {
     width: 200.75px;
@@ -428,15 +423,13 @@ section.catalogue button:hover {
     border: solid 2px var(--couleur-primaire);
   }
   section.catalogue p {
-    width: 100%;
+    width: 80%;
     margin: auto;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   }
   section.catalogue img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: auto;
   }
   section.catalogue button {
     width: 200.75px;

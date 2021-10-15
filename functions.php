@@ -12,6 +12,11 @@ function register_assets(){
 		 array(),
 		'1.0');
     wp_enqueue_script(
+		'script-menu',
+		get_template_directory_uri().'/assets/scripts/dropdown.js',
+		 array(),
+		'1.0');
+    wp_enqueue_script(
             'script-slideshow',
             get_template_directory_uri().'/assets/scripts/slideshow.js',
              array(),
@@ -40,6 +45,12 @@ function register_assets(){
     wp_enqueue_style(
         'header-css',
         get_template_directory_uri().'/assets/css/header.css',
+        array(),
+        '1.0'
+    );
+    wp_enqueue_style(
+        'navbar-css',
+        get_template_directory_uri().'/assets/css/navbar.css',
         array(),
         '1.0'
     );
