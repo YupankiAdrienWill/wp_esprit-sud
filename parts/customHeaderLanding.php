@@ -9,7 +9,7 @@
                     </div>
                     <div class="carré--landing">
                         <span id='carré--landing'>
-                        <?php the_content(); ?>
+                        <?php the_excerpt(); ?>
                         </span>
                     </div>
                 </div>

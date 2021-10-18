@@ -11,7 +11,6 @@
 </div>
 
 <section class='page'>
-<h2><?php the_title(); ?></h2><br>
     <?php the_content(); ?>
 </section>
 

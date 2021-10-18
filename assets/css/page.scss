@@ -11,14 +11,7 @@ section.page{
     padding-top:3rem;
     padding-bottom: 3rem;
     background-color: rgba(16, 177, 185, 0.20);
-        h1{
-            font-size: 3rem;
-            color: var(--couleur-primaire);
-              text-decoration-line: underline;
-            text-decoration-style: wavy;
-            text-decoration-color: var(--couleur-tertiaire);
-            text-underline-offset: 0.5rem;
-        }
+       
         /* h3{
             font-size: 2rem;
             color: var(--couleur-primaire);
@@ -86,13 +79,7 @@ section.page--2{
     padding-top:3rem;
     padding-bottom: 3rem;
     background-color: white;
-        h2{
-            font-size: 3rem;
-            color: var(--couleur-primaire);
-              text-decoration-line: underline;
-            text-decoration-color: var(--couleur-tertiaire);
-            text-underline-offset: 0.5rem;
-        }
+
         /* h3{
             font-size: 2rem;
             color: var(--couleur-primaire);
@@ -106,7 +93,6 @@ section.page--2{
         }
         p{
             width: 50%;
-            font-size: 24px;
             line-height: 36px; 
             padding: 1rem 0 2rem 2rem;
             margin: auto;

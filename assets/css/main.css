@@ -22,6 +22,28 @@ body {
   font-family: 'ITCAvantGardePro-Md';
 }
 
+p {
+  font-size: 24px !important;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: var(--couleur-secondaire);
+  -webkit-text-decoration-color: var(--couleur-tertiaire);
+          text-decoration-color: var(--couleur-tertiaire);
+  text-underline-offset: 0.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: var(--couleur-primaire);
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: var(--couleur-tertiaire);
+          text-decoration-color: var(--couleur-tertiaire);
+  text-underline-offset: 0.5rem;
+}
+
 .bloginfo {
   font-size: 76px;
   font-weight: bold;

@@ -2,7 +2,6 @@
 <?php get_template_part ('parts/navbar' )?>
 <?php get_template_part ('parts/customHeader' )?>
 <section class='page'>
-<?php the_title(); ?>
 <?php the_content(); ?>
 </section>
 

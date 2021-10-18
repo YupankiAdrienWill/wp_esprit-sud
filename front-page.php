@@ -3,6 +3,9 @@
 
 <?php get_template_part ('parts/customHeaderLanding')?>
 
+<section class='page--2'>
+    <?php the_content();?>
+</section>
 
 <section class='front_landing'>
     <?php 
