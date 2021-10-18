@@ -1,12 +1,5 @@
 <!-- Container for the image gallery -->
 <div class="container">
-  <!-- Image text -->
-  <div class="titleImg">
-  <?php $loop = new WP_Query((array('post_type' => 'réalisation','order'=>'DSC', 'posts_per_page'=>1)));
-   while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <div id='title'> <?php the_title();?></div>
-    <?php endwhile; wp_reset_query(); ?>
-  </div>
 
   <!-- Full-width images with number text -->
       <div class="bigImg">
@@ -16,11 +9,13 @@
             <?php endwhile; wp_reset_query(); ?>
       </div>
 
-  <!-- content text -->
-  <div class="contentImg">
+
+
+  <!-- Image text -->
+  <div class="titleImg">
   <?php $loop = new WP_Query((array('post_type' => 'réalisation','order'=>'DSC', 'posts_per_page'=>1)));
    while ( $loop->have_posts() ) : $loop->the_post(); ?>
-      <div id='content'> <?php the_content();?></div>
+      <div id='title'> <?php the_title();?></div>
     <?php endwhile; wp_reset_query(); ?>
   </div>
 

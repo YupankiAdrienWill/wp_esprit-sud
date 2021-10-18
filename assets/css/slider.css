@@ -6,7 +6,6 @@
   width: 100%;
   height: 40rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
   overflow: hidden;
 }
 
@@ -21,8 +20,10 @@
 .titleImg {
   text-align: center;
   color: var(--couleur-quaternaire);
+  background-color: var(--couleur-primaire);
+  width: 64%;
   height: 50px;
-  margin: 20px;
+  margin: auto;
   font-size: 36px;
 }
 
@@ -39,7 +40,6 @@
 
 .gallerie {
   text-align: center;
-  margin-top: 50px;
 }
 
 .gallerie img {
