@@ -143,10 +143,20 @@ nav.cmtp{
       padding: 2rem;
       color: white;
       font-size: 1.2rem;
+      & h1{
+
+            font-size:3.5rem;
+            color: white !important;
+            text-underline-offset: 0.5rem;
+        
+      }
+      
       h2{
             text-align: center;
             margin: 2.5rem 0;
-            color: rgb(255, 0, 0);
+            color: rgb(255, 0, 0) !important;
+            text-decoration-line:none !important;
+            font-size: 3rem !important;
       }
       .slide_gutemberg{
             display: flex;
@@ -341,21 +351,7 @@ footer.cmtp {
 
 @media (max-width:867px) {
 
-      h1{
 
-            font-size:3.5rem !important;
-            color: white;
-            text-underline-offset: 0.5rem;
-        
-      }
-      
-      h2{
-            text-align: center;
-            margin: 2.5rem 0;
-            color: rgb(255, 0, 0);
-            text-decoration-line:none;
-            font-size: 3rem !important;
-      }
       header.cmtp{
             .bandeau__child:nth-child(1), .bandeau__child:nth-child(3){
                   display: none;

@@ -27,15 +27,15 @@ p {
 }
 
 h1 {
-  font-size: 3.5rem !important;
-  color: var(--couleur-secondaire) !important;
+  font-size: 3.5rem;
+  color: var(--couleur-secondaire);
   -webkit-text-decoration-color: var(--couleur-tertiaire);
           text-decoration-color: var(--couleur-tertiaire);
   text-underline-offset: 0.5rem;
 }
 
 h2 {
-  font-size: 3rem !important;
+  font-size: 3rem;
   color: var(--couleur-primaire) !important;
   -webkit-text-decoration-line: underline !important;
           text-decoration-line: underline !important;

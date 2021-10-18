@@ -177,10 +177,19 @@ nav.cmtp .burger {
   font-size: 1.2rem;
 }
 
+.section__cmtp h1 {
+  font-size: 3.5rem;
+  color: white !important;
+  text-underline-offset: 0.5rem;
+}
+
 .section__cmtp h2 {
   text-align: center;
   margin: 2.5rem 0;
-  color: red;
+  color: red !important;
+  -webkit-text-decoration-line: none !important;
+          text-decoration-line: none !important;
+  font-size: 3rem !important;
 }
 
 .section__cmtp .slide_gutemberg {
@@ -448,19 +457,6 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
 }
 
 @media (max-width: 867px) {
-  h1 {
-    font-size: 3.5rem !important;
-    color: white;
-    text-underline-offset: 0.5rem;
-  }
-  h2 {
-    text-align: center;
-    margin: 2.5rem 0;
-    color: red;
-    -webkit-text-decoration-line: none;
-            text-decoration-line: none;
-    font-size: 3rem !important;
-  }
   header.cmtp .bandeau__child:nth-child(1), header.cmtp .bandeau__child:nth-child(3) {
     display: none;
   }
