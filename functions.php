@@ -62,8 +62,8 @@ function register_assets(){
         '1.0'
     );
     wp_enqueue_style(
-        'navbar-css',
-        get_template_directory_uri().'/assets/css/navbar.css',
+        'slider-css',
+        get_template_directory_uri().'/assets/css/slider.css',
         array(),
         '1.0'
     );
@@ -170,7 +170,7 @@ function espritSud_register_post_types() {
             'public' => true,
             'show_in_rest' => true,
             'has_archive' => true,
-            'supports' => array( 'title', 'excerpt','thumbnail' ),
+            'supports' => array( 'title', 'editor', 'thumbnail' ),
             'menu_position' => 5, 
             'menu_icon' => 'dashicons-portfolio',
         );
