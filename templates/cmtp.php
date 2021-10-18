@@ -47,7 +47,7 @@ wp_reset_postdata();
 ?>
 
 </section>
-<footer class="cmtp"></footer>
+footer.cmtp
 <?php get_template_part ('parts/footerPartCmtp' )?>
 <?php
 

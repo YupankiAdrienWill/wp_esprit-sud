@@ -14,20 +14,34 @@
 </header>
 
 <nav class='cmtp'>
-    
-      <div class="burger burger--logo">
-            <a href="index.php"><img src="../assets/ico/logo_esprit_sud_dessin_alpha.png" alt=""></a>
+<?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>  
+      <div class="burger burger--logo" >
+            <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+      <?php  ?></a>
       </div>
-      <div class="menu--cmtp" id="navMenu">
-            <div class="forMobile">
-                  <a href="https://facebook.com"><img class="logoSocialNetwork" src="../assets/ico/facebook.png" alt=""></a>
-                  <div class="tel">06 21 00 45 10</div>
+      <div class="menu" id="navMenu" >
+            <div class="forMobile" id='forMobile'>
+            <div class='current_page'><p>Page actuelle :</p>
+            <span><?php 
+                  echo get_the_title( get_the_ID() );
+                  ?></span>
             </div>
-            <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>    
+            
+                  <a href="https://facebook.com"><img class="logoSocialNetwork" src="<?php bloginfo('template_directory'); ?>/assets/ico/facebook.png" alt="logo facebook"></a>
+                  <div class="tel"><p>06 21 00 45 10</p></div>
+                  <span id='trait'></span>
+                 <div> <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?></div>
+                 
+                 <span id="close" onclick="closeFunction()">&times;</span>    
+            </div>
+              
       </div>
-      <div class="burger" id="burger">
+      <div class="burger" id="burger" onclick="myFunction()"> 
+            
             <div></div>
             <div></div>
             <div></div>
+
       </div>
+      
 </nav>
