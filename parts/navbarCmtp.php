@@ -16,7 +16,7 @@
 <nav class='cmtp'>
 <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>  
       <div class="burger burger--logo" >
-            <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+            <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_cmtp.png" alt="logo de l'entreprise">
       <?php  ?></a>
       </div>
       <div class="menu" id="navMenu" >

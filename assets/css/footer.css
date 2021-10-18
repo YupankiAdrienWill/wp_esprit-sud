@@ -63,7 +63,11 @@ footer .footer__container--horaire span:nth-child(1) {
   text-align: center;
 }
 
-footer .footer__container--horaire span:nth-child(even) {
+footer .footer__container--horaire span {
+  color: white !important;
+}
+
+footer .footer__container--horaire span :nth-child(odd) {
   color: var(--couleur-tertiaire);
 }
 
@@ -87,7 +91,11 @@ footer .footer__container--adresse img {
   width: 80px;
 }
 
-footer .footer__container--adresse span:nth-child(2) {
+footer .footer__container--adresse span {
+  color: white !important;
+}
+
+footer .footer__container--adresse span :nth-child(odd) {
   color: var(--couleur-primaire);
 }
 
@@ -145,6 +153,10 @@ footer .footer__top--bleu a {
   border-bottom: transparent 3px solid;
 }
 
+footer .footer__top--bleu a a:nth-last-child(1) {
+  color: #10B1B9;
+}
+
 footer .footer__top--bleu a:hover {
   color: yellow;
 }
@@ -159,12 +171,12 @@ footer .footer__top--bleu div ul li {
   list-style: none;
 }
 
-footer .footer__top--bleu div ul li:nth-last-child(1) {
-  color: #10B1B9;
-}
-
 footer .footer__top--bleu span:nth-child(3) {
   color: var(--couleur-primaire);
+}
+
+#menu-item-217 a {
+  color: var(--couleur-primaire) !important;
 }
 
 @media (max-width: 867px) {
@@ -188,7 +200,7 @@ footer .footer__top--bleu span:nth-child(3) {
     padding-bottom: 1rem;
   }
   footer .footer__container div:nth-child(odd) {
-    padding-top: 0;
+    padding-top: 0 !important;
   }
   footer .footer__container--horaire {
     display: -webkit-box;
@@ -210,8 +222,27 @@ footer .footer__top--bleu span:nth-child(3) {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  }
+  footer .footer__top--bleu a {
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    color: white;
+    border-bottom: transparent 3px solid;
+  }
+  footer .footer__top--bleu a:active {
+    color: yellow;
+  }
+  footer .footer__top--bleu div ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .footer__top--bleu div ul li {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -28,19 +28,23 @@ p{
 }
 h1{
 
-        font-size:3.5rem;
-        color: var(--couleur-secondaire);
+        font-size:3.5rem !important;
+        color: var(--couleur-secondaire)!important;
         text-decoration-color: var(--couleur-tertiaire);
         text-underline-offset: 0.5rem;
     
 }
 
 h2{
-    font-size: 3rem;
-    color: var(--couleur-primaire);
-      text-decoration-line: underline;
+    font-size: 3rem !important;
+    color: var(--couleur-primaire) !important;
+    text-decoration-line: underline !important;
     text-decoration-color: var(--couleur-tertiaire);
     text-underline-offset: 0.5rem;
+}
+h3{
+    font-size: 2rem;
+    color: var(--couleur-secondaire);
 }
 
 .bloginfo{
@@ -372,6 +376,32 @@ section.avis{
     .feuille--2{
         display: none;
     }
+
+    p{
+        font-size: 18px !important;
+    }
+    h1{
+    
+            font-size:2rem !important;
+            color: var(--couleur-secondaire);
+            text-decoration-color: var(--couleur-tertiaire);
+            text-underline-offset: 0.5rem;
+        
+    }
+    
+    h2{
+        font-size: 1.5rem !important;
+        color: var(--couleur-primaire);
+          text-decoration-line: underline;
+        text-decoration-color: var(--couleur-tertiaire);
+        text-underline-offset: 0.5rem;
+    }
+    h3{
+        font-size: 1rem !important;
+        color: var(--couleur-secondaire);
+    }
+
+
 .main__container--page{
         display: flex;
         flex-direction: column;
