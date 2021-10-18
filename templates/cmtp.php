@@ -27,7 +27,6 @@ $loop = new WP_Query( array(
 ?>
 
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-    <div class='slide_gutemberg slide_text'><?php //the_title(); ?></div>
     <div class='slide_gutemberg slide_text'><?php the_content(); ?></div>
     <?php endwhile; wp_reset_query(); ?>
 </section>
@@ -48,6 +47,7 @@ wp_reset_postdata();
 ?>
 
 </section>
+<footer class="cmtp"></footer>
 <?php get_template_part ('parts/footerPartCmtp' )?>
 <?php
 

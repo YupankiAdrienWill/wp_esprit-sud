@@ -1,87 +1,5 @@
 .cmtp{
-      background-image: url('../img/back_cmtp.jpg');
-      background-attachment: fixed;
-      background-position: center;
-      background-size: cover;
-      header{
-            background-color: rgba(255, 255, 255, 0.5);
-            .bandeau__child:nth-child(1){
-                  flex: 1;
-                  text-align: center;
-                  img{
-                        position: relative;
-                        bottom: 0.5rem;
-                  }
-            }
-            .bandeau__child:nth-child(2){
-                  /* en tant qu'enfant */
-                  height: fit-content;
-                  align-self: flex-end;
-                  /* en tant que parent */
-                  display: flex;
-                  align-items: center;
-                  .tel{
-                        margin: 0 0.5rem;
-                        padding: 0 0.5rem;
-                        background-color: var(--couleur-secondaire);
-                        border-radius: 0.7rem;
-                        color: white;
-                  }
-            }
-      }
-      nav,footer{
-            background-color: var(--couleur-secondaire);
-            .underline{
-                  border-bottom: rgb(255, 64, 64) 3px solid;
-            }
-            a#contact--0,a#contact--2{
-                  border-color: rgb(255, 64, 64);
-                  color: white;
-            }
-            a#contact--0:hover,a#contact--2:hover{
-                  color: rgb(255, 64, 64);
-            }
-            a:hover{
-                  color: rgb(255, 64, 64);
-            }
-      }
-      footer{
-            section{
-                  background-color: transparent;
-            }
-            section:nth-child(1), section:nth-child(2){
-                  display: none;
-            }
-            .footer__feuille{
-                  display: none;
-            }
-            
-            .footer__container {
-                  align-items: center;
-            }
-            .footer__container--horaire{
-                  min-width: 13rem;
-            }
-            .footer__container--horaire span:nth-child(even) {
-                  color: rgb(255, 64, 64);
-            }
-            .footer__logo{
-                  width: auto;
-            }
-            span.padding{
-                  color: white;
-                  font-size: 1.3rem;
-            }
-            .footer__container--contact {
-                  margin: 1rem;
-                  small a{
-                        color: white;
-                  }
-                  small a:hover{
-                        color: rgb(255, 64, 64);
-                  }
-            }
-      }
+     
       .main__container{
             section.header{
                   background-image: none;
@@ -173,14 +91,125 @@
             }
       }
 }
+footer.cmtp {
+	color: white;
 
+	section:nth-child(1) {
+		height: 5rem;
+	}
+	section:nth-child(2) {
+		height: 4rem;
+		background-color: var(--couleur-secondaire);
+	}
+	section:nth-child(3) {
+		background-color: var(--couleur-secondaire);
+		padding-top: 2rem;
+	}
+	section:nth-child(4) {
+		background-color: var(--couleur-secondaire);
+		/* height: 4rem; */
+	}
+	.footer__container {
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 2rem;
+            background-color: var(--couleur-secondaire);
+	}
+	.footer__feuille {
+		position: absolute;
+		height: 28rem;
+		top: -17rem;
+	}
+	div:nth-child(odd) {
+		padding-top: 2rem;
+	}
+	.footer__container--horaire {
+		display: flex;
+		flex-direction: column;
+	}
 
+	.footer__container--horaire span:nth-child(1) {
+		color: var(--couleur-primaire);
+		text-align: center;
+	}
+	.footer__container--horaire span:nth-child(even) {
+		color: var(--couleur-tertiaire);
+	}
+	.padding {
+		padding: 0.5rem;
+	}
+	.footer__container--adresse {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		img {
+			height: 80px;
+			width: 80px;
+		}
+		span:nth-child(2) {
+			color: var(--couleur-primaire);
+		}
+	}
+	.footer__container--contact {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		color: white !important;
+		img {
+			height: 40px;
+		}
+		a {
+			text-decoration: none;
+		}
 
-/* section.red{
-      margin: 10rem 0;
-      padding: 2rem;
-      background-color: #ff887d77;
-} */
+		a.footer__buttonContact {
+			padding: 1rem;
+			border: 3px solid yellow;
+			color: white;
+		}
+	}
+	.padding--spec {
+		padding: 1.5rem;
+	}
+	.footer__top--bleu {
+		display: flex;
+		padding: 1rem 1rem 1rem 1rem;
+		align-items: center;
+		justify-content: center;
+		a{
+			color: white;
+		}
+	}
+	.footer__top--bleu  {
+		a{
+            padding: 0.5rem;
+            margin: 0 0.5rem;
+            color: white;
+            border-bottom: transparent 3px solid;
+      }
+      a:hover{
+            color: yellow;}
+			div{
+				  ul{
+						
+						display: flex;
+							  li{
+									list-style: none;
+										  &:nth-last-child(1){
+													  
+													  color: #10B1B9;
+												 }
+										  
+							  }
+				  }
+			}
+	  
+	}
+	.footer__top--bleu span:nth-child(3) {
+		color: var(--couleur-primaire);
+	}
+}
 
 
 @media (max-width:867px) {

@@ -1,7 +1,6 @@
 <footer class='cmtp'>
     <section></section>
     <section></section>
-    
     <section class="footer__container">
 
 
@@ -25,7 +24,7 @@ $loop = new WP_Query( array(
     'post_type' => 'adresse'
   )
 );?>
-            <span class="padding"><img class="footer__logo" src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+            <span class="padding"><img class="footer__logo" src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_cmtp.png" alt="logo de l'entreprise">
       <?php  ?></span>
             <?php if($page_courrante === 'cmtp'){ ?>
                 <span class="padding">AU SERVICE DES PARTICULIERS, DES PROFESSIONNELS & DES COLLECTIVITÉS DEPUIS 1990</span>

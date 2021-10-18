@@ -1,119 +1,4 @@
 @charset "UTF-8";
-.cmtp {
-  background-image: url("../img/back_cmtp.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-.cmtp header {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.cmtp header .bandeau__child:nth-child(1) {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  text-align: center;
-}
-
-.cmtp header .bandeau__child:nth-child(1) img {
-  position: relative;
-  bottom: 0.5rem;
-}
-
-.cmtp header .bandeau__child:nth-child(2) {
-  /* en tant qu'enfant */
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  /* en tant que parent */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.cmtp header .bandeau__child:nth-child(2) .tel {
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
-  background-color: var(--couleur-secondaire);
-  border-radius: 0.7rem;
-  color: white;
-}
-
-.cmtp nav, .cmtp footer {
-  background-color: var(--couleur-secondaire);
-}
-
-.cmtp nav .underline, .cmtp footer .underline {
-  border-bottom: #ff4040 3px solid;
-}
-
-.cmtp nav a#contact--0, .cmtp nav a#contact--2, .cmtp footer a#contact--0, .cmtp footer a#contact--2 {
-  border-color: #ff4040;
-  color: white;
-}
-
-.cmtp nav a#contact--0:hover, .cmtp nav a#contact--2:hover, .cmtp footer a#contact--0:hover, .cmtp footer a#contact--2:hover {
-  color: #ff4040;
-}
-
-.cmtp nav a:hover, .cmtp footer a:hover {
-  color: #ff4040;
-}
-
-.cmtp footer section {
-  background-color: transparent;
-}
-
-.cmtp footer section:nth-child(1), .cmtp footer section:nth-child(2) {
-  display: none;
-}
-
-.cmtp footer .footer__feuille {
-  display: none;
-}
-
-.cmtp footer .footer__container {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.cmtp footer .footer__container--horaire {
-  min-width: 13rem;
-}
-
-.cmtp footer .footer__container--horaire span:nth-child(even) {
-  color: #ff4040;
-}
-
-.cmtp footer .footer__logo {
-  width: auto;
-}
-
-.cmtp footer span.padding {
-  color: white;
-  font-size: 1.3rem;
-}
-
-.cmtp footer .footer__container--contact {
-  margin: 1rem;
-}
-
-.cmtp footer .footer__container--contact small a {
-  color: white;
-}
-
-.cmtp footer .footer__container--contact small a:hover {
-  color: #ff4040;
-}
-
 .cmtp .main__container section.header {
   background-image: none;
 }
@@ -223,11 +108,169 @@
   height: 7px;
 }
 
-/* section.red{
-      margin: 10rem 0;
-      padding: 2rem;
-      background-color: #ff887d77;
-} */
+footer.cmtp {
+  color: white;
+}
+
+footer.cmtp section:nth-child(1) {
+  height: 5rem;
+}
+
+footer.cmtp section:nth-child(2) {
+  height: 4rem;
+  background-color: var(--couleur-secondaire);
+}
+
+footer.cmtp section:nth-child(3) {
+  background-color: var(--couleur-secondaire);
+  padding-top: 2rem;
+}
+
+footer.cmtp section:nth-child(4) {
+  background-color: var(--couleur-secondaire);
+  /* height: 4rem; */
+}
+
+footer.cmtp .footer__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2rem;
+  background-color: var(--couleur-secondaire);
+}
+
+footer.cmtp .footer__feuille {
+  position: absolute;
+  height: 28rem;
+  top: -17rem;
+}
+
+footer.cmtp div:nth-child(odd) {
+  padding-top: 2rem;
+}
+
+footer.cmtp .footer__container--horaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer.cmtp .footer__container--horaire span:nth-child(1) {
+  color: var(--couleur-primaire);
+  text-align: center;
+}
+
+footer.cmtp .footer__container--horaire span:nth-child(even) {
+  color: var(--couleur-tertiaire);
+}
+
+footer.cmtp .padding {
+  padding: 0.5rem;
+}
+
+footer.cmtp .footer__container--adresse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+footer.cmtp .footer__container--adresse img {
+  height: 80px;
+  width: 80px;
+}
+
+footer.cmtp .footer__container--adresse span:nth-child(2) {
+  color: var(--couleur-primaire);
+}
+
+footer.cmtp .footer__container--contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: white !important;
+}
+
+footer.cmtp .footer__container--contact img {
+  height: 40px;
+}
+
+footer.cmtp .footer__container--contact a {
+  text-decoration: none;
+}
+
+footer.cmtp .footer__container--contact a.footer__buttonContact {
+  padding: 1rem;
+  border: 3px solid yellow;
+  color: white;
+}
+
+footer.cmtp .padding--spec {
+  padding: 1.5rem;
+}
+
+footer.cmtp .footer__top--bleu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 1rem 1rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer.cmtp .footer__top--bleu a {
+  color: white;
+}
+
+footer.cmtp .footer__top--bleu a {
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  color: white;
+  border-bottom: transparent 3px solid;
+}
+
+footer.cmtp .footer__top--bleu a:hover {
+  color: yellow;
+}
+
+footer.cmtp .footer__top--bleu div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer.cmtp .footer__top--bleu div ul li {
+  list-style: none;
+}
+
+footer.cmtp .footer__top--bleu div ul li:nth-last-child(1) {
+  color: #10B1B9;
+}
+
+footer.cmtp .footer__top--bleu span:nth-child(3) {
+  color: var(--couleur-primaire);
+}
+
 @media (max-width: 867px) {
   .cmtp header .bandeau__child:nth-child(1) {
     display: block;

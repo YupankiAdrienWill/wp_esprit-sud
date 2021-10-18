@@ -206,6 +206,7 @@ nav.cmtp .burger {
 }
 
 .section__cmtp--1 {
+  border: red solid 1px;
   /* background: linear-gradient(90deg, #061f2cce 0%, var(--couleur-secondaire) 10%, var(--couleur-secondaire) 90%, #061f2cce 100%); */
   padding: 2rem;
   color: var(--couleur-secondaire);
@@ -226,86 +227,54 @@ nav.cmtp .burger {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
   font-size: 5rem;
   font-size: 24px;
-  /*             img{
-                  max-width: 100%;
-                  max-height: 50vh;
-            } */
+  background-color: var(--couleur-secondaire);
 }
 
 .section__cmtp--1 .slide_gutemberg h3 {
   color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
 }
 
-.section__cmtp--1 .slide_text {
-  /*             p{
-                  max-width: 40rem;
-                  margin: auto;
-            } */
+.section__cmtp--1 .slide_gutemberg p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white !important;
 }
 
 .section__cmtp__form {
-  padding: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-}
-
-.section__cmtp__form .section__cmtp__form__child:nth-child(1) {
-  margin: 1rem;
-  padding-top: 2rem;
-}
-
-.section__cmtp__form .section__cmtp__form__child:nth-child(2) {
+  padding: 1rem 1rem 1rem 1rem;
   background-color: var(--couleur-secondaire);
   color: white;
-  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.section__cmtp__form .section__cmtp__form__child:nth-child(2) form {
-  max-width: 25rem;
-  margin: auto;
-  padding: 0 1rem;
+.section__cmtp__form .submit_cmtp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.section__cmtp__form .section__cmtp__form__child:nth-child(2) form input, .section__cmtp__form .section__cmtp__form__child:nth-child(2) form textarea {
-  width: 100%;
-  font-size: 1rem;
-  font-family: 'ITCAvantGardePro-Md';
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-radius: 5px;
-  border: none;
-}
-
-.section__cmtp__form h2, .section__cmtp__form h3 {
-  text-align: center;
-  padding: 2rem 0;
-  margin: 0;
-}
-
-.section__cmtp__form hr {
-  background-color: #ff4040;
-  border: none;
-  height: 7px;
-}
-
-/* div.cmtp{
-      background-color:var(--couleur-secondaire);
-            h1{
-                  color: white;
-            }
-            h2, h3{
-                  color: red;
-            }
-            p{
-                  color: white;
-            }
-} */
 footer.cmtp {
   color: white;
 }
@@ -316,11 +285,11 @@ footer.cmtp section:nth-child(1) {
 
 footer.cmtp section:nth-child(2) {
   height: 4rem;
-  background-color: rgba(16, 177, 185, 0.2);
+  background-color: red;
 }
 
 footer.cmtp section:nth-child(3) {
-  background-color: var(--couleur-quaternaire);
+  background-color: var(--couleur-secondaire);
   padding-top: 2rem;
 }
 
@@ -360,12 +329,19 @@ footer.cmtp .footer__container--horaire {
 }
 
 footer.cmtp .footer__container--horaire span:nth-child(1) {
-  color: var(--couleur-primaire);
   text-align: center;
 }
 
+footer.cmtp .footer__container--horaire span:nth-child(1) p :nth-child(even) {
+  color: red;
+}
+
 footer.cmtp .footer__container--horaire span:nth-child(even) {
-  color: var(--couleur-tertiaire);
+  color: white !important;
+}
+
+footer.cmtp .footer__container--horaire span:nth-child(even) :nth-child(odd) {
+  color: red;
 }
 
 footer.cmtp .padding {
@@ -384,12 +360,15 @@ footer.cmtp .footer__container--adresse {
 }
 
 footer.cmtp .footer__container--adresse img {
-  height: 80px;
-  width: 80px;
+  width: 150px;
 }
 
-footer.cmtp .footer__container--adresse span:nth-child(2) {
-  color: var(--couleur-primaire);
+footer.cmtp .footer__container--adresse span {
+  color: white !important;
+}
+
+footer.cmtp .footer__container--adresse span :nth-child(odd) {
+  color: red;
 }
 
 footer.cmtp .footer__container--contact {
@@ -414,7 +393,7 @@ footer.cmtp .footer__container--contact a {
 
 footer.cmtp .footer__container--contact a.footer__buttonContact {
   padding: 1rem;
-  border: 3px solid yellow;
+  border: 3px solid red;
   color: white;
 }
 
@@ -447,7 +426,7 @@ footer.cmtp .footer__top--bleu a {
 }
 
 footer.cmtp .footer__top--bleu a:hover {
-  color: yellow;
+  color: red;
 }
 
 footer.cmtp .footer__top--bleu div ul {
