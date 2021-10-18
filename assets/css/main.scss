@@ -248,9 +248,14 @@ a.buttonContact{
   }
 
 section.avis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .parent_cadre_avis{
+        width: 50%;
           display: flex;
           justify-content: center;
+          border: 1px solid blue;
           .cadre_avis{
                 width: 20rem;
                 border: 1px solid red;
@@ -260,6 +265,7 @@ section.avis{
                       display: flex;
                       align-items: center;
                       height: 100%;
+                      width: 100%;
                       .cadre_avis__child{
                             width: 20rem;
                             min-width: 20rem;
@@ -337,36 +343,6 @@ section.avis{
     }
   }
 
-  section.avis{
-    .parent_cadre_avis{
-          display: flex;
-          justify-content: center;
-          .cadre_avis{
-                width: 20rem;
-                border: 1px solid red;
-                overflow: hidden;
-                position: relative;
-                .cadre_avis__intermediaire{
-                      display: flex;
-                      align-items: center;
-                      height: 100%;
-                      .cadre_avis__child{
-                            width: 20rem;
-                            min-width: 20rem;
-                            max-width: 20rem;
-                            padding: 1rem 0rem;
-                      }
-                }
-          }
-          
-          .return, .after{
-                width: 3rem;
-                height: 3rem;
-                margin: 1rem;
-                cursor: pointer;
-          }
-    }
-}
 
 @media (max-width:867px) {
     .feuille{

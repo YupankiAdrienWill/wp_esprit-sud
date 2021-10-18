@@ -8,7 +8,6 @@ section.page{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     padding-top:3rem;
     padding-bottom: 3rem;
     background-color: rgba(16, 177, 185, 0.20);
@@ -32,7 +31,7 @@ section.page{
             padding: 1.5rem 0 1.5rem 01.5rem;
         }
         p{
-            width: 70%;
+            width: 80%;
             font-size: 24px;
             line-height: 36px; 
             padding: 2rem 0 0 2rem;
@@ -83,6 +82,7 @@ section.page--2{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     padding-top:3rem;
     padding-bottom: 3rem;
     background-color: white;
@@ -90,7 +90,6 @@ section.page--2{
             font-size: 3rem;
             color: var(--couleur-primaire);
               text-decoration-line: underline;
-            text-decoration-style: wavy;
             text-decoration-color: var(--couleur-tertiaire);
             text-underline-offset: 0.5rem;
         }
@@ -106,12 +105,14 @@ section.page--2{
             padding: 1.5rem 0 1.5rem 01.5rem;
         }
         p{
-            width: 70%;
+            width: 50%;
             font-size: 24px;
             line-height: 36px; 
-            padding: 2rem 0 0 2rem;
+            padding: 1rem 0 2rem 2rem;
+            margin: auto;
 
         }
+
         button{
             width: 595px;
             height: 55px;
@@ -272,8 +273,9 @@ section.page--2{
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        padding-top:3rem;
-        padding-bottom: 3rem;
+        margin: auto;
+        padding-top:1rem;
+        padding-bottom: 1rem;
             h3{
                 font-size: 2rem;
                 color: var(--couleur-primaire);
@@ -282,14 +284,17 @@ section.page--2{
                 
             }
             img{
-                width: 100%;
-                padding: 0;
+                width:80%;
+                height: 50%;
+                padding: 1rem 1rem 1rem 1rem;
             }
             p{
                 width: 70%;
                 font-size: 16px;
                 line-height: 20px; 
-                padding: 2rem 0 0 2rem;
+                padding: 0.5rem 0 0 0.5rem;
+                text-align: left;
+                margin: auto;
     
             }
             div button{
@@ -315,6 +320,84 @@ section.page--2{
                             padding-bottom: 2rem;
                                 & div{
                                     width: 45%;
+                                }
+                    }
+    
+    
+     }
+     section.page--2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top:1rem;
+        padding-bottom: 1rem;
+        background-color: white;
+            h2{
+                font-size: 2rem;
+                line-height: 42px;
+                color: var(--couleur-primaire);
+                text-decoration-line: underline;
+                text-decoration-color: var(--couleur-tertiaire);
+                text-underline-offset: 0.5rem;
+            }
+            /* h3{
+                font-size: 2rem;
+                color: var(--couleur-primaire);
+                  text-decoration-line: underline;
+                    text-decoration-style: wavy;
+                    text-decoration-color: var(--couleur-tertiaire);
+                    text-underline-offset: 0.5rem;
+            } */
+            img{
+                padding: 1.5rem 0 1.5rem 01.5rem;
+            }
+            p{
+                width: 70%;
+                font-size: 16px;
+                line-height: 20px; 
+                padding: 1rem 1rem 1rem 1rem;
+                text-align: left;
+                margin: auto;
+    
+            }
+    
+            button{
+                width: 595px;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+                            text-shadow: 2px 2px 2px white;
+                 background: var(--couleur-primaire);
+                 border: 8px solid var(--couleur-secondaire);
+                border-radius: 14px;
+    
+    
+            }
+            button:hover{
+                cursor: pointer;
+                width: 595px;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+    
+                        background: #FFFFFF;
+                        border: 8px solid #FECF34;
+                        border-radius: 14px;
+            }
+                &:nth-child(2){
+                    background-color: rgba(16, 177, 185, 0.20) !important;}
+                &:nth-child(3){
+                    background-color: white !important;}
+    
+                        .container {
+                            width: 80%;
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                                & div{
+                                    width: 33%;
                                 }
                     }
     
