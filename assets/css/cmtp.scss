@@ -351,6 +351,20 @@ footer.cmtp {
 
 @media (max-width:867px) {
 
+      .bloginfo{
+            font-size: 56px;
+            font-weight: bold;
+            color: white;
+         text-align: center;
+        }
+      h1{
+    
+            font-size:2rem !important;
+            color: var(--couleur-secondaire);
+            text-decoration-color: var(--couleur-tertiaire);
+            text-underline-offset: 0.5rem;
+        
+    }
 
       header.cmtp{
             .bandeau__child:nth-child(1), .bandeau__child:nth-child(3){

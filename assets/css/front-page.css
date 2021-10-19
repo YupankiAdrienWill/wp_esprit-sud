@@ -93,6 +93,12 @@
   color: var(--couleur-tertiaire);
 }
 
+.main__container--landing .titre {
+  font-size: 4rem;
+  color: var(--couleur-tertiaire);
+  font-weight: bold;
+}
+
 .main__container--landing span#carré--landing {
   width: 100%;
   display: -webkit-box;
@@ -104,7 +110,6 @@
           flex-direction: column;
   padding: 2rem 2rem 2rem 2rem;
   background-color: var(--couleur-secondaire);
-  font-size: 24px;
   color: white !important;
   /*  position: relative; */
   -webkit-box-align: center;
@@ -117,6 +122,11 @@
 
 .main__container--landing span#carré p {
   padding-top: 2rem;
+  font-size: 2.5rem !important;
+}
+
+.main__container--landing #text {
+  color: var(--couleur-tertiaire);
 }
 
 section.front_landing {
@@ -317,6 +327,13 @@ section.front_landing--2 .container div img {
 }
 
 @media (max-width: 867px) {
+  h1 {
+    font-size: 2rem !important;
+    color: var(--couleur-secondaire);
+    -webkit-text-decoration-color: var(--couleur-tertiaire);
+            text-decoration-color: var(--couleur-tertiaire);
+    text-underline-offset: 0.5rem;
+  }
   .main__container--landing {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -381,6 +398,10 @@ section.front_landing--2 .container div img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .main__container--landing .titre {
+    font-size: 2.5rem;
+    color: var(--couleur-tertiaire);
   }
   .main__container--landing .carré--landing {
     width: 100%;
@@ -455,6 +476,23 @@ section.front_landing--2 .container div img {
     border: 8px solid #FECF34;
     border-radius: 14px;
   }
+  section.front_landing button:hover {
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+  }
+  section.front_landing button:active {
+    cursor: pointer;
+    width: 250px;
+    height: 55px;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    border: 8px solid #FECF34;
+    border-radius: 14px;
+  }
   section.front_landing:nth-child(2) {
     background-color: rgba(16, 177, 185, 0.2) !important;
   }
@@ -508,11 +546,22 @@ section.front_landing--2 .container div img {
     line-height: 20px;
     padding: 2rem 0 0 2rem;
   }
-  section.front_landing--2 div button {
+  section.front_landing--2 div
+button {
     width: 80%;
     height: 55px;
     left: 296px;
     top: 1437px;
+    background: #FFFFFF;
+    border: 8px solid #FECF34;
+    border-radius: 14px;
+  }
+  section.front_landing--2 button:hover {
+    cursor: pointer;
+    width: 595px;
+    height: 55px;
+    left: 0;
+    top: 0;
     background: #FFFFFF;
     border: 8px solid #FECF34;
     border-radius: 14px;

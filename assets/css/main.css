@@ -28,7 +28,7 @@ p {
 
 h1 {
   font-size: 3.5rem;
-  color: var(--couleur-secondaire);
+  color: var(--couleur-secondaire) !important;
   -webkit-text-decoration-color: var(--couleur-tertiaire);
           text-decoration-color: var(--couleur-tertiaire);
   text-underline-offset: 0.5rem;
@@ -183,6 +183,11 @@ a.buttonContact {
   padding: 1rem;
 }
 
+.main__container--page .titre {
+  font-size: 4rem;
+  color: var(--couleur-tertiaire);
+}
+
 .main__container--page .carré--page {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
@@ -304,6 +309,11 @@ a.buttonContact {
   text-align: right;
   font-size: 2.4rem;
   padding: 1rem;
+}
+
+.main__container--produits .titre {
+  font-size: 4rem;
+  color: var(--couleur-tertiaire);
 }
 
 .main__container--produits .carré--produits {
@@ -478,6 +488,16 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
   .feuille--2 {
     display: none;
   }
+  .bloginfo {
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+  }
+  .titre {
+    font-size: 3rem;
+    color: var(--couleur-tertiaire);
+  }
   p {
     font-size: 18px !important;
   }
@@ -486,7 +506,7 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
     color: var(--couleur-secondaire);
     -webkit-text-decoration-color: var(--couleur-tertiaire);
             text-decoration-color: var(--couleur-tertiaire);
-    text-underline-offset: 0.5rem;
+    /* text-underline-offset: 0.5rem; */
   }
   h2 {
     font-size: 1.5rem !important;
@@ -495,7 +515,7 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
             text-decoration-line: underline;
     -webkit-text-decoration-color: var(--couleur-tertiaire);
             text-decoration-color: var(--couleur-tertiaire);
-    text-underline-offset: 0.5rem;
+    text-underline-offset: 0rem !important;
   }
   h3 {
     font-size: 1rem !important;

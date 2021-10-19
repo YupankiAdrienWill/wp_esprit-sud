@@ -5,7 +5,7 @@
                     <div><img src="../assets/ico/feuille-2.svg" alt="" srcset=""></div>
                     <div class='container__bandeau--2--produits'>
                         <div class="texte--produits">
-                             <?php bloginfo('name' )?><br><?php the_title(); ?>
+                             <?php bloginfo('name' )?><br><div class='titre'><?php the_title(); ?></div>
                         </div>
                         <div class="carré--produits">
                             <span id='carré--produits'>

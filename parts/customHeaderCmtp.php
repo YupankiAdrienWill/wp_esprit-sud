@@ -5,7 +5,7 @@
                 <div><img src="../assets/ico/feuille-2.svg" alt="" srcset=""></div>
                 <div class='container__bandeau--2--cmtp'>
                     <div class="texte--cmtp">
-                        <?php the_title(); ?>
+                    <div class='titre'><?php the_title(); ?></div>
                     </div>
                     <div class="carré--cmtp">
                         <span id='carré--cmtp'>
