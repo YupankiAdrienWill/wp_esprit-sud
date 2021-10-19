@@ -74,6 +74,12 @@ function register_assets(){
         array(),
         '1.0'
     );
+    wp_enqueue_style(
+        'form-css',
+        get_template_directory_uri().'/assets/css/form.css',
+        array(),
+        '1.0'
+    );
     if (is_front_page()) {
         wp_enqueue_style( //fonctions pour charger un feuille de style css personalisé sur une page en particulier avec la fonction if(is_front_page)
             'front-page-css',
