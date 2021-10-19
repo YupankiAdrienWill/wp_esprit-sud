@@ -214,9 +214,21 @@ header{
             /* en tant que parent */
             display: flex;
             align-items: center;
- 
+      }
+      .tel{
+          background-color: var(--couleur-primaire);
+          /* height: auto; */
+          border-radius: 35px;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          p{
+              font-size: 18px !important;
+              align-items: center;
+              justify-content: center;
+              color: white;
       }
   }
+}
   
   
   
