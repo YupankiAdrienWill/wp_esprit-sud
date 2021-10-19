@@ -25,39 +25,28 @@ section.page {
                 text-decoration-color: var(--couleur-tertiaire);
                 text-underline-offset: 0.5rem;
         } */
-}
+  /*  button{
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+                        text-shadow: 2px 2px 2px white;
+             background: var(--couleur-primaire);
+             border: 8px solid var(--couleur-secondaire);
+            border-radius: 14px;
 
-section.page img {
-  padding: 1.5rem 0 1.5rem 01.5rem;
-}
 
-section.page p {
-  width: 80%;
-  font-size: 24px;
-  line-height: 36px;
-  padding: 2rem 0 0 2rem;
-}
+        }
+        button:hover{
+            cursor: pointer;
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
 
-section.page button {
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  text-shadow: 2px 2px 2px white;
-  background: var(--couleur-primaire);
-  border: 8px solid var(--couleur-secondaire);
-  border-radius: 14px;
-}
-
-section.page button:hover {
-  cursor: pointer;
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  background: #FFFFFF;
-  border: 8px solid #FECF34;
-  border-radius: 14px;
+                    background: #FFFFFF;
+                    border: 8px solid #FECF34;
+                    border-radius: 14px; */
 }
 
 section.page:nth-child(2) {
@@ -83,6 +72,17 @@ section.page .container {
 
 section.page .container div {
   width: 33%;
+}
+
+section.page img {
+  padding: 1.5rem 0 1.5rem 01.5rem;
+}
+
+section.page p {
+  width: 80%;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 2rem 0 0 2rem;
 }
 
 section.page--2 {
@@ -111,6 +111,29 @@ section.page--2 {
                 text-decoration-color: var(--couleur-tertiaire);
                 text-underline-offset: 0.5rem;
         } */
+  /*  button{
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+                        text-shadow: 2px 2px 2px white;
+             background: var(--couleur-primaire);
+             border: 8px solid var(--couleur-secondaire);
+            border-radius: 14px;
+
+
+        }
+        button:hover{
+            cursor: pointer;
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+
+                    background: #FFFFFF;
+                    border: 8px solid #FECF34;
+                    border-radius: 14px;
+        } */
 }
 
 section.page--2 img {
@@ -122,28 +145,6 @@ section.page--2 p {
   line-height: 36px;
   padding: 1rem 0 2rem 2rem;
   margin: auto;
-}
-
-section.page--2 button {
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  text-shadow: 2px 2px 2px white;
-  background: var(--couleur-primaire);
-  border: 8px solid var(--couleur-secondaire);
-  border-radius: 14px;
-}
-
-section.page--2 button:hover {
-  cursor: pointer;
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  background: #FFFFFF;
-  border: 8px solid #FECF34;
-  border-radius: 14px;
 }
 
 section.page--2:nth-child(2) {
@@ -184,6 +185,27 @@ section.catalogue {
           justify-content: center;
   padding-top: 2rem;
   background-color: #fcc92313;
+  /*  button{
+                width: 200.75px;
+                height: 51px;
+                left: 766.53px;
+                top: 1459px;
+                background: var(--couleur-primaire);
+                border: 8px solid var(--couleur-secondaire);
+                border-radius: 14px;
+            }
+
+                button:hover{
+                    cursor: pointer;
+                    width: 200.75px;
+                    height: 51px;
+                    left: 766.53px;
+                    top: 1459px;
+                    border-radius: 14px;
+                    filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
+                    background: #FFFFFF;
+                    border: 8px solid #FECF34;
+                } */
 }
 
 section.catalogue div {
@@ -221,29 +243,6 @@ section.catalogue img {
   height: auto;
 }
 
-section.catalogue button {
-  width: 200.75px;
-  height: 51px;
-  left: 766.53px;
-  top: 1459px;
-  background: var(--couleur-primaire);
-  border: 8px solid var(--couleur-secondaire);
-  border-radius: 14px;
-}
-
-section.catalogue button:hover {
-  cursor: pointer;
-  width: 200.75px;
-  height: 51px;
-  left: 766.53px;
-  top: 1459px;
-  border-radius: 14px;
-  -webkit-filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
-          filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
-  background: #FFFFFF;
-  border: 8px solid #FECF34;
-}
-
 @media (max-width: 1024px) {
   section.catalogue {
     z-index: 99;
@@ -258,6 +257,16 @@ section.catalogue button:hover {
             justify-content: center;
     padding-top: 2rem;
     background-color: #fcc92313;
+    /* button{
+                    width: 200.75px;
+                    height: 51px;
+                    left: 766.53px;
+                    top: 1459px;
+                    text-shadow: 2px 2px 2px white;
+                    background: var(--couleur-primaire);
+                    border: 8px solid var(--couleur-secondaire);
+                    border-radius: 14px;
+                } */
   }
   section.catalogue div {
     display: -webkit-box;
@@ -290,16 +299,6 @@ section.catalogue button:hover {
     width: 80%;
     height: auto;
   }
-  section.catalogue button {
-    width: 200.75px;
-    height: 51px;
-    left: 766.53px;
-    top: 1459px;
-    text-shadow: 2px 2px 2px white;
-    background: var(--couleur-primaire);
-    border: 8px solid var(--couleur-secondaire);
-    border-radius: 14px;
-  }
 }
 
 @media (max-width: 867px) {
@@ -316,6 +315,15 @@ section.catalogue button:hover {
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    /* div button{
+                width: 80%;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+                background: #FFFFFF;
+                border: 8px solid #FECF34;
+                border-radius: 14px;
+            } */
   }
   section.page h3 {
     font-size: 2rem;
@@ -334,15 +342,6 @@ section.catalogue button:hover {
     padding: 0.5rem 0 0 0.5rem;
     text-align: left;
     margin: auto;
-  }
-  section.page div button {
-    width: 80%;
-    height: 55px;
-    left: 296px;
-    top: 1437px;
-    background: #FFFFFF;
-    border: 8px solid #FECF34;
-    border-radius: 14px;
   }
   section.page:nth-child(2) {
     background-color: rgba(16, 177, 185, 0.2) !important;
@@ -395,6 +394,29 @@ section.catalogue button:hover {
                     text-decoration-color: var(--couleur-tertiaire);
                     text-underline-offset: 0.5rem;
             } */
+    /*  button{
+                width: 595px;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+                            text-shadow: 2px 2px 2px white;
+                 background: var(--couleur-primaire);
+                 border: 8px solid var(--couleur-secondaire);
+                border-radius: 14px;
+    
+    
+            }
+            button:hover{
+                cursor: pointer;
+                width: 595px;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+    
+                        background: #FFFFFF;
+                        border: 8px solid #FECF34;
+                        border-radius: 14px;
+            } */
   }
   section.page--2 h2 {
     font-size: 2rem;
@@ -416,26 +438,6 @@ section.catalogue button:hover {
     padding: 1rem 1rem 1rem 1rem;
     text-align: left;
     margin: auto;
-  }
-  section.page--2 button {
-    width: 595px;
-    height: 55px;
-    left: 296px;
-    top: 1437px;
-    text-shadow: 2px 2px 2px white;
-    background: var(--couleur-primaire);
-    border: 8px solid var(--couleur-secondaire);
-    border-radius: 14px;
-  }
-  section.page--2 button:hover {
-    cursor: pointer;
-    width: 595px;
-    height: 55px;
-    left: 296px;
-    top: 1437px;
-    background: #FFFFFF;
-    border: 8px solid #FECF34;
-    border-radius: 14px;
   }
   section.page--2:nth-child(2) {
     background-color: rgba(16, 177, 185, 0.2) !important;
@@ -474,6 +476,27 @@ section.catalogue button:hover {
             justify-content: center;
     padding-top: 2rem;
     background-color: #fcc92313;
+    /* button{
+                    width: 200.75px;
+                    height: 51px;
+                    left: 766.53px;
+                    top: 1459px;
+                    background: #FFFFFF;
+                   
+                    border-radius: 14px;
+                }
+                button:hover{
+                    cursor: pointer;
+                    width: 200.75px;
+                    height: 51px;
+                    left: 766.53px;
+                    top: 1459px;
+                    background: var(--couleur-primaire);
+                    border: 8px solid var(--couleur-secondaire);
+                    border-radius: 14px;
+                    filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
+                    
+                } */
   }
   section.catalogue div {
     display: -webkit-box;
@@ -506,26 +529,6 @@ section.catalogue button:hover {
     width: 80%;
     height: auto;
     margin: auto;
-  }
-  section.catalogue button {
-    width: 200.75px;
-    height: 51px;
-    left: 766.53px;
-    top: 1459px;
-    background: #FFFFFF;
-    border-radius: 14px;
-  }
-  section.catalogue button:hover {
-    cursor: pointer;
-    width: 200.75px;
-    height: 51px;
-    left: 766.53px;
-    top: 1459px;
-    background: var(--couleur-primaire);
-    border: 8px solid var(--couleur-secondaire);
-    border-radius: 14px;
-    -webkit-filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
-            filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
   }
 }
 /*# sourceMappingURL=page.css.map */

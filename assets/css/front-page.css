@@ -147,6 +147,30 @@ section.front_landing {
   /*    img{
             padding: 1.5rem 0 1.5rem 01.5rem;
         } */
+  /*  button{
+            font-family: 'ITCAvantGardePro-Md';
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+                        text-shadow: 2px 2px 2px white;
+             background: var(--couleur-primaire);
+             border: 8px solid var(--couleur-secondaire);
+            border-radius: 14px;
+
+
+        }
+        button:hover{
+            cursor: pointer;
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+
+                    background: #FFFFFF;
+                    border: 8px solid #FECF34;
+                    border-radius: 14px;
+        } */
 }
 
 section.front_landing h2 {
@@ -174,29 +198,6 @@ section.front_landing p {
   font-size: 24px;
   line-height: 36px;
   padding: 2rem 0 0 2rem;
-}
-
-section.front_landing button {
-  font-family: 'ITCAvantGardePro-Md';
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  text-shadow: 2px 2px 2px white;
-  background: var(--couleur-primaire);
-  border: 8px solid var(--couleur-secondaire);
-  border-radius: 14px;
-}
-
-section.front_landing button:hover {
-  cursor: pointer;
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  background: #FFFFFF;
-  border: 8px solid #FECF34;
-  border-radius: 14px;
 }
 
 section.front_landing:nth-child(1) {
@@ -250,6 +251,30 @@ section.front_landing--2 {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: white;
+  /*         button{
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+            font-family: 'roboto';
+            text-shadow: 2px 2px 2px white;
+             background: var(--couleur-primaire);
+             border: 8px solid var(--couleur-secondaire);
+            border-radius: 14px;
+
+
+        }
+        button:hover{
+            cursor: pointer;
+            width: 595px;
+            height: 55px;
+            left: 296px;
+            top: 1437px;
+
+                    background: #FFFFFF;
+                    border: 8px solid #FECF34;
+                    border-radius: 14px;
+        } */
 }
 
 section.front_landing--2 img {
@@ -261,29 +286,6 @@ section.front_landing--2 p {
   font-size: 24px;
   line-height: 36px;
   padding: 2rem 0 0 2rem;
-}
-
-section.front_landing--2 button {
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  font-family: 'roboto';
-  text-shadow: 2px 2px 2px white;
-  background: var(--couleur-primaire);
-  border: 8px solid var(--couleur-secondaire);
-  border-radius: 14px;
-}
-
-section.front_landing--2 button:hover {
-  cursor: pointer;
-  width: 595px;
-  height: 55px;
-  left: 296px;
-  top: 1437px;
-  background: #FFFFFF;
-  border: 8px solid #FECF34;
-  border-radius: 14px;
 }
 
 section.front_landing--2:nth-child(1) {
@@ -451,6 +453,33 @@ section.front_landing--2 .container div img {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    /* div button{
+                width: 80%;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+                background: #FFFFFF;
+                border: 8px solid #FECF34;
+                border-radius: 14px;
+            }
+            button:hover{
+                cursor: pointer;
+                width: 0;
+                height:0;
+                left: 0;
+                top:0;
+
+            }
+            button:active{
+                cursor: pointer;
+                width: 250px;
+                height: 55px;
+                left: 0;
+                top:0;
+                background: #FFFFFF;
+                border: 8px solid #FECF34;
+                border-radius: 14px;
+            } */
   }
   section.front_landing h3 {
     font-size: 2rem;
@@ -466,32 +495,6 @@ section.front_landing--2 .container div img {
     font-size: 16px;
     line-height: 20px;
     padding: 2rem 0 0 2rem;
-  }
-  section.front_landing div button {
-    width: 80%;
-    height: 55px;
-    left: 296px;
-    top: 1437px;
-    background: #FFFFFF;
-    border: 8px solid #FECF34;
-    border-radius: 14px;
-  }
-  section.front_landing button:hover {
-    cursor: pointer;
-    width: 0;
-    height: 0;
-    left: 0;
-    top: 0;
-  }
-  section.front_landing button:active {
-    cursor: pointer;
-    width: 250px;
-    height: 55px;
-    left: 0;
-    top: 0;
-    background: #FFFFFF;
-    border: 8px solid #FECF34;
-    border-radius: 14px;
   }
   section.front_landing:nth-child(2) {
     background-color: rgba(16, 177, 185, 0.2) !important;
@@ -530,6 +533,26 @@ section.front_landing--2 .container div img {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    /*  div 
+                button{
+                width: 80%;
+                height: 55px;
+                left: 296px;
+                top: 1437px;
+                background: #FFFFFF;
+                border: 8px solid #FECF34;
+                border-radius: 14px;
+            }
+            button:hover{
+                cursor: pointer;
+                width: 595px;
+                height: 55px;
+                left: 0;
+                top:0;
+                background: #FFFFFF;
+                border: 8px solid #FECF34;
+                border-radius: 14px;
+            } */
   }
   section.front_landing--2 h3 {
     font-size: 2rem;
@@ -545,26 +568,6 @@ section.front_landing--2 .container div img {
     font-size: 16px;
     line-height: 20px;
     padding: 2rem 0 0 2rem;
-  }
-  section.front_landing--2 div
-button {
-    width: 80%;
-    height: 55px;
-    left: 296px;
-    top: 1437px;
-    background: #FFFFFF;
-    border: 8px solid #FECF34;
-    border-radius: 14px;
-  }
-  section.front_landing--2 button:hover {
-    cursor: pointer;
-    width: 595px;
-    height: 55px;
-    left: 0;
-    top: 0;
-    background: #FFFFFF;
-    border: 8px solid #FECF34;
-    border-radius: 14px;
   }
   section.front_landing--2:nth-child(2) {
     background-color: rgba(16, 177, 185, 0.2) !important;

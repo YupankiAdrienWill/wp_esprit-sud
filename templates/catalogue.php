@@ -32,7 +32,7 @@ $loop = new WP_Query( array(
         <?php the_post_thumbnail(); ?>
         </span>
         <span><?php the_excerpt(); ?></span>
-        <a href="<?php the_permalink(); ?>"><button>Venez découvrir nos produits</button></a>
+        <a href="<?php the_permalink(); ?>"><button class='btn-front'>Venez découvrir nos produits</button></a>
     </div>
 
 <?php endwhile; wp_reset_query(); ?>

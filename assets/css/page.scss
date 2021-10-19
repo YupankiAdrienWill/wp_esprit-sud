@@ -11,7 +11,20 @@ section.page{
     padding-top:3rem;
     padding-bottom: 3rem;
     background-color: rgba(16, 177, 185, 0.20);
-       
+    &:nth-child(2){
+        background-color: rgba(16, 177, 185, 0.20) !important;}
+    &:nth-child(3){
+        background-color: white !important;}
+
+            .container {
+                width: 80%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                    & div{
+                        width: 33%;
+                    }
+        }
         /* h3{
             font-size: 2rem;
             color: var(--couleur-primaire);
@@ -30,7 +43,7 @@ section.page{
             padding: 2rem 0 0 2rem;
 
         }
-        button{
+       /*  button{
             width: 595px;
             height: 55px;
             left: 296px;
@@ -51,25 +64,12 @@ section.page{
 
                     background: #FFFFFF;
                     border: 8px solid #FECF34;
-                    border-radius: 14px;
+                    border-radius: 14px; */
         }
-            &:nth-child(2){
-                background-color: rgba(16, 177, 185, 0.20) !important;}
-            &:nth-child(3){
-                background-color: white !important;}
-
-                    .container {
-                        width: 80%;
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                            & div{
-                                width: 33%;
-                            }
-                }
 
 
- }
+
+ 
 section.page--2{
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ section.page--2{
 
         }
 
-        button{
+       /*  button{
             width: 595px;
             height: 55px;
             left: 296px;
@@ -121,7 +121,7 @@ section.page--2{
                     background: #FFFFFF;
                     border: 8px solid #FECF34;
                     border-radius: 14px;
-        }
+        } */
             &:nth-child(2){
                 background-color: rgba(16, 177, 185, 0.20) !important;}
             &:nth-child(3){
@@ -173,7 +173,7 @@ section.page--2{
                 height: auto;
                 
             }
-            button{
+           /*  button{
                 width: 200.75px;
                 height: 51px;
                 left: 766.53px;
@@ -193,7 +193,7 @@ section.page--2{
                     filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
                     background: #FFFFFF;
                     border: 8px solid #FECF34;
-                }
+                } */
 
 
                 
@@ -239,7 +239,7 @@ section.page--2{
                    
                     
                 }
-                button{
+                /* button{
                     width: 200.75px;
                     height: 51px;
                     left: 766.53px;
@@ -248,7 +248,7 @@ section.page--2{
                     background: var(--couleur-primaire);
                     border: 8px solid var(--couleur-secondaire);
                     border-radius: 14px;
-                }
+                } */
 
             }
 }
@@ -283,7 +283,7 @@ section.page--2{
                 margin: auto;
     
             }
-            div button{
+            /* div button{
                 width: 80%;
                 height: 55px;
                 left: 296px;
@@ -291,7 +291,7 @@ section.page--2{
                 background: #FFFFFF;
                 border: 8px solid #FECF34;
                 border-radius: 14px;
-            }
+            } */
                 &:nth-child(2){
                     background-color: rgba(16, 177, 185, 0.20) !important;}
                 &:nth-child(3){
@@ -349,7 +349,7 @@ section.page--2{
     
             }
     
-            button{
+           /*  button{
                 width: 595px;
                 height: 55px;
                 left: 296px;
@@ -371,7 +371,7 @@ section.page--2{
                         background: #FFFFFF;
                         border: 8px solid #FECF34;
                         border-radius: 14px;
-            }
+            } */
                 &:nth-child(2){
                     background-color: rgba(16, 177, 185, 0.20) !important;}
                 &:nth-child(3){
@@ -424,7 +424,7 @@ section.page--2{
                     margin: auto;
                     
                 }
-                button{
+                /* button{
                     width: 200.75px;
                     height: 51px;
                     left: 766.53px;
@@ -444,6 +444,6 @@ section.page--2{
                     border-radius: 14px;
                     filter: drop-shadow(0.5rem 0 0.75rem var(--couleur-primaire));
                     
-                }
+                } */
             }
 }

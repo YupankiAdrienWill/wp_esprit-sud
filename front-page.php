@@ -18,7 +18,7 @@
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
         <div class='thumb' > <?php echo $thumb; ?></div>
-        <div><a href="<?php echo $link; ?>"><button>Venez découvir nos produits</button></a></div>
+        <div><a href="<?php echo $link; ?>"><button class='btn-front'>Venez découvir nos produits</button></a></div>
 </section >
 <section class='front_landing--2'>
     <?php 
@@ -48,7 +48,7 @@ $loop = new WP_Query( array(
 
 
 
-        <div><a href="<?php bloginfo('wpurl') ?>/qui-sommes-nous/#showroom"><button>Venez découvir notre showroom</button></a></div>
+        <div><a href="<?php bloginfo('wpurl') ?>/qui-sommes-nous/#showroom"><button class='btn-front'>Venez découvir notre showroom</button></a></div>
 </section >
 <?php get_template_part ('parts/footerPart' )?>
 <?php get_footer();?>
