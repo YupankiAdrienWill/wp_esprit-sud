@@ -87,6 +87,11 @@ footer {
 			border: 3px solid yellow;
 			color: white;
 		}
+		a.footer__buttonContact:hover {
+			padding: 1rem;
+			border: 3px solid white;
+			color: yellow;
+		}
 	}
 	.padding--spec {
 		padding: 1.5rem;

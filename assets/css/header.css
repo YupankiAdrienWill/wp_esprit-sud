@@ -301,14 +301,6 @@ header .bandeau__child:nth-child(3) {
           align-items: center;
 }
 
-header .bandeau__child:nth-child(3) .tel {
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
-  background-color: #10B1B9;
-  border-radius: 0.7rem;
-  color: white;
-}
-
 @media (max-width: 867px) {
   header .bandeau__child:nth-child(1), header .bandeau__child:nth-child(3) {
     display: none;
