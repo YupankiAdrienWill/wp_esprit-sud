@@ -386,6 +386,14 @@ section.catalogue img {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: white;
+    /*  h2{
+                font-size: 2rem;
+                line-height: 42px;
+                color: var(--couleur-primaire);
+                text-decoration-line: underline;
+                text-decoration-color: var(--couleur-tertiaire);
+                text-underline-offset: 0.5rem;
+            } */
     /* h3{
                 font-size: 2rem;
                 color: var(--couleur-primaire);
@@ -417,16 +425,6 @@ section.catalogue img {
                         border: 8px solid #FECF34;
                         border-radius: 14px;
             } */
-  }
-  section.page--2 h2 {
-    font-size: 2rem;
-    line-height: 42px;
-    color: var(--couleur-primaire);
-    -webkit-text-decoration-line: underline;
-            text-decoration-line: underline;
-    -webkit-text-decoration-color: var(--couleur-tertiaire);
-            text-decoration-color: var(--couleur-tertiaire);
-    text-underline-offset: 0.5rem;
   }
   section.page--2 img {
     padding: 1.5rem 0 1.5rem 01.5rem;

@@ -29,19 +29,11 @@ p {
 h1 {
   font-size: 3.5rem;
   color: var(--couleur-secondaire) !important;
-  -webkit-text-decoration-color: var(--couleur-tertiaire);
-          text-decoration-color: var(--couleur-tertiaire);
-  text-underline-offset: 0.5rem;
 }
 
 h2 {
   font-size: 3rem;
   color: var(--couleur-primaire) !important;
-  -webkit-text-decoration-line: underline !important;
-          text-decoration-line: underline !important;
-  -webkit-text-decoration-color: var(--couleur-tertiaire);
-          text-decoration-color: var(--couleur-tertiaire);
-  text-underline-offset: 0.5rem;
 }
 
 h3 {
