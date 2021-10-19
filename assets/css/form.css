@@ -5,7 +5,7 @@
 form {
   background-color: var(--couleur-primaire);
   padding: 2rem;
-  margin-right: 2rem;
+  border: white solid 2px;
 }
 
 form p {
@@ -21,14 +21,14 @@ form .form_flex {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
-  -webkit-column-gap: 1rem;
-          column-gap: 1rem;
   min-height: 15rem;
   max-width: 50rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
 }
 
 form .form_flex .form__flex_child {
@@ -42,14 +42,13 @@ form .form_flex .form__flex_child {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* justify-content: space-between; */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  /* margin: auto; */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  margin-top: 2rem;
   min-height: 15rem;
   max-width: 18rem;
-  border: blue 1px solid;
 }
 
 form .form_flex .form__flex_child:nth-child(2) {
@@ -83,7 +82,7 @@ form .form_flex .form__flex_child input, form .form_flex .form__flex_child texta
   -webkit-box-shadow: 0 4px 4px var(--grey);
           box-shadow: 0 4px 4px var(--grey);
   font-weight: 600;
-  color: white;
+  color: var(--couleur-secondaire);
   font-size: 1rem;
   background-color: transparent;
 }
@@ -91,14 +90,15 @@ form .form_flex .form__flex_child input, form .form_flex .form__flex_child texta
 form .form_flex .form__flex_child input[type=submit], form .form_flex .form__flex_child textarea[type=submit] {
   width: 10rem;
   margin-left: auto;
-  background-color: var(--pink);
+  background-color: var(--couleur-secondaire);
   color: white;
   cursor: pointer;
+  border: none;
 }
 
 form .form_flex .form__flex_child input[type=submit]:focus, form .form_flex .form__flex_child textarea[type=submit]:focus {
   background-color: white;
-  color: var(--pink);
+  color: var(--couleur-secondaire);
 }
 
 form .form_flex .form__flex_child input:focus, form .form_flex .form__flex_child textarea:focus {
@@ -111,18 +111,5 @@ form .form_flex .form__flex_child textarea {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-}
-
-.form__flex_submit {
-  border: yellow solid 1px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-.form__flex_submit .form_submit {
-  background-color: var(--couleur-secondaire);
-  border-style: none;
 }
 /*# sourceMappingURL=form.css.map */

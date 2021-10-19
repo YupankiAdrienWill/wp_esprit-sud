@@ -36,13 +36,17 @@ section.page{
         img{
             padding: 1.5rem 0 1.5rem 01.5rem;
         }
-        p{
+ /*        p{
             width: 80%;
             font-size: 24px;
             line-height: 36px; 
             padding: 2rem 0 0 2rem;
 
-        }
+        } */
+/*         .wp-block-column{
+            padding-left: 1rem;
+            padding-right: 1rem;
+        } */
        /*  button{
             width: 595px;
             height: 55px;
@@ -73,8 +77,8 @@ section.page{
 section.page--2{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
     justify-content: center;
     padding-top:3rem;
     padding-bottom: 3rem;
@@ -260,8 +264,7 @@ section.page--2{
         align-items: center;
         text-align: center;
         margin: auto;
-        padding-top:1rem;
-        padding-bottom: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
             h3{
                 font-size: 2rem;
                 color: var(--couleur-primaire);
@@ -275,7 +278,7 @@ section.page--2{
                 padding: 1rem 1rem 1rem 1rem;
             }
             p{
-                width: 70%;
+                /* width: 70%; */
                 font-size: 16px;
                 line-height: 20px; 
                 padding: 0.5rem 0 0 0.5rem;
@@ -317,8 +320,7 @@ section.page--2{
         align-items: center;
         text-align: center;
         justify-content: center;
-        padding-top:1rem;
-        padding-bottom: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         background-color: white;
            /*  h2{
                 font-size: 2rem;
@@ -339,15 +341,15 @@ section.page--2{
             img{
                 padding: 1.5rem 0 1.5rem 01.5rem;
             }
-            p{
-                width: 70%;
+             p{
+                /* width: 70%; */
                 font-size: 16px;
                 line-height: 20px; 
                 padding: 1rem 1rem 1rem 1rem;
                 text-align: left;
                 margin: auto;
     
-            }
+            } 
     
            /*  button{
                 width: 595px;
