@@ -7,7 +7,7 @@
 
 
         <div class="footer__container--horaire">
-        <div><img class='footer__feuille' src="../assets/ico/feuille.svg" alt="" srcset=""></div>
+        <div><img class='footer__feuille' src="<?php bloginfo('template_directory'); ?>../assets/ico/feuille.svg" alt="" srcset=""></div>
         <?php
 $loop = new WP_Query( array(
     'post_type' => 'horaires'
@@ -25,7 +25,9 @@ $loop = new WP_Query( array(
     'post_type' => 'adresse'
   )
 );?>
-            <span class="padding"><img class="footer__logo" src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+            <span class="padding">
+                <a href="<?php echo home_url( '/' ); ?>">
+                <img class="footer__logo" src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise"></a>
       <?php  ?></span>
             <?php if($page_courrante === 'cmtp'){ ?>
                 <span class="padding">AU SERVICE DES PARTICULIERS, DES PROFESSIONNELS & DES COLLECTIVITÉS DEPUIS 1990</span>

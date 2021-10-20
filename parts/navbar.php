@@ -1,8 +1,10 @@
 <header>
 
-      <?php if($page_courrante === 'cmtp'){}else{ ?>
-      <img class="bandeau__child" src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
-      <?php } ?>
+      <a href="<?php echo home_url( '/' ); ?>">
+      <img class="bandeau__child" 
+      
+      src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise"></a>
+    
       
       <div class="bandeau__child">
             <img class="logoTxt" src="<?php if($page_courrante === 'cmtp'){echo bloginfo('template_directory').'/assets/ico/logo_cmtp.png';}else{echo bloginfo('template_directory').'/assets/ico/logo_esprit_sud_text_alpha.png';} ?>" alt="logo esprit sud">
@@ -16,7 +18,7 @@
 <nav id="nav">
 <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>  
       <div class="burger burger--logo" >
-            <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
+            <a href="<?php echo home_url( '/' ); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/ico/logo_esprit_sud_dessin_alpha.png" alt="logo de l'entreprise">
       <?php  ?></a>
       </div>
       <div class="menu" id="navMenu" >
@@ -45,3 +47,4 @@
       </div>
       
 </nav>
+
