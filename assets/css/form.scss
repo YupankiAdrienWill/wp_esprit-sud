@@ -21,6 +21,7 @@ form{
                   min-height: 15rem;
                   max-width: 50rem;
                   justify-content: space-between;
+                  text-align: center;
                   margin: auto;
                   column-gap: 5rem;
             .form__flex_child{
@@ -88,5 +89,91 @@ form{
             }
       }
 }
+@media (max-width:867px) {
+    form{
+        padding: 0.5rem;
+        align-items: center;
+        text-align: center;
 
+        p{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-weight: 600;
+      }
+    
+    .form_flex{
+        display: flex;
+              flex-wrap: wrap;
+              min-height: 15rem;
+              max-width: 50rem;
+              justify-content: space-between;
+              text-align: center;
+              /* margin: auto; */
+              column-gap: 5rem;
+        .form__flex_child{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: auto;
+            margin-top: 2rem;
+            min-height: 15rem;
+            max-width: 18rem;
+                &:nth-child(1){
+                }
+                &:nth-child(2){
+                      flex: 2;
+                      span, input, textarea{
+                            width: 20rem;
+                            //max-width: 90%;
+                            margin-right: 0;
+                            margin-left: 0;
+                      }
+                      span{
+                            input{
+                                  width: 20rem;
+                                  margin-left:0;
+                                  margin-right: 0;
+                            }
+                      }
+                }
+                span{
+                      max-width: 90%;
+                      margin-right: auto;
+                }
+                input, textarea{
+                    max-width: 100%;
+                    border: 2px solid white;
+                    padding: 0;
+                    margin: 0 0;
+                    box-shadow: 0 4px 4px var(--grey);
+                    font-weight: 600;
+                    color: var(--couleur-secondaire);
+                    font-size: 1rem;
+                    background-color: transparent;
+                    &[type=submit]{
+                          width: 10rem;
+                          margin-left: auto;
+                          background-color: var(--couleur-secondaire);
+                          color: white;
+                          cursor: pointer;
+                          border: none;
+                          &:focus{
+                                
+                                background-color: white;
+                                color: var(--couleur-secondaire);
+                          }
+                    }
+                    &:focus{
+                          background-color: white;
+                    }
+              }
+              textarea{
+                    flex: 1;
+              }
+        }
+  }
+}
 
+}

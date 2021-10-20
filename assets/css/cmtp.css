@@ -1,27 +1,3 @@
-.bloginfo {
-  font-size: 76px;
-  font-weight: bold;
-  color: white;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-h1 {
-  font-size: 3.5rem !important;
-  color: white;
-  text-underline-offset: 0.5rem;
-}
-
-h2 {
-  text-align: center;
-  margin: 2.5rem 0;
-  color: red;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-}
-
 header.cmtp {
   z-index: 999;
   font-size: 1.2rem;
@@ -78,6 +54,11 @@ header.cmtp .bandeau__child:nth-child(3) .tel {
   color: white;
 }
 
+.titre--cmtp {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
 nav.cmtp {
   z-index: 99999;
   display: -webkit-box;
@@ -103,7 +84,7 @@ nav.cmtp div ul li {
   list-style: none;
 }
 
-nav.cmtp div ul li:nth-last-child(1) {
+nav.cmtp div ul #menu-item-200 {
   border: 3px solid red;
   color: white;
 }
@@ -189,7 +170,7 @@ nav.cmtp .burger {
   color: red !important;
   -webkit-text-decoration-line: none !important;
           text-decoration-line: none !important;
-  font-size: 3rem !important;
+  font-size: 3rem;
 }
 
 .section__cmtp .slide_gutemberg {
@@ -278,6 +259,24 @@ nav.cmtp .burger {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.section__cmtp__form form {
+  background-color: var(--couleur-secondaire) !important;
+}
+
+.section__cmtp__form form [type=submit] {
+  width: 10rem;
+  margin-left: auto;
+  background-color: var(--couleur-secondaire);
+  border: white solid 1px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.section__cmtp__form h3 {
+  color: white !important;
 }
 
 footer.cmtp {
@@ -457,11 +456,9 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
 }
 
 @media (max-width: 867px) {
-  .bloginfo {
-    font-size: 56px;
+  .titre--cmtp {
+    font-size: 3rem;
     font-weight: bold;
-    color: white;
-    text-align: center;
   }
   h1 {
     font-size: 2rem !important;
@@ -469,6 +466,14 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
     -webkit-text-decoration-color: var(--couleur-tertiaire);
             text-decoration-color: var(--couleur-tertiaire);
     text-underline-offset: 0.5rem;
+  }
+  h2 {
+    text-align: center;
+    margin: 2.5rem 0;
+    color: red;
+    -webkit-text-decoration-line: none !important;
+            text-decoration-line: none !important;
+    font-size: 1.5rem !important;
   }
   header.cmtp .bandeau__child:nth-child(1), header.cmtp .bandeau__child:nth-child(3) {
     display: none;

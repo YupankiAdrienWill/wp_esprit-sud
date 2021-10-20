@@ -14,8 +14,7 @@ section.page {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   background-color: rgba(16, 177, 185, 0.2);
   /* h3{
             font-size: 2rem;
@@ -337,7 +336,7 @@ section.catalogue img {
     padding: 1rem 1rem 1rem 1rem;
   }
   section.page p {
-    /* width: 70%; */
+    width: 100%;
     font-size: 16px;
     line-height: 20px;
     padding: 0.5rem 0 0 0.5rem;
@@ -430,7 +429,7 @@ section.catalogue img {
     padding: 1.5rem 0 1.5rem 01.5rem;
   }
   section.page--2 p {
-    /* width: 70%; */
+    width: 90%;
     font-size: 16px;
     line-height: 20px;
     padding: 1rem 1rem 1rem 1rem;

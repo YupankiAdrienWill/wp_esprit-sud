@@ -5,12 +5,12 @@ nav{
                 display: flex;
                       li{
                             list-style: none;
-                                  &:nth-last-child(1){
-                                              border: 3px solid yellow;
-                                              color: #10B1B9;
-                                         }
                                   
-                      }
+                                  
+                      } #menu-item-200{
+                        border: 3px solid yellow;
+                        color: #10B1B9 !important;
+                   }
           }
     }
     z-index: 99999;
@@ -42,7 +42,7 @@ nav{
     .sub-menu{
           display: none;
           position: absolute;
-          top: 1.8rem;
+          top: 2rem;
           background-color: var(--couleur-quaternaire);
           padding: 0.5rem 0.5rem 1.5rem 0.5rem;
           opacity: 0.9;

@@ -122,13 +122,13 @@ section.front_landing{
      /*    img{
             padding: 1.5rem 0 1.5rem 01.5rem;
         } */
-        p{
+        /* p{
             width: 70%;
             font-size: 24px;
             line-height: 36px; 
             padding: 2rem 0 0 2rem;
 
-        }
+        } */
        /*  button{
             font-family: 'ITCAvantGardePro-Md';
             width: 595px;
@@ -192,10 +192,10 @@ section.front_landing--2{
             padding: 1.5rem 0 1.5rem 01.5rem;
         }
         p{
-            width: 70%;
+            width: 100%;
             font-size: 24px;
             line-height: 36px; 
-            padding: 2rem 0 0 2rem;
+            /*padding: 2rem 0 0 2rem; */
 
         }
 /*         button{
@@ -253,14 +253,14 @@ section.front_landing--2{
 
 @media (max-width:867px) {
 
-    h1{
+/*     h1{
     
         font-size:2rem !important;
         color: var(--couleur-secondaire);
         text-decoration-color: var(--couleur-tertiaire);
         text-underline-offset: 0.5rem;
     
-}
+} */
 
 .main__container--landing{
         display: flex;
@@ -345,8 +345,8 @@ section.front_landing{
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        padding-top:3rem;
-        padding-bottom: 3rem;
+       /*  padding-top:3rem;
+        padding-bottom: 3rem; */
             h3{
                 font-size: 2rem;
                 color: var(--couleur-primaire);
@@ -359,10 +359,10 @@ section.front_landing{
                 padding: 0;
             }
             p{
-                width: 70%;
+                width: 90%;
                 font-size: 16px;
                 line-height: 20px; 
-                padding: 2rem 0 0 2rem;
+                /* padding: 2rem 0 0 2rem; */
     
             }
             /* div button{
@@ -430,10 +430,10 @@ section.front_landing--2{
                 padding: 0;
             }
             p{
-                width: 70%;
+                width: 90%;
                 font-size: 16px;
                 line-height: 20px; 
-                padding: 2rem 0 0 2rem;
+                /* padding: 2rem 0 0 2rem; */
     
             }
            /*  div 

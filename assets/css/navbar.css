@@ -23,9 +23,9 @@ nav div ul li {
   list-style: none;
 }
 
-nav div ul li:nth-last-child(1) {
+nav div ul #menu-item-200 {
   border: 3px solid yellow;
-  color: #10B1B9;
+  color: #10B1B9 !important;
 }
 
 nav .forMobile {
@@ -56,7 +56,7 @@ nav div {
 nav .sub-menu {
   display: none;
   position: absolute;
-  top: 1.8rem;
+  top: 2rem;
   background-color: var(--couleur-quaternaire);
   padding: 0.5rem 0.5rem 1.5rem 0.5rem;
   opacity: 0.9;

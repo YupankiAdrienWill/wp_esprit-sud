@@ -28,6 +28,7 @@ h1{
 
         font-size:3.5rem;
         color: var(--couleur-secondaire) !important;
+        padding-left: 2rem;
 
     
 }
@@ -35,6 +36,7 @@ h1{
 h2{
     font-size: 3rem ;
     color: var(--couleur-primaire)!important ;
+    text-align: center;
 
 }
 h3{
@@ -343,7 +345,7 @@ section.avis{
 }
 
 /* Next & previous buttons */
-  .prev,
+ /*  .prev,
   .next {
     cursor: pointer;
     position: absolute;
@@ -357,15 +359,15 @@ section.avis{
     user-select: none;
     -webkit-user-select: none;
   }
-  
+   */
   /* Position the "next button" to the right */
-  .next {
+/*   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+  } */
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
+/*   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -400,7 +402,7 @@ section.avis{
       object-fit: cover;
     }
   }
-
+ */
 
 @media (max-width:867px) {
     .feuille{
@@ -414,6 +416,7 @@ section.avis{
         font-weight: bold;
         color: white;
      margin: auto;
+     text-align: center;
     }
 
     .titre{
