@@ -23,23 +23,23 @@ body {
 }
 
 p {
-  font-size: 24px !important;
+  font-size: 0.7rem !important;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: var(--couleur-secondaire) !important;
   padding-left: 2rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: var(--couleur-primaire) !important;
   text-align: center;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--couleur-secondaire);
 }
 
@@ -51,33 +51,6 @@ h3 {
   padding-bottom: 25px;
   margin-top: 4rem;
   margin-bottom: 4rem;
-}
-
-.btn-front {
-  background: var(--couleur-tertiaire);
-  /* border: 4px solid var(--couleur-secondaire); */
-  color: var(--couleur-quaternaire);
-  font-size: 18px;
-  border-radius: 7px;
-  width: 300px;
-  height: 55px;
-  border-style: none;
-  margin-top: 0.5rem;
-  font-weight: bold;
-}
-
-.btn-front:hover {
-  background: var(--couleur-quaternaire);
-  /* border: 4px solid var(--couleur-secondaire); */
-  color: white;
-  font-size: 18px;
-  border-radius: 7px;
-  width: 300px;
-  height: 55px;
-  border-style: none;
-  margin-top: 0.5rem;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 a {
