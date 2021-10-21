@@ -88,9 +88,9 @@ nav.cmtp div ul li {
   list-style: none;
 }
 
-nav.cmtp div ul #menu-item-200 {
-  border: 3px solid red;
-  color: white;
+nav.cmtp div ul #menu-item-200 a {
+  border: 3px solid red !important;
+  color: white !important;
 }
 
 nav.cmtp .forMobile {
@@ -441,7 +441,6 @@ footer.cmtp .footer__top--bleu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem 1rem 1rem 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -573,7 +572,7 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
   nav.cmtp .menu .forMobile span#trait {
     width: 50%;
     height: 5px;
-    background-color: red;
+    background-color: white;
     text-align: center;
   }
   nav.cmtp .menu .forMobile ul {

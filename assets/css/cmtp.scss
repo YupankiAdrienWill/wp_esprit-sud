@@ -54,8 +54,11 @@ nav.cmtp{
                                    
                                     
                         }#menu-item-200{
-                              border: 3px solid red;
-                                                color: white;
+                              a{
+                                    border: 3px solid red !important;
+                                                color: white !important;
+                              }
+                              
                         }
             }
       }
@@ -325,7 +328,6 @@ footer.cmtp {
 	}
 	.footer__top--bleu {
 		display: flex;
-		padding: 1rem 1rem 1rem 1rem;
 		align-items: center;
 		justify-content: center;
 		a{
@@ -442,7 +444,7 @@ footer.cmtp {
                               span#trait{
                                    width: 50%;
                                    height: 5px;
-                                   background-color: red; 
+                                   background-color: white; 
                                    text-align: center;
                               }
                               ul{

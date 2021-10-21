@@ -12,6 +12,10 @@ footer {
 	} */
 }
 
+footer .footer__logoSocialNetwork {
+  padding-top: 1rem;
+}
+
 footer p {
   font-size: 18px;
 }

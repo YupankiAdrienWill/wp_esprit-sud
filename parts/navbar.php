@@ -10,7 +10,7 @@
             <img class="logoTxt" src="<?php if($page_courrante === 'cmtp'){echo bloginfo('template_directory').'/assets/ico/logo_cmtp.png';}else{echo bloginfo('template_directory').'/assets/ico/logo_esprit_sud_text_alpha.png';} ?>" alt="logo esprit sud">
       </div>
       <div class="bandeau__child">
-            <a href="https://facebook.com"><img class="logoSocialNetwork" src="<?php bloginfo('template_directory'); ?>/assets/ico/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.facebook.com/Esprit-Sud-by-CMTP-351693899243668/"><img class="logoSocialNetwork" src="<?php bloginfo('template_directory'); ?>/assets/ico/facebook.png" alt="logo facebook"></a>
             <div class="tel"><p>06 21 00 45 10</p></div>
       </div>
 </header>
