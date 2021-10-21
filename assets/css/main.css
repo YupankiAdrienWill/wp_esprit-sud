@@ -23,7 +23,7 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -533,6 +533,9 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
     color: white;
     margin: auto;
     text-align: center;
+  }
+  .header {
+    display: none;
   }
   .titre {
     font-size: 3rem;

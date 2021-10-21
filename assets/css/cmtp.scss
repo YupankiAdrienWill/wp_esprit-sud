@@ -346,7 +346,9 @@ footer.cmtp {
 
 
 @media (max-width:867px) {
-
+      header.cmtp{
+            display: none !important;
+      }
       .titre--cmtp{
             font-size: 3rem;
             font-weight: bold;
