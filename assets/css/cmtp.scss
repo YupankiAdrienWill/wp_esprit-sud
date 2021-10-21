@@ -197,7 +197,6 @@ nav.cmtp{
                   background-color: var(--couleur-secondaire);
                   p{
                         color: white;
-                        padding: 0.5rem;
                   }
                   input, textarea{
                         padding: 1rem;
@@ -235,7 +234,7 @@ nav.cmtp{
             }
 
 
-
+      }
 footer.cmtp {
 	color: white;
 
@@ -368,6 +367,7 @@ footer.cmtp {
 		color: var(--couleur-primaire);
 	}
 }
+
 
 
 
@@ -553,4 +553,4 @@ footer.cmtp {
             }
            
       }     
-}}
+}

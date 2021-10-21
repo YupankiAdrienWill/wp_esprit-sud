@@ -273,7 +273,6 @@ nav.cmtp .burger {
 
 .section__cmtp__form form p {
   color: white;
-  padding: 0.5rem;
 }
 
 .section__cmtp__form form input, .section__cmtp__form form textarea {
@@ -312,30 +311,30 @@ nav.cmtp .burger {
   color: white !important;
 }
 
-.section__cmtp__form footer.cmtp {
+footer.cmtp {
   color: white;
 }
 
-.section__cmtp__form footer.cmtp section:nth-child(1) {
+footer.cmtp section:nth-child(1) {
   height: 5rem;
 }
 
-.section__cmtp__form footer.cmtp section:nth-child(2) {
+footer.cmtp section:nth-child(2) {
   height: 4rem;
   background-color: white;
 }
 
-.section__cmtp__form footer.cmtp section:nth-child(3) {
+footer.cmtp section:nth-child(3) {
   background-color: var(--couleur-secondaire);
   padding-top: 2rem;
 }
 
-.section__cmtp__form footer.cmtp section:nth-child(4) {
+footer.cmtp section:nth-child(4) {
   background-color: var(--couleur-secondaire);
   /* height: 4rem; */
 }
 
-.section__cmtp__form footer.cmtp .footer__container {
+footer.cmtp .footer__container {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,17 +344,17 @@ nav.cmtp .burger {
   padding-bottom: 2rem;
 }
 
-.section__cmtp__form footer.cmtp .footer__feuille {
+footer.cmtp .footer__feuille {
   position: absolute;
   height: 28rem;
   top: -17rem;
 }
 
-.section__cmtp__form footer.cmtp div:nth-child(odd) {
+footer.cmtp div:nth-child(odd) {
   padding-top: 2rem;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--horaire {
+footer.cmtp .footer__container--horaire {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,27 +364,27 @@ nav.cmtp .burger {
           flex-direction: column;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--horaire span:nth-child(1) {
+footer.cmtp .footer__container--horaire span:nth-child(1) {
   text-align: center;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--horaire span:nth-child(1) p :nth-child(even) {
+footer.cmtp .footer__container--horaire span:nth-child(1) p :nth-child(even) {
   color: red;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--horaire span:nth-child(even) {
+footer.cmtp .footer__container--horaire span:nth-child(even) {
   color: white !important;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--horaire span:nth-child(even) :nth-child(odd) {
+footer.cmtp .footer__container--horaire span:nth-child(even) :nth-child(odd) {
   color: red;
 }
 
-.section__cmtp__form footer.cmtp .padding {
+footer.cmtp .padding {
   padding: 0.5rem;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--adresse {
+footer.cmtp .footer__container--adresse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,19 +395,19 @@ nav.cmtp .burger {
   text-align: center;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--adresse img {
+footer.cmtp .footer__container--adresse img {
   width: 150px;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--adresse span {
+footer.cmtp .footer__container--adresse span {
   color: white !important;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--adresse span :nth-child(odd) {
+footer.cmtp .footer__container--adresse span :nth-child(odd) {
   color: red;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--contact {
+footer.cmtp .footer__container--contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,25 +419,25 @@ nav.cmtp .burger {
   color: white !important;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--contact img {
+footer.cmtp .footer__container--contact img {
   height: 40px;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--contact a {
+footer.cmtp .footer__container--contact a {
   text-decoration: none;
 }
 
-.section__cmtp__form footer.cmtp .footer__container--contact a.footer__buttonContact {
+footer.cmtp .footer__container--contact a.footer__buttonContact {
   padding: 1rem;
   border: 3px solid red;
   color: white;
 }
 
-.section__cmtp__form footer.cmtp .padding--spec {
+footer.cmtp .padding--spec {
   padding: 1.5rem;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu {
+footer.cmtp .footer__top--bleu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,52 +450,52 @@ nav.cmtp .burger {
           justify-content: center;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu a {
+footer.cmtp .footer__top--bleu a {
   color: white;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu #menu-item-217 a {
+footer.cmtp .footer__top--bleu #menu-item-217 a {
   color: red !important;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu a {
+footer.cmtp .footer__top--bleu a {
   padding: 0.5rem;
   margin: 0 0.5rem;
   color: white;
   border-bottom: transparent 3px solid;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu a:hover {
+footer.cmtp .footer__top--bleu a:hover {
   color: red;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu div ul {
+footer.cmtp .footer__top--bleu div ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu div ul li {
+footer.cmtp .footer__top--bleu div ul li {
   list-style: none;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu div ul li:nth-last-child(1) {
+footer.cmtp .footer__top--bleu div ul li:nth-last-child(1) {
   color: #10B1B9;
 }
 
-.section__cmtp__form footer.cmtp .footer__top--bleu span:nth-child(3) {
+footer.cmtp .footer__top--bleu span:nth-child(3) {
   color: var(--couleur-primaire);
 }
 
 @media (max-width: 867px) {
-  .section__cmtp__form header.cmtp {
+  header.cmtp {
     display: none !important;
   }
-  .section__cmtp__form .titre--cmtp {
+  .titre--cmtp {
     font-size: 3rem;
     font-weight: bold;
   }
-  .section__cmtp__form h1 {
+  h1 {
     font-size: 2rem !important;
     color: var(--couleur-secondaire);
     -webkit-text-decoration-color: var(--couleur-tertiaire);
@@ -504,7 +503,7 @@ nav.cmtp .burger {
     text-underline-offset: 0.5rem;
     text-align: center;
   }
-  .section__cmtp__form h2 {
+  h2 {
     text-align: center;
     /* margin: 2.5rem 0; */
     color: red;
@@ -512,19 +511,19 @@ nav.cmtp .burger {
             text-decoration-line: none !important;
     font-size: 1.5rem !important;
   }
-  .section__cmtp__form h3 {
+  h3 {
     color: var(--couleur-secondaire) !important;
   }
-  .section__cmtp__form header.cmtp .bandeau__child:nth-child(1), .section__cmtp__form header.cmtp .bandeau__child:nth-child(3) {
+  header.cmtp .bandeau__child:nth-child(1), header.cmtp .bandeau__child:nth-child(3) {
     display: none;
   }
-  .section__cmtp__form nav.cmtp {
+  nav.cmtp {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 0;
   }
-  .section__cmtp__form nav.cmtp .menu {
+  nav.cmtp .menu {
     z-index: 999;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -532,19 +531,19 @@ nav.cmtp .burger {
     padding: 0.8rem;
     display: none;
   }
-  .section__cmtp__form nav.cmtp .menu .current_page {
+  nav.cmtp .menu .current_page {
     margin-bottom: 1rem;
     /* span{
                               color:var(--couleur-tertiaire)
                         } */
   }
-  .section__cmtp__form nav.cmtp .menu .current_page p {
+  nav.cmtp .menu .current_page p {
     color: red;
   }
-  .section__cmtp__form nav.cmtp .menu .anav:nth-child(7) {
+  nav.cmtp .menu .anav:nth-child(7) {
     margin-top: 1rem;
   }
-  .section__cmtp__form nav.cmtp .menu .forMobile {
+  nav.cmtp .menu .forMobile {
     display: block;
     text-align: center;
     padding-bottom: 2rem;
@@ -571,13 +570,13 @@ nav.cmtp .burger {
     width: 100vw;
     background-color: var(--couleur-secondaire);
   }
-  .section__cmtp__form nav.cmtp .menu .forMobile span#trait {
+  nav.cmtp .menu .forMobile span#trait {
     width: 50%;
     height: 5px;
     background-color: red;
     text-align: center;
   }
-  .section__cmtp__form nav.cmtp .menu .forMobile ul {
+  nav.cmtp .menu .forMobile ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -586,39 +585,39 @@ nav.cmtp .burger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .section__cmtp__form nav.cmtp .menu .forMobile ul li {
+  nav.cmtp .menu .forMobile ul li {
     list-style: none;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .section__cmtp__form nav.cmtp .menu .forMobile ul li:nth-last-child(1) {
+  nav.cmtp .menu .forMobile ul li:nth-last-child(1) {
     border: 3px solid red;
   }
-  .section__cmtp__form nav.cmtp .menu .forMobile img {
+  nav.cmtp .menu .forMobile img {
     height: 4rem;
   }
-  .section__cmtp__form nav.cmtp .menu div {
+  nav.cmtp .menu div {
     padding-bottom: 1rem;
   }
-  .section__cmtp__form nav.cmtp .menu div:nth-child(7) {
+  nav.cmtp .menu div:nth-child(7) {
     margin-top: 2rem;
   }
-  .section__cmtp__form nav.cmtp .menu a {
+  nav.cmtp .menu a {
     padding: 0.5rem;
     margin: 0 0.5rem;
     color: white;
     border-bottom: transparent 3px solid;
   }
-  .section__cmtp__form nav.cmtp .menu a:active {
+  nav.cmtp .menu a:active {
     color: red;
   }
-  .section__cmtp__form nav.cmtp #menu-item-202:hover .sub-menu, .section__cmtp__form nav.cmtp #dropdown_cmtp:hover .dropdown_content {
+  nav.cmtp #menu-item-202:hover .sub-menu, nav.cmtp #dropdown_cmtp:hover .dropdown_content {
     display: none;
   }
-  .section__cmtp__form nav.cmtp .sub-menu {
+  nav.cmtp .sub-menu {
     display: none !important;
   }
-  .section__cmtp__form nav.cmtp .burger {
+  nav.cmtp .burger {
     margin: 1.5rem;
     width: 3rem;
     height: 3rem;
@@ -633,39 +632,39 @@ nav.cmtp .burger {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .section__cmtp__form nav.cmtp .burger div {
+  nav.cmtp .burger div {
     height: 0.5rem;
     width: 100%;
     border-radius: 0.25rem;
     background-color: white;
   }
-  .section__cmtp__form nav.cmtp .burger a {
+  nav.cmtp .burger a {
     margin: 0;
     padding: 0;
   }
-  .section__cmtp__form nav.cmtp .burger--logo img {
+  nav.cmtp .burger--logo img {
     height: 3rem;
   }
-  .section__cmtp__form nav.cmtp nav.reset {
+  nav.cmtp nav.reset {
     position: static;
   }
-  .section__cmtp__form nav.cmtp span#close {
+  nav.cmtp span#close {
     color: red;
     font-size: 56px;
     font-weight: bold;
   }
-  .section__cmtp__form nav.cmtp span#close:active {
+  nav.cmtp span#close:active {
     color: red;
   }
-  .section__cmtp__form nav.cmtp .tel {
+  nav.cmtp .tel {
     color: red;
   }
-  .section__cmtp__form .section__cmtp--1 {
+  .section__cmtp--1 {
     padding: 0rem !important;
     color: var(--couleur-secondaire);
     font-size: 1.2rem;
   }
-  .section__cmtp__form .section__cmtp--1 .slide_gutemberg {
+  .section__cmtp--1 .slide_gutemberg {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -679,7 +678,7 @@ nav.cmtp .burger {
     font-size: 24px;
     background-color: var(--couleur-secondaire);
   }
-  .section__cmtp__form .section__cmtp--1 .slide_gutemberg h3 {
+  .section__cmtp--1 .slide_gutemberg h3 {
     color: red;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -690,7 +689,7 @@ nav.cmtp .burger {
             justify-content: center;
     font-size: 2rem;
   }
-  .section__cmtp__form .section__cmtp--1 .slide_gutemberg p {
+  .section__cmtp--1 .slide_gutemberg p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
