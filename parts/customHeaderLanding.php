@@ -2,7 +2,6 @@
 <section class='header--landing' style="background-image: url('<?php the_post_thumbnail_url() ?>');"> 
             <div class='bloginfo'><?php bloginfo('name' )?></div>
             <div class ='container__bandeau--landing'>
-                <!-- <div><img src="<?php bloginfo('template_directory'); ?>/assets/ico/feuille-2.svg" alt="" srcset=""></div> -->
                 <div class='container__bandeau--2--landing'>
                     <div class="texte--landing">
                     <div class='titre'><?php the_title(); ?></div>
