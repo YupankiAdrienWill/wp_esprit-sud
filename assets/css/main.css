@@ -23,29 +23,17 @@ body {
 }
 
 p {
-<<<<<<< HEAD
-  font-size: 0.7rem !important;
-}
-
-h1 {
-  font-size: 2.5rem;
-=======
   font-size: 1.2rem;
 }
 
 h1 {
   font-size: 3rem;
->>>>>>> williams
   color: var(--couleur-secondaire) !important;
   padding-left: 2rem;
 }
 
 h2 {
-<<<<<<< HEAD
-  font-size: 1.5rem;
-=======
   font-size: 2.5rem;
->>>>>>> williams
   color: var(--couleur-primaire) !important;
   text-align: center;
 }
@@ -53,6 +41,33 @@ h2 {
 h3 {
   font-size: 1rem;
   color: var(--couleur-secondaire);
+}
+
+.btn-front {
+  background: var(--couleur-tertiaire);
+  /* border: 4px solid var(--couleur-secondaire); */
+  color: var(--couleur-quaternaire);
+  font-size: 18px;
+  border-radius: 7px;
+  width: 300px;
+  height: 55px;
+  border-style: none;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.btn-front:hover {
+  background: var(--couleur-quaternaire);
+  /* border: 4px solid var(--couleur-secondaire); */
+  color: white;
+  font-size: 18px;
+  border-radius: 7px;
+  width: 300px;
+  height: 55px;
+  border-style: none;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .bloginfo {

@@ -196,29 +196,35 @@ nav.cmtp{
             & form{
                   background-color: var(--couleur-secondaire);
                   p{
-                        color: white !important;
+                        color: white;
+                        padding: 0.5rem;
                   }
                   input, textarea{
-                        padding: 0.4rem;
+                        padding: 1rem;
                         margin: 0.4rem 0.3rem;
                   background-color: var(--couleur-secondaire)!important;
+                  border: solid 1px white;
+                  color: white ;
                   [type=submit]{
                         width: 10rem;
                           margin-left: auto;
+                          padding-bottom: 0.7rem;
                           background-color: var(--couleur-secondaire);
                           border: white solid 1px !important;
                           color: white !important;
                           cursor: pointer;
                           border: none;
-                          &:focus{
+                          align-items: center;
+                          text-align: center;
+                        /*   &:focus{
                                     
-                              background-color: white;
-                              color: var(--couleur-secondaire);
+                              background-color: white !important;
+                              color: var(--couleur-secondaire) !important;
                         }
                   }
                   &:focus{
-                        background-color: white;
-                  }
+                        background-color: white !important;
+                  } */
                   }
             }
       }
@@ -379,6 +385,7 @@ footer.cmtp {
             color: var(--couleur-secondaire);
             text-decoration-color: var(--couleur-tertiaire);
             text-underline-offset: 0.5rem;
+            text-align: center;
         
     }
 
@@ -388,6 +395,9 @@ footer.cmtp {
             color: rgb(255, 0, 0);
             text-decoration-line:none !important;
             font-size: 1.5rem !important;
+      }
+      h3{
+            color: var(--couleur-secondaire) !important;
       }
       header.cmtp{
             .bandeau__child:nth-child(1), .bandeau__child:nth-child(3){
@@ -543,4 +553,4 @@ footer.cmtp {
             }
            
       }     
-}
+}}
