@@ -43,6 +43,8 @@ h3{
     font-size: 1rem;
     color: var(--couleur-secondaire);
 }
+
+
 .btn-front{
     background: var(--couleur-tertiaire);
              /* border: 4px solid var(--couleur-secondaire); */
@@ -318,12 +320,7 @@ section.avis{
 
 
 @media (max-width:867px) {
-    .feuille{
-        display: none;
-    }
-    .feuille--2{
-        display: none;
-    }
+
     .bloginfo{
         font-size: 56px;
         font-weight: bold;
@@ -336,7 +333,7 @@ section.avis{
     } */
 
     .titre{
-        font-size: 3rem;
+        font-size: 3rem !important;
         color: var(--couleur-tertiaire);
     }
 
@@ -366,6 +363,7 @@ section.avis{
 
 
 .main__container--page{
+
         display: flex;
         flex-direction: column;
             section:nth-child(2){
@@ -442,7 +440,9 @@ section.avis{
     display: flex;
     flex-direction: column;
 
-    
+    #bloginfo_produit{
+        font-size: 1.5rem;
+    }
         section.header--produits{
         display: flex;
         flex-direction: column;

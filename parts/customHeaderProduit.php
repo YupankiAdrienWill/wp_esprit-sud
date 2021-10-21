@@ -3,7 +3,8 @@
                 <div class ='container__bandeau--produits'>
                                     <div class='container__bandeau--2--produits'>
                         <div class="texte--produits">
-                             <?php bloginfo('name' )?><br><div class='titre'><?php the_title(); ?></div>
+                            <div id='bloginfo_produit'><?php bloginfo('name' )?></div>
+                             <div class='titre'><?php the_title(); ?></div>
                         </div>
                         <div class="carré--produits">
                             <span id='carré--produits'>

@@ -167,26 +167,7 @@
   }
 } 
 
-.backToTop{
-      display: none;
-      position: fixed;
-      right: 0;
-      bottom: 5rem;
-      width: 4rem;
-      height: 4rem;
-      background-color: #fecf3496;
-      border-bottom-left-radius: 1rem;
-      border-top-left-radius: 1rem;
-      z-index: 1000000;
-      align-items: center;
-      justify-content: center;
-      img{
-            width: 2rem;
-      }
-}
-.backToTop:hover, .backToTop:active{
-      background-color: #FECF34;
-}
+
 
 header{
       z-index: 999;
@@ -237,6 +218,7 @@ header{
   
   @media (max-width:867px) {
   header{
+    justify-content: center !important;
       .bandeau__child:nth-child(1), .bandeau__child:nth-child(3){
             display: none;
       }

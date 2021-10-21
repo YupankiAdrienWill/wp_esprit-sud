@@ -407,12 +407,6 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
 }
 
 @media (max-width: 867px) {
-  .feuille {
-    display: none;
-  }
-  .feuille--2 {
-    display: none;
-  }
   .bloginfo {
     font-size: 56px;
     font-weight: bold;
@@ -424,7 +418,7 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
         display: none;
     } */
   .titre {
-    font-size: 3rem;
+    font-size: 3rem !important;
     color: var(--couleur-tertiaire);
   }
   p {
@@ -557,6 +551,9 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .main__container--produits #bloginfo_produit {
+    font-size: 1.5rem;
   }
   .main__container--produits section.header--produits {
     display: -webkit-box;

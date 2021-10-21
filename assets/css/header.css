@@ -229,33 +229,6 @@
   }
 }
 
-.backToTop {
-  display: none;
-  position: fixed;
-  right: 0;
-  bottom: 5rem;
-  width: 4rem;
-  height: 4rem;
-  background-color: #fecf3496;
-  border-bottom-left-radius: 1rem;
-  border-top-left-radius: 1rem;
-  z-index: 1000000;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.backToTop img {
-  width: 2rem;
-}
-
-.backToTop:hover, .backToTop:active {
-  background-color: #FECF34;
-}
-
 header {
   z-index: 999;
   font-size: 1.2rem;
@@ -321,6 +294,11 @@ header .tel p {
 }
 
 @media (max-width: 867px) {
+  header {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
   header .bandeau__child:nth-child(1), header .bandeau__child:nth-child(3) {
     display: none;
   }
