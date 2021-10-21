@@ -13,6 +13,10 @@ section.produits {
   background-color: #fcc92313;
 }
 
+section.produits h2 {
+  font-size: 1.5rem !important;
+}
+
 section.produits div.wp-block-media-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,6 +56,9 @@ section.produits div.wp-block-media-text__content img {
 }
 
 @media (max-width: 867px) {
+  section.produits h2 {
+    font-size: 1.5rem !important;
+  }
   section.produits div.wp-block-media-text {
     display: -webkit-box;
     display: -ms-flexbox;
