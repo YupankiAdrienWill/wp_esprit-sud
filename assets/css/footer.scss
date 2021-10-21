@@ -7,6 +7,9 @@
 
 footer {
 	color: white;
+	p{
+		font-size: 18px;
+	}
 
 	section:nth-child(1) {
 		height: 5rem;
@@ -34,9 +37,9 @@ footer {
 		height: 28rem;
 		top: -17rem;
 	}
-	div:nth-child(odd) {
+/* 	div:nth-child(odd) {
 		padding-top: 2rem;
-	}
+	} */
 	.footer__container--horaire {
 		display: flex;
 		flex-direction: column;
@@ -151,7 +154,7 @@ footer {
 		.footer__feuille {
 			display: none;
 		}
-
+		
 		.footer__container {
 			flex-wrap: wrap;
 			display: flex;

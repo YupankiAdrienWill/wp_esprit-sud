@@ -7,6 +7,13 @@
 
 footer {
   color: white;
+  /* 	div:nth-child(odd) {
+		padding-top: 2rem;
+	} */
+}
+
+footer p {
+  font-size: 18px;
 }
 
 footer section:nth-child(1) {
@@ -42,10 +49,6 @@ footer .footer__feuille {
   position: absolute;
   height: 28rem;
   top: -17rem;
-}
-
-footer div:nth-child(odd) {
-  padding-top: 2rem;
 }
 
 footer .footer__container--horaire {
