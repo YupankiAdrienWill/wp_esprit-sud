@@ -124,8 +124,8 @@ nav .burger {
   nav .menu .forMobile {
     display: block;
     text-align: center;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    /* padding-bottom: 2rem;
+                      margin-bottom: 2rem; */
     border-bottom: 3px solid var(--couleur-primaire);
     color: white;
     display: -webkit-box;
@@ -176,10 +176,10 @@ nav .burger {
     height: 4rem;
   }
   nav .menu div {
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
   }
   nav .menu div:nth-child(7) {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   nav .menu a {
     padding: 0.5rem;
@@ -233,7 +233,7 @@ nav .burger {
   }
   span#close {
     color: #f1f1f1;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: bold;
   }
   span#close:active {

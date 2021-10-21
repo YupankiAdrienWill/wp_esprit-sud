@@ -101,8 +101,8 @@ nav{
                   .forMobile{
                       display: block;
                       text-align: center;
-                      padding-bottom: 2rem;
-                      margin-bottom: 2rem;
+                      /* padding-bottom: 2rem;
+                      margin-bottom: 2rem; */
                       border-bottom: 3px solid var(--couleur-primaire);
                       color: white;
                       display: flex;
@@ -140,10 +140,10 @@ nav{
                       }
                 }
                 div{
-                      padding-bottom: 1rem;
+                      padding-bottom: 0rem;
                 }
                 div:nth-child(7){
-                      margin-top: 2rem;
+                      margin-top: 0.5rem;
                 }
                 a{
                   padding: 0.5rem;
@@ -193,7 +193,7 @@ nav{
     }
     span#close{
       color: #f1f1f1;
-      font-size: 56px;
+      font-size: 36px;
       font-weight: bold;
     }
     span#close:active{

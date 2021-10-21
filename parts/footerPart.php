@@ -7,8 +7,7 @@
 
 
         <div class="footer__container--horaire">
-        <div><img class='footer__feuille' src="<?php bloginfo('template_directory'); ?>../assets/ico/feuille.svg" alt="" srcset=""></div>
-        <?php
+                <?php
 $loop = new WP_Query( array(
     'post_type' => 'horaires'
   )
