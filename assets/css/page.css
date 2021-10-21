@@ -112,6 +112,9 @@ section.page--2 {
                 text-decoration-color: var(--couleur-tertiaire);
                 text-underline-offset: 0.5rem;
         } */
+  /*  img{
+            padding: 1.5rem 0 1.5rem 01.5rem;
+        } */
   /*  button{
             width: 595px;
             height: 55px;
@@ -137,12 +140,8 @@ section.page--2 {
         } */
 }
 
-section.page--2 img {
-  padding: 1.5rem 0 1.5rem 01.5rem;
-}
-
 section.page--2 p {
-  width: 50%;
+  /* width: 50%; */
   line-height: 36px;
   padding: 1rem 0 2rem 2rem;
   margin: auto;

@@ -22,11 +22,11 @@ body{
 
 
 p{
-    font-size: 24px !important;
+    font-size: 1.2rem !important;
 }
 h1{
 
-        font-size:3.5rem;
+        font-size:3rem;
         color: var(--couleur-secondaire) !important;
         padding-left: 2rem;
 
@@ -34,7 +34,7 @@ h1{
 }
 
 h2{
-    font-size: 3rem ;
+    font-size: 2.5rem ;
     color: var(--couleur-primaire)!important ;
     text-align: center;
 
@@ -450,13 +450,13 @@ section.avis{
         font-size: 18px !important;
     }
     h1{
+
+        font-size:2rem;
+        color: var(--couleur-secondaire) !important;
+        padding-left: 0rem;
+
     
-            font-size:2rem !important;
-            color: var(--couleur-secondaire);
-            text-decoration-color: var(--couleur-tertiaire);
-            /* text-underline-offset: 0.5rem; */
-        
-    }
+}
     
     h2{
         font-size: 1.5rem !important;
