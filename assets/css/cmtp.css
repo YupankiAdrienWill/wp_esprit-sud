@@ -59,6 +59,10 @@ header.cmtp .bandeau__child:nth-child(3) .tel {
   font-weight: bold;
 }
 
+.diapo_border {
+  border: solid 3px red;
+}
+
 nav.cmtp {
   z-index: 99999;
   display: -webkit-box;
@@ -152,25 +156,24 @@ nav.cmtp .burger {
 }
 
 .section__cmtp {
-  background-color: var(--couleur-secondaire);
-  padding: 2rem;
-  color: white;
+  padding: 2rem 1rem 1rem 1rem;
+  color: var(--couleur-secondaire);
   font-size: 1.2rem;
 }
 
 .section__cmtp h1 {
   font-size: 3.5rem;
-  color: white !important;
+  color: var(--couleur-secondaire);
   text-underline-offset: 0.5rem;
 }
 
 .section__cmtp h2 {
   text-align: center;
-  margin: 2.5rem 0;
+  /* margin: 2.5rem 0; */
   color: red !important;
   -webkit-text-decoration-line: none !important;
           text-decoration-line: none !important;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .section__cmtp .slide_gutemberg {
@@ -193,14 +196,14 @@ nav.cmtp .burger {
 }
 
 .section__cmtp--1 {
-  padding: 2rem;
+  /* padding: 2rem; */
   color: var(--couleur-secondaire);
   font-size: 1.2rem;
 }
 
 .section__cmtp--1 h2 {
   text-align: center;
-  margin: 2.5rem 0;
+  /* margin: 2.5rem 0; */
   color: red;
 }
 
@@ -241,7 +244,6 @@ nav.cmtp .burger {
 
 .section__cmtp__form {
   padding: 1rem 1rem 1rem 1rem;
-  background-color: var(--couleur-secondaire);
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,6 +257,10 @@ nav.cmtp .burger {
           align-items: center;
 }
 
+.section__cmtp__form p {
+  color: var(--couleur-secondaire);
+}
+
 .section__cmtp__form .submit_cmtp {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -262,20 +268,39 @@ nav.cmtp .burger {
 }
 
 .section__cmtp__form form {
+  background-color: var(--couleur-secondaire);
+}
+
+.section__cmtp__form form p {
+  color: white !important;
+}
+
+.section__cmtp__form form input, .section__cmtp__form form textarea {
+  padding: 0.4rem;
+  margin: 0.4rem 0.3rem;
   background-color: var(--couleur-secondaire) !important;
 }
 
-.section__cmtp__form form [type=submit] {
+.section__cmtp__form form input [type=submit], .section__cmtp__form form textarea [type=submit] {
   width: 10rem;
   margin-left: auto;
   background-color: var(--couleur-secondaire);
-  border: white solid 1px;
-  color: white;
+  border: white solid 1px !important;
+  color: white !important;
   cursor: pointer;
   border: none;
 }
 
-.section__cmtp__form h3 {
+.section__cmtp__form form input [type=submit]:focus, .section__cmtp__form form textarea [type=submit]:focus {
+  background-color: white;
+  color: var(--couleur-secondaire);
+}
+
+.section__cmtp__form form input:focus, .section__cmtp__form form textarea:focus {
+  background-color: white;
+}
+
+h3 {
   color: white !important;
 }
 
@@ -456,6 +481,9 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
 }
 
 @media (max-width: 867px) {
+  header.cmtp {
+    display: none !important;
+  }
   .titre--cmtp {
     font-size: 3rem;
     font-weight: bold;
@@ -469,7 +497,7 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
   }
   h2 {
     text-align: center;
-    margin: 2.5rem 0;
+    /* margin: 2.5rem 0; */
     color: red;
     -webkit-text-decoration-line: none !important;
             text-decoration-line: none !important;
@@ -621,7 +649,7 @@ footer.cmtp .footer__top--bleu span:nth-child(3) {
     color: red;
   }
   .section__cmtp--1 {
-    padding: 2rem;
+    padding: 0rem !important;
     color: var(--couleur-secondaire);
     font-size: 1.2rem;
   }

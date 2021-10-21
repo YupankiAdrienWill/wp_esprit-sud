@@ -1,9 +1,7 @@
 <section class='header--produits'>
     
                 <div class ='container__bandeau--produits'>
-                
-                    <div><img src="<?php bloginfo('template_directory'); ?>../assets/ico/feuille-2.svg" alt="" srcset=""></div>
-                    <div class='container__bandeau--2--produits'>
+                                    <div class='container__bandeau--2--produits'>
                         <div class="texte--produits">
                              <?php bloginfo('name' )?><br><div class='titre'><?php the_title(); ?></div>
                         </div>

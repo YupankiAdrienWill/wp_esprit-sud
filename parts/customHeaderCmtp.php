@@ -7,11 +7,11 @@
                     <div class="texte--cmtp">
                     <div class='titre--cmtp'><?php the_title(); ?></div>
                     </div>
-                    <div class="carré--cmtp">
+                   <!--  <div class="carré--cmtp">
                         <span id='carré--cmtp'>
                         <?php the_excerpt(); ?>
                         </span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 </section>

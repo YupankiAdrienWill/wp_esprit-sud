@@ -23,17 +23,29 @@ body {
 }
 
 p {
+<<<<<<< HEAD
   font-size: 0.7rem !important;
 }
 
 h1 {
   font-size: 2.5rem;
+=======
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+>>>>>>> williams
   color: var(--couleur-secondaire) !important;
   padding-left: 2rem;
 }
 
 h2 {
+<<<<<<< HEAD
   font-size: 1.5rem;
+=======
+  font-size: 2.5rem;
+>>>>>>> williams
   color: var(--couleur-primaire) !important;
   text-align: center;
 }
@@ -507,19 +519,20 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
     margin: auto;
     text-align: center;
   }
+  .header {
+    display: none;
+  }
   .titre {
     font-size: 3rem;
     color: var(--couleur-tertiaire);
   }
   p {
-    font-size: 18px !important;
+    font-size: 0.8rem;
   }
   h1 {
-    font-size: 2rem !important;
-    color: var(--couleur-secondaire);
-    -webkit-text-decoration-color: var(--couleur-tertiaire);
-            text-decoration-color: var(--couleur-tertiaire);
-    /* text-underline-offset: 0.5rem; */
+    font-size: 2rem;
+    color: var(--couleur-secondaire) !important;
+    padding-left: 0rem;
   }
   h2 {
     font-size: 1.5rem !important;

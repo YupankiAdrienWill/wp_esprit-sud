@@ -1,4 +1,7 @@
 section.produits{
+    h2{
+        font-size: 1.5rem!important;
+    }
     z-index: 99;
     position: relative;
     display: flex;
@@ -39,6 +42,9 @@ section.produits{
 
 @media (max-width:867px) {
     section.produits{
+        h2{
+            font-size: 1.5rem!important;
+        }
         div.wp-block-media-text {
             display: flex;
             flex-direction: column;

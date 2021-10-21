@@ -103,8 +103,6 @@ form .form_flex .form__flex_child input[type=submit]:focus, form .form_flex .for
 }
 
 form .form_flex .form__flex_child input:focus, form .form_flex .form__flex_child textarea:focus {
-  -webkit-box-shadow: 0 4px 4px var(--pink);
-          box-shadow: 0 4px 4px var(--pink);
   background-color: white;
 }
 

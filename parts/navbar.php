@@ -1,4 +1,4 @@
-<header>
+<header class='header'>
 
       <a href="<?php echo home_url( '/' ); ?>">
       <img class="bandeau__child" 
