@@ -3,7 +3,7 @@
 
 <?php get_template_part ('parts/customHeaderLanding')?>
 
-<section class='front_landing--2'>
+<section class='front_landing--3'>
     <?php the_content();?>
 </section>
 

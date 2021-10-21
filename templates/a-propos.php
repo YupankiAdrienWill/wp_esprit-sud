@@ -9,7 +9,9 @@
 <?php get_template_part ('parts/customHeader' )?>
 <section class='page'>
     <?php the_content(); ?>
+    <span id='showroom'></span>
 </section>
+
 <section class='page--2'>
     <?php 
     $page = get_page_by_title('Notre Showroom'); 
@@ -19,7 +21,7 @@
     $link = get_page_link( $page); 
     $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
     ?>
-<div  id='showroom'>
+<div >
     <?php echo $content; ?>
     </div>
  </section >
