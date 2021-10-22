@@ -19,7 +19,6 @@
 echo do_shortcode('[smartslider3 slider="6"]');
 ?></div>
 
-<?php/*  get_template_part */ /* ('parts/slider-real' ) */?> 
 </section>
 
 <?php get_template_part ('parts/footerPart' )?>
