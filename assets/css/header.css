@@ -263,8 +263,8 @@ header .bandeau__child:nth-child(3) {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: center;
+      align-self: center;
   /* en tant que parent */
   display: -webkit-box;
   display: -ms-flexbox;

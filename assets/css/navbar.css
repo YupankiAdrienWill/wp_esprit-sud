@@ -24,8 +24,13 @@ nav div ul li {
 }
 
 nav div ul #menu-item-200 a {
-  border: 3px solid yellow;
-  color: #10B1B9 !important;
+  border: 3px solid var(--couleur-tertiaire);
+  color: var(--couleur-tertiaire) !important;
+}
+
+nav div ul #menu-item-200 a:hover {
+  border: 3px solid var(--couleur-tertiaire);
+  color: var(--couleur-primaire) !important;
 }
 
 nav .forMobile {
@@ -46,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  color: yellow;
+  color: var(--couleur-tertiaire);
 }
 
 nav div {
@@ -71,7 +76,7 @@ nav .sub-menu a {
 }
 
 nav .sub-menu a:hover {
-  color: yellow;
+  color: var(--couleur-tertiaire);
 }
 
 nav #dropdown_cmtp___content a {

@@ -7,15 +7,11 @@
 
 footer {
 	.footer__logoSocialNetwork{
-		padding-top:1rem;
+		margin-top: 1rem;
 	}
 	color: white;
 	p{
 		font-size: 18px;
-	}
-
-	section:nth-child(1) {
-		height: 5rem;
 	}
 	section:nth-child(2) {
 		height: 4rem;
@@ -32,7 +28,8 @@ footer {
 	.footer__container {
 		position: relative;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-evenly;
+		align-items: center;
 		padding-bottom: 2rem;
 	}
 	.footer__feuille {
@@ -82,7 +79,9 @@ footer {
 		text-align: center;
 		color: white !important;
 		img {
-			height: 40px;
+			height: 80px;
+			border: white 2px solid;
+			border-radius: 50%;
 		}
 		a {
 			text-decoration: none;
@@ -95,8 +94,8 @@ footer {
 		}
 		a.footer__buttonContact:hover {
 			padding: 1rem;
-			border: 3px solid white;
-			color: yellow;
+			border: 3px solid var(--couleur-primaire);
+			color: var(--couleur-primaire);
 		}
 	}
 	.padding--spec {
@@ -122,7 +121,8 @@ footer {
 				}
       }
       a:hover{
-            color: yellow;}
+            color: yellow;
+		}
 
 	div{
 		 ul{
