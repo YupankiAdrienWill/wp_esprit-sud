@@ -38,13 +38,21 @@
   color: white;
   font-size: 1.5rem;
   width: 100%;
-  /* height: 60%; */
+  height: 20rem;
   background-color: rgba(7, 69, 89, 0.4);
   padding-top: 1rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-weight: bold;
 }
 
 .main__container--cmtp .container__bandeau--cmtp img {
@@ -120,11 +128,8 @@
 }
 
 @media (max-width: 867px) {
-  .feuille {
-    display: none;
-  }
-  .feuille--2 {
-    display: none;
+  .titre--cmtp {
+    font-size: 2.5rem !important;
   }
   .main__container--cmtp {
     display: -webkit-box;

@@ -267,6 +267,16 @@ nav.cmtp .burger {
           align-items: center;
 }
 
+.section__cmtp__form .form_flex--cmtp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
 .section__cmtp__form form {
   background-color: var(--couleur-secondaire);
 }
@@ -300,6 +310,27 @@ nav.cmtp .burger {
 
 .section__cmtp__form h3 {
   font-size: 1.5rem;
+}
+
+.section__cmtp__form .form__flex_submit--cmtp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.section__cmtp__form .form__flex_submit--cmtp .submit_cmtp {
+  margin-left: 1rem;
 }
 
 @media (max-width: 867px) {
@@ -494,7 +525,7 @@ nav.cmtp .burger {
     background-color: var(--couleur-secondaire);
   }
   .section__cmtp--1 .slide_gutemberg h3 {
-    color: red;
+    color: white !important;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -509,7 +540,6 @@ nav.cmtp .burger {
         -ms-flex-pack: center;
             justify-content: center;
     color: white !important;
-    font-size: 18px;
   }
 }
 /*# sourceMappingURL=cmtp.css.map */

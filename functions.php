@@ -6,11 +6,6 @@ add_theme_support( 'title-tag' );
 add_post_type_support( 'page', 'excerpt' );
 
 function register_assets(){
-    wp_enqueue_script(
-		'script-top',
-		get_template_directory_uri().'/assets/scripts/top.js',
-		 array(),
-		'1.0'); 
         
     wp_enqueue_script(
 		'script-menu',
