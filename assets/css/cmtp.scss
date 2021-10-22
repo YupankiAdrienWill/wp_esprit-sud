@@ -38,7 +38,7 @@ header.cmtp{
 }
 
 .titre--cmtp{
-      font-size: 4rem;
+      font-size:3.3rem;
       font-weight: bold;
 }
 .diapo_border{
@@ -148,7 +148,7 @@ nav.cmtp{
             font-size: 5rem;
             font-size: 24px;
                   h3{
-                        color: rgb(255, 0, 0);
+                        color: white
                   }
             }
 }
@@ -166,20 +166,19 @@ nav.cmtp{
             flex-direction: column;
             margin-top: 2rem;
             padding: 1rem 1rem 1rem 1rem;
-            font-size: 5rem;
-            font-size: 24px;
             background-color: var(--couleur-secondaire);
                   h3{
-                        color: rgb(255, 0, 0);
+                        color: white;
                         align-items: center;
                         text-align: center; 
                        justify-content: center; 
-                       font-size: 3rem;
                        text-decoration: none!important;
+                       font-size: 1.5rem!important;
                   }
             p{
                   justify-content: center;
                   color: white !important;
+                  line-height: 36px;
             }
       }
      
