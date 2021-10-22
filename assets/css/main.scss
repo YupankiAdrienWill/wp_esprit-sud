@@ -126,7 +126,7 @@ a.buttonContact:hover{
               color: white;
               font-size: 1.5rem;
               width: 100%;
-              /* height: 60%; */
+              height: 20rem;
               background-color: rgba(7, 69, 89, 0.4);
               padding-top: 1rem;
               position: relative;
@@ -151,13 +151,17 @@ a.buttonContact:hover{
             
             .texte--page { grid-area: texte; 
                   width: 100%;
-                  text-align: right;
-                  font-size: 2.4rem;
                   padding: 1rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               text-align: right;
+               font-weight: bold;
               }
             .titre{
                 font-size:3.3rem;
                 color: var(--couleur-tertiaire);
+             
             }
             
             .carré--page { grid-area: carré; 
@@ -179,7 +183,6 @@ a.buttonContact:hover{
              flex-direction: column;
              padding: 2rem 2rem 2rem 2rem;
              background-color:var(--couleur-secondaire);
-             font-size: 24px;
              color: white !important;
             /*  position: relative; */
              align-items: center;
@@ -247,7 +250,7 @@ a.buttonContact:hover{
                   padding: 1rem;
               }
               .titre{
-                font-size: 4rem;
+                font-size: 3rem;
                 color: var(--couleur-tertiaire);
             }
             
@@ -335,7 +338,7 @@ section.avis{
     } */
 
     .titre{
-        font-size: 3rem !important;
+        font-size: 2.5rem!important;
         color: var(--couleur-tertiaire);
     }
 
@@ -400,8 +403,7 @@ section.avis{
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-               
-              }
+            }
               
               .texte--page {
                     width: 100%;

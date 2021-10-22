@@ -22,7 +22,7 @@
             color: white;
             font-size: 1.5rem;
             width: 100%;
-            /* height: 60%; */
+            height: 20rem;
             background-color: rgba(7, 69, 89, 0.4);
             padding-top: 1rem;
             position: relative;
@@ -47,8 +47,11 @@
           
           .texte--landing { grid-area: texte; 
                 width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 text-align: right;
-                font-size: 2.4rem;
+                font-weight: bold;
                 padding: 1rem;
             }
           
@@ -65,10 +68,9 @@
         }
 
         .titre{
-            font-size: 3.3rem;
+            font-size: 3rem;
             color: var(--couleur-tertiaire);
             font-weight: bold;
-            z-index: 99999;
         }
           
  
@@ -274,8 +276,7 @@ section.front_landing--3{
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-               
-              }
+            }
               
               .texte--landing {
                     width: 100%;
