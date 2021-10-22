@@ -9,7 +9,7 @@
 
 <section class='front_landing'>
     <?php 
-    $page = get_page_by_title('Notre catalogue'); 
+    $page = get_page_by_title('Un large choix d’articles décoratifs et d’entretien'); 
     $content = apply_filters('the_excerpt', $page->post_excerpt); 
     $title = apply_filters('the_title', $page->post_title); 
     $link = get_page_link( $page); 
@@ -18,11 +18,11 @@
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
         <div class='thumb' > <?php echo $thumb; ?></div>
-        <div><a href="<?php echo $link; ?>"><button class='btn-front'>Venez découvir nos produits</button></a></div>
+        <div><a href="<?php echo $link; ?>"><button class='btn-front'>Notre catalogue</button></a></div>
 </section >
 <section class='front_landing--2'>
     <?php 
-    $page = get_page_by_title('Notre Showroom'); 
+    $page = get_page_by_title('Découvrez notre showroom et venez nous rendre visite !'); 
     $content = apply_filters('the_excerpt', $page->post_excerpt); 
     $title = apply_filters('the_title', $page->post_title); 
     $link = get_page_link( $page);

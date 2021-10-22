@@ -303,3 +303,5 @@ add_action('manage_posts_custom_column', 'espritSud_column_content', 5, 2);
 
 
 
+
+

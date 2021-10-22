@@ -71,7 +71,7 @@ h3 {
 }
 
 .bloginfo {
-  font-size: 76px;
+  font-size: 4rem;
   font-weight: bold;
   color: white;
   padding-top: 25px;
@@ -175,7 +175,7 @@ a.buttonContact:hover {
 }
 
 .main__container--page .titre {
-  font-size: 4rem;
+  font-size: 3.3rem;
   color: var(--couleur-tertiaire);
 }
 

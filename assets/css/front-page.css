@@ -94,7 +94,7 @@
 }
 
 .main__container--landing .titre {
-  font-size: 4rem;
+  font-size: 3.3rem;
   color: var(--couleur-tertiaire);
   font-weight: bold;
   z-index: 99999;
@@ -145,6 +145,11 @@ section.front_landing {
   /* padding-top:3rem; */
   padding-bottom: 3rem;
   background-color: rgba(16, 177, 185, 0.2);
+}
+
+section.front_landing p {
+  width: 80%;
+  line-height: 36px;
 }
 
 section.front_landing:nth-child(1) {
@@ -265,6 +270,10 @@ section.front_landing--3 {
   /* padding-top:3rem; */
   padding-bottom: 3rem;
   background-color: white;
+}
+
+section.front_landing--3 h1 {
+  padding-left: 0rem;
 }
 
 section.front_landing--3 img {
