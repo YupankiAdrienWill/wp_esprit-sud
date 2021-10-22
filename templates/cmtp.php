@@ -19,7 +19,7 @@
 <section class="section__cmtp--1">
 <?php
 $loop = new WP_Query( array(
-    'post_type' => 'activites_CMTP',
+    'post_type' => 'activites_CMTP','order'=>'ASC',
     'post__not_in' => array( '262' ) 
   )
 );

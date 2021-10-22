@@ -18,7 +18,8 @@
 
 <?php
 $loop = new WP_Query( array(
-    'post_type' => 'catalogue'
+    'post_type' => 'catalogue','order'=>'ASC'
+    
   )
 );
 
@@ -27,12 +28,12 @@ $loop = new WP_Query( array(
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
 <div>       
-        <span><?php the_title(); ?></span>
+        <h3><?php the_title(); ?></h3>
         <span>
         <?php the_post_thumbnail(); ?>
         </span>
         <span><?php the_excerpt(); ?></span>
-        <a href="<?php the_permalink(); ?>"><button class='btn-front'>Venez découvrir nos produits</button></a>
+        <a href="<?php the_permalink(); ?>"><button class='btn-front'>Je découvre</button></a>
     </div>
 
 <?php endwhile; wp_reset_query(); ?>

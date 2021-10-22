@@ -9,17 +9,18 @@
 
 <section class='front_landing'>
     <?php 
-    $page = get_page_by_title('Un large choix d’articles décoratifs et d’entretien'); 
-    $content = apply_filters('the_excerpt', $page->post_excerpt); 
-    $title = apply_filters('the_title', $page->post_title); 
-    $link = get_page_link( $page); 
-    $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
+    $id = 104; 
+    $content = apply_filters('the_excerpt', get_post_field('post_excerpt', $post_id)); 
+    $title = 'Un large choix d’articles décoratifs et d’entretien'; 
+    $link = get_page_link( $id); 
+    $thumb = get_the_post_thumbnail( $id, 'post-thumbnail' );
     ?>
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>
         <div class='thumb' > <?php echo $thumb; ?></div>
         <div><a href="<?php echo $link; ?>"><button class='btn-front'>Notre catalogue</button></a></div>
 </section >
+
 <section class='front_landing--2'>
     <?php 
     $page = get_page_by_title('Découvrez notre showroom et venez nous rendre visite !'); 

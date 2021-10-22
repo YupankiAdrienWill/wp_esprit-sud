@@ -10,7 +10,6 @@ section.produits {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 2rem;
-  background-color: #fcc92313;
 }
 
 section.produits h2 {

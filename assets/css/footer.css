@@ -130,7 +130,7 @@ footer .footer__container--contact a {
 
 footer .footer__container--contact a.footer__buttonContact {
   padding: 1rem;
-  border: 3px solid yellow;
+  border: 3px solid var(--couleur-tertiaire);
   color: white;
 }
 
@@ -173,7 +173,7 @@ footer .footer__top--bleu a a:nth-last-child(1) {
 }
 
 footer .footer__top--bleu a:hover {
-  color: yellow;
+  color: var(--couleur-tertiaire);
 }
 
 footer .footer__top--bleu div ul {
@@ -423,7 +423,7 @@ footer.cmtp #menu-item-217 a:hover {
     border-bottom: transparent 3px solid;
   }
   footer .footer__top--bleu a:active {
-    color: yellow;
+    color: var(--couleur-tertiaire);
   }
   footer .footer__top--bleu div ul {
     display: -webkit-box;
@@ -487,7 +487,7 @@ footer.cmtp #menu-item-217 a:hover {
     border-bottom: transparent 3px solid;
   }
   footer.cmtp .footer__top--bleu a:active {
-    color: yellow;
+    color: var(--couleur-tertiaire);
   }
   footer.cmtp .footer__top--bleu div ul {
     display: -webkit-box;

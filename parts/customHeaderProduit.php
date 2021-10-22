@@ -4,7 +4,7 @@
                                     <div class='container__bandeau--2--produits'>
                         <div class="texte--produits">
                             <div id='bloginfo_produit'><?php bloginfo('name' )?></div>
-                             <div class='titre'><?php the_title(); ?></div>
+                             <div class='titre'><h1><?php the_title(); ?></h1></div>
                         </div>
                         <div class="carré--produits">
                             <span id='carré--produits'>

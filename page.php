@@ -1,7 +1,7 @@
 <?php get_header();?>
 <?php get_template_part ('parts/navbar' )?>
 <?php get_template_part ('parts/customHeader' )?>
-<section class='page'>
+<section class='page--2'>
 <?php the_content(); ?>
 </section>
 

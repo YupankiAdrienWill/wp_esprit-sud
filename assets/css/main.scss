@@ -42,7 +42,7 @@ h2{
 
 }
 h3{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--couleur-secondaire);
 }
 
@@ -89,12 +89,12 @@ a{
 }
 
 a.buttonContact{
-      border: 3px solid yellow;
+      border: 3px solid var(--couleur-tertiaire);
       color: #10B1B9;
 }
 a.buttonContact:hover{
       border: 3px solid #10B1B9;
-      color: yellow;
+      color: var(--couleur-tertiaire);
 }
 
 
@@ -215,13 +215,13 @@ a.buttonContact:hover{
          div.produits-separateur{
               height: 2rem;
               width: 100%;
-              background-color: rgba(254, 207, 52, 0.56); 
+              background-color: var(--couleur-tertiaire); 
           }
           .container__bandeau--produits{
               color: white;
               font-size: 1.5rem;
               width: 100%;
-              background-color: rgba(7, 69, 89, 0.4);
+              background-color: rgba(16, 177, 185, 0.2);
               padding-top: 1rem;
               position: relative;
               display: flex;
