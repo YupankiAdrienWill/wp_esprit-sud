@@ -157,27 +157,7 @@ function espritSud_register_post_types() {
         );
     
         register_post_type( 'catalogue', $args );
-          // CPT Réalisations
-          $labels = array(
-            'name' => 'réalisation',
-            'all_items' => 'Toutes les réalisations',  // affiché dans le sous menu
-            'singular_name' => 'Réalisation',
-            'add_new_item' => 'Ajouter une réalisation',
-            'edit_item' => 'Modifier les réalisations',
-            'menu_name' => 'Réalisations'
-        );
-    
-        $args = array(
-            'labels' => $labels,
-            'public' => true,
-            'show_in_rest' => true,
-            'has_archive' => true,
-            'supports' => array( 'title', 'editor', 'thumbnail' ),
-            'menu_position' => 5, 
-            'menu_icon' => 'dashicons-portfolio',
-        );
-    
-        register_post_type( 'réalisation', $args );
+
           // CPT Showroom
           $labels = array(
             'name' => 'showroom',
