@@ -190,6 +190,8 @@ nav.cmtp{
       align-items: center;
             p{
                   color: var(--couleur-secondaire);
+                  width: 80%;
+                  margin: auto;
             }
             .submit_cmtp{
                   align-items: center;
@@ -203,36 +205,25 @@ nav.cmtp{
                         padding: 1rem;
                         margin: 0.4rem 0.3rem;
                   background-color: var(--couleur-secondaire)!important;
+                  color: white!important;
                   border: solid 1px white;
                   color: white ;
                   [type=submit]{
                         width: 10rem;
                           margin-left: auto;
                           padding-bottom: 0.7rem;
-                          background-color: var(--couleur-secondaire);
+                          background-color: white!important;
                           border: white solid 1px !important;
-                          color: white !important;
+                          color: var(--couleur-secondaire)!important;
                           cursor: pointer;
-                          border: none;
                           align-items: center;
                           text-align: center;
-                        /*   &:focus{
-                                    
-                              background-color: white !important;
-                              color: var(--couleur-secondaire) !important;
-                        }
-                  }
-                  &:focus{
-                        background-color: white !important;
-                  } */
                   }
             }
       }
-             h3{
-                  
-                        color: white !important;
-                  
-            }
+          h3{
+                font-size: 1.5rem;
+          }
 
 
       }

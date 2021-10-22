@@ -257,6 +257,8 @@ nav.cmtp .burger {
 
 .section__cmtp__form p {
   color: var(--couleur-secondaire);
+  width: 80%;
+  margin: auto;
 }
 
 .section__cmtp__form .submit_cmtp {
@@ -277,6 +279,7 @@ nav.cmtp .burger {
   padding: 1rem;
   margin: 0.4rem 0.3rem;
   background-color: var(--couleur-secondaire) !important;
+  color: white !important;
   border: solid 1px white;
   color: white;
 }
@@ -285,28 +288,18 @@ nav.cmtp .burger {
   width: 10rem;
   margin-left: auto;
   padding-bottom: 0.7rem;
-  background-color: var(--couleur-secondaire);
+  background-color: white !important;
   border: white solid 1px !important;
-  color: white !important;
+  color: var(--couleur-secondaire) !important;
   cursor: pointer;
-  border: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  /*   &:focus{
-                                    
-                              background-color: white !important;
-                              color: var(--couleur-secondaire) !important;
-                        }
-                  }
-                  &:focus{
-                        background-color: white !important;
-                  } */
 }
 
 .section__cmtp__form h3 {
-  color: white !important;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 867px) {
