@@ -329,8 +329,8 @@ section.front_landing--3 .container div {
 }
 
 section.front_landing--3 .container div img {
-  width: 300px;
-  height: 300px;
+  width: 325px;
+  height: 325px;
 }
 
 @media (max-width: 867px) {
@@ -359,6 +359,7 @@ section.front_landing--3 .container div img {
             align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
   .main__container--landing .header--landing h1 {
     color: white;
@@ -533,26 +534,6 @@ section.front_landing--3 .container div img {
     margin: auto;
     padding-top: 0rem;
     padding-bottom: 0.5rem;
-    /*  div 
-                button{
-                width: 80%;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            }
-            button:hover{
-                cursor: pointer;
-                width: 595px;
-                height: 55px;
-                left: 0;
-                top:0;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            } */
   }
   section.front_landing--2 h3 {
     font-size: 2rem;
@@ -578,7 +559,6 @@ section.front_landing--3 .container div img {
     background-color: white !important;
   }
   section.front_landing--2 .container {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -591,7 +571,7 @@ section.front_landing--3 .container div img {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   section.front_landing--2 .container div {
     width: 49%;
@@ -607,7 +587,9 @@ section.front_landing--3 .container div img {
   }
   section.front_landing--2 .container div img {
     width: 100%;
-    height: 150px;
+    height: 160px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
   }
   section.front_landing--3 {
     display: -webkit-box;
@@ -697,7 +679,7 @@ section.front_landing--3 .container div img {
   }
   section.front_landing--3 .container div img {
     width: 100%;
-    height: 150px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=front-page.css.map */

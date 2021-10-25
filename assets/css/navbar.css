@@ -92,7 +92,7 @@ nav #dropdown_cmtp {
 }
 
 nav .underline {
-  border-bottom: yellow 3px solid;
+  border-bottom: var(--couleur-tertiaire) 3px solid;
 }
 
 nav .burger {
@@ -174,7 +174,7 @@ nav .burger {
     margin-bottom: 1rem;
   }
   nav .menu .forMobile ul li:nth-last-child(1) {
-    border: 3px solid yellow;
+    border: 3px solid var(--couleur-tertiaire);
     color: #10B1B9 !important;
   }
   nav .menu .forMobile img {
@@ -193,7 +193,7 @@ nav .burger {
     border-bottom: transparent 3px solid;
   }
   nav .menu a:active {
-    color: yellow;
+    color: var(--couleur-tertiaire);
   }
   nav #menu-item-202:hover .sub-menu, nav #dropdown_cmtp:hover .dropdown_content {
     display: none;
@@ -237,12 +237,12 @@ nav .burger {
     position: static;
   }
   span#close {
-    color: #f1f1f1;
-    font-size: 36px;
+    color: var(--couleur-tertiaire);
+    font-size: 42px;
     font-weight: bold;
   }
   span#close:active {
-    color: yellow;
+    color: white;
   }
   .tel {
     color: var(--couleur-tertiaire);

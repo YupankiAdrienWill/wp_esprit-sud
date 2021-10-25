@@ -302,8 +302,6 @@ nav.cmtp{
                         .forMobile{
                             display: block;
                             text-align: center;
-                            padding-bottom: 2rem;
-                            margin-bottom: 2rem;
                             border-bottom: 3px solid var(--couleur-primaire);
                             color: white;
                             display: flex;
@@ -341,10 +339,10 @@ nav.cmtp{
                             }
                       }
                       div{
-                            padding-bottom: 1rem;
+                            padding-bottom: 0rem;
                       }
                       div:nth-child(7){
-                            margin-top: 2rem;
+                            margin-top: 0.5rem;
                       }
                       a{
                         padding: 0.5rem;
@@ -392,11 +390,11 @@ nav.cmtp{
             }
             span#close{
               color: var(--couleur-5);
-              font-size: 56px;
+              font-size: 42px;
               font-weight: bold;
             }
             span#close:active{
-                  color:var(--couleur-5)
+                  color:white
             }
             .tel{
                   color: var(--couleur-5);

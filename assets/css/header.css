@@ -24,7 +24,7 @@
   height: auto;
   /* height: 70vh; */
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .main__container--cmtp .header--cmtp h1 {

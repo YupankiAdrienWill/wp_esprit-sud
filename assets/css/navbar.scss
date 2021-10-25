@@ -76,7 +76,7 @@ nav{
           cursor: pointer;
     }
     .underline{
-          border-bottom: yellow 3px solid;
+          border-bottom: var(--couleur-tertiaire) 3px solid;
     }
     .burger{
           display: none;
@@ -136,7 +136,7 @@ nav{
                                           margin-top: 1rem;
                                           margin-bottom: 1rem;
                                                 &:nth-last-child(1){
-                                                            border: 3px solid yellow;
+                                                            border: 3px solid var(--couleur-tertiaire);
                                                             color: #10B1B9 !important;
                                                       }
                                                 
@@ -159,7 +159,7 @@ nav{
                   border-bottom: transparent 3px solid;
             }
             a:active{
-                  color: yellow;
+                  color: var(--couleur-tertiaire);
             }
                
           }          
@@ -199,12 +199,12 @@ nav{
           position: static;
     }
     span#close{
-      color: #f1f1f1;
-      font-size: 36px;
+      color: var(--couleur-tertiaire);
+      font-size: 42px;
       font-weight: bold;
     }
     span#close:active{
-          color:yellow
+          color:white
     }
     .tel{
           color: var(--couleur-tertiaire);

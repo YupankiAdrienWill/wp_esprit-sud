@@ -31,10 +31,10 @@
             
                   <a href="https://facebook.com"><img class="logoSocialNetwork" src="<?php bloginfo('template_directory'); ?>/assets/ico/facebook.png" alt="logo facebook"></a>
                   <div class="tel"><p>06 21 00 45 10</p></div>
-                  <span id='trait'></span>
+                  <span id="close" onclick="closeFunction()">&times;</span> 
                  <div> <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?></div>
                  
-                 <span id="close" onclick="closeFunction()">&times;</span>    
+                   
             </div>
               
       </div>

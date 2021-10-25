@@ -125,7 +125,7 @@ a.buttonContact:hover {
   height: auto;
   /* height: 70vh; */
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .main__container--page .header--page h1 {
@@ -217,7 +217,7 @@ a.buttonContact:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
   background-color: var(--couleur-secondaire);
   color: white !important;
   /*  position: relative; */
@@ -477,6 +477,7 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
             align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top !important;
   }
   .main__container--page .header--page h1 {
     color: white;

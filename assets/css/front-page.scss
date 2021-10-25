@@ -218,8 +218,8 @@ section.front_landing--3{
                                 justify-content: space-evenly;
                                 width: 33%;
                                     img{
-                                        width: 300px;
-                                        height: 300px;
+                                        width: 325px;
+                                        height: 325px;
                                     }
                             }
                 }
@@ -244,7 +244,8 @@ section.front_landing--3{
         flex-direction: column;
         align-items: center;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; 
+        background-position:center;
         }
          .header--landing h1{
              color: white;
@@ -408,38 +409,17 @@ section.front_landing--2{
                 padding-bottom: 0.7rem;
     
             }
-           /*  div 
-                button{
-                width: 80%;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            }
-            button:hover{
-                cursor: pointer;
-                width: 595px;
-                height: 55px;
-                left: 0;
-                top:0;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            } */
                 &:nth-child(2){
                     background-color: rgba(16, 177, 185, 0.20) !important;}
                 &:nth-child(3){
                     background-color: white !important;}
     
                         .container {
-                            width:100%;
                             display: flex;
                             flex-direction: row;
                             flex-wrap: wrap;
                             justify-content: space-evenly;
-                            padding-bottom: 2rem;
+                            padding-bottom: 1rem;
                                 & div{
                                     width: 49%;
                                     flex-direction: row;
@@ -447,7 +427,9 @@ section.front_landing--2{
                                     justify-content: space-evenly;
                                         & img{
                                             width: 100%;
-                                            height: 150px;
+                                            height: 160px;
+                                            padding-top: 0.3rem;
+                                            padding-bottom: 0.3rem;
                                             
                                         }
                                 }
@@ -522,7 +504,7 @@ section.front_landing--3{
                                     justify-content: space-evenly;
                                         & img{
                                             width: 100%;
-                                            height: 150px;
+                                            height: auto;
                                             
                                         }
                                 }

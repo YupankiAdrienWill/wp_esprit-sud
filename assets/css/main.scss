@@ -115,7 +115,7 @@ a.buttonContact:hover{
           height: auto;
           /* height: 70vh; */
           background-size: cover; 
-          background-position:bottom;
+          background-position:center;
       }
        .header--page h1{
            color: white;
@@ -182,7 +182,7 @@ a.buttonContact:hover{
              width: 100%;
              display: flex;
              flex-direction: column;
-             padding: 2rem 2rem 2rem 2rem;
+             padding: 1rem 1rem 1rem 1rem;
              background-color:var(--couleur-secondaire);
              color: white !important;
             /*  position: relative; */
@@ -381,6 +381,7 @@ section.avis{
         align-items: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: top !important;
         }
          .header--page h1{
              color: white;

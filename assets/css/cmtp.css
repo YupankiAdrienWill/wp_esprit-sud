@@ -392,8 +392,6 @@ nav.cmtp .burger {
   nav.cmtp .menu .forMobile {
     display: block;
     text-align: center;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
     border-bottom: 3px solid var(--couleur-primaire);
     color: white;
     display: -webkit-box;
@@ -443,10 +441,10 @@ nav.cmtp .burger {
     height: 4rem;
   }
   nav.cmtp .menu div {
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
   }
   nav.cmtp .menu div:nth-child(7) {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   nav.cmtp .menu a {
     padding: 0.5rem;
@@ -496,11 +494,11 @@ nav.cmtp .burger {
   }
   nav.cmtp span#close {
     color: var(--couleur-5);
-    font-size: 56px;
+    font-size: 42px;
     font-weight: bold;
   }
   nav.cmtp span#close:active {
-    color: var(--couleur-5);
+    color: white;
   }
   nav.cmtp .tel {
     color: var(--couleur-5);
