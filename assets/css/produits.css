@@ -59,10 +59,9 @@ section.produits div.wp-block-media-text__content p {
 }
 
 section.produits div.wp-block-media-text__content img {
-  width: 150px !important;
-  height: 150px !important;
+  width: 80%;
+  height: 50%;
   margin: auto;
-  border: var(--couleur-tertiaire) 2px solid;
 }
 
 @media (max-width: 867px) {

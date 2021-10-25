@@ -134,12 +134,20 @@ footer {
 							  
 				  }
 			}
-	  
+			
 	}
 
 	.footer__top--bleu span:nth-child(3) {
 		color: var(--couleur-primaire);
-	}
+	}#menu-item-217{
+		a{
+			color:var(--couleur-primaire);
+		}
+		a:hover{
+			text-decoration: underline;
+			color: var(--couleur-tertiaire);
+		}
+}
 }
 footer.cmtp {
 	.footer__logoSocialNetwork{
