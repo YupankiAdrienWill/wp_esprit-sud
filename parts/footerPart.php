@@ -41,7 +41,7 @@ $loop = new WP_Query( array(
         <div class="footer__container--contact">
        
                 <span class="padding"><a class="footer__buttonContact" id='contact--2' href= "<?php bloginfo('wpurl') ?>/contact">Nous contacter</a></span>
-                <span class="padding"><a href="https://www.facebook.com/Esprit-Sud-by-CMTP-351693899243668/"><img class="footer__logoSocialNetwork" src="<?php bloginfo('template_directory'); ?>/assets/ico/facebook.png" alt="logo facebook"></a></span>
+                <span class="padding"><a href="https://www.facebook.com/Esprit-Sud-by-CMTP-351693899243668/" target='_blank'><img class="footer__logoSocialNetwork" src="<?php bloginfo('template_directory'); ?>/assets/ico/facebook.png" alt="logo facebook" ></a></span>
          
         </div>
 
