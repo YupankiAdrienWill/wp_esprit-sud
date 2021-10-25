@@ -232,14 +232,6 @@ section.front_landing--3{
 
 @media (max-width:867px) {
 
-/*     h1{
-    
-        font-size:2rem !important;
-        color: var(--couleur-secondaire);
-        text-decoration-color: var(--couleur-tertiaire);
-        text-underline-offset: 0.5rem;
-    
-} */
 
 .main__container--landing{
         display: flex;
@@ -479,8 +471,9 @@ section.front_landing--3{
                 
             }
             img{
-                width: 100%;
-                padding: 0;
+                width:80%;
+                height: 50%;
+                padding: 1rem 1rem 1rem 1rem;
             }
             p{
                 width: 90%;/* 

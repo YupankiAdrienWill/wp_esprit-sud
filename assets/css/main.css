@@ -437,7 +437,7 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
   h1 {
     font-size: 2rem;
     color: var(--couleur-secondaire) !important;
-    padding-left: 0rem;
+    padding: 0.7rem;
   }
   h2 {
     font-size: 1.5rem !important;

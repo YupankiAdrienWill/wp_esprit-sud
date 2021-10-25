@@ -8,6 +8,21 @@ section.produits{
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 2rem;
+
+    p.texte_produit{
+        
+            width: 80% !important;
+            text-align: center !important;
+            font-size: 1.2rem !important;
+                strong{
+                    font-weight: 700;
+                    color: var(--couleur-primaire);
+                }
+        
+           
+    
+    }
+
         div.wp-block-media-text {
             display: flex;
             flex-direction: column;
@@ -30,8 +45,8 @@ section.produits{
                 text-align: center;
             }
             img{
-                width: 80%;
-                height: 50%;
+                width: 150px !important;
+                height: 150px !important;
                 margin: auto; 
                 border: var(--couleur-tertiaire) 2px solid;
             }

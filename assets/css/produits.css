@@ -16,6 +16,17 @@ section.produits h2 {
   font-size: 1.5rem !important;
 }
 
+section.produits p.texte_produit {
+  width: 80% !important;
+  text-align: center !important;
+  font-size: 1.2rem !important;
+}
+
+section.produits p.texte_produit strong {
+  font-weight: 700;
+  color: var(--couleur-primaire);
+}
+
 section.produits div.wp-block-media-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,8 +59,8 @@ section.produits div.wp-block-media-text__content p {
 }
 
 section.produits div.wp-block-media-text__content img {
-  width: 80%;
-  height: 50%;
+  width: 150px !important;
+  height: 150px !important;
   margin: auto;
   border: var(--couleur-tertiaire) 2px solid;
 }

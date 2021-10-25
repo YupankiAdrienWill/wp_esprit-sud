@@ -376,15 +376,6 @@ section.catalogue img {
     text-align: center;
     margin: auto;
     padding: 1rem 1rem 1rem 1rem;
-    /* div button{
-                width: 80%;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            } */
   }
   section.page h3 {
     font-size: 2rem;
@@ -446,45 +437,6 @@ section.catalogue img {
             justify-content: center;
     padding: 1rem 1rem 1rem 1rem;
     background-color: white;
-    /*  h2{
-                font-size: 2rem;
-                line-height: 42px;
-                color: var(--couleur-primaire);
-                text-decoration-line: underline;
-                text-decoration-color: var(--couleur-tertiaire);
-                text-underline-offset: 0.5rem;
-            } */
-    /* h3{
-                font-size: 2rem;
-                color: var(--couleur-primaire);
-                  text-decoration-line: underline;
-                    text-decoration-style: wavy;
-                    text-decoration-color: var(--couleur-tertiaire);
-                    text-underline-offset: 0.5rem;
-            } */
-    /*  button{
-                width: 595px;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-                            text-shadow: 2px 2px 2px white;
-                 background: var(--couleur-primaire);
-                 border: 8px solid var(--couleur-secondaire);
-                border-radius: 14px;
-    
-    
-            }
-            button:hover{
-                cursor: pointer;
-                width: 595px;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-    
-                        background: #FFFFFF;
-                        border: 8px solid #FECF34;
-                        border-radius: 14px;
-            } */
   }
   section.page--2 img {
     padding: 1.5rem 0 1.5rem 01.5rem;
@@ -517,6 +469,37 @@ section.catalogue img {
   }
   section.page--2 .container div {
     width: 33%;
+  }
+  section.page--3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: white;
+  }
+  section.page--3 img {
+    width: 80%;
+    height: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  section.page--3 p {
+    width: 90%;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: left;
+    margin: auto;
   }
 }
 

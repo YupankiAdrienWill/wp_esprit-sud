@@ -334,14 +334,6 @@ section.front_landing--3 .container div img {
 }
 
 @media (max-width: 867px) {
-  /*     h1{
-    
-        font-size:2rem !important;
-        color: var(--couleur-secondaire);
-        text-decoration-color: var(--couleur-tertiaire);
-        text-underline-offset: 0.5rem;
-    
-} */
   .main__container--landing {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -657,8 +649,9 @@ section.front_landing--3 .container div img {
     border-bottom: var(--couleur-tertiaire) solid 5px;
   }
   section.front_landing--3 img {
-    width: 100%;
-    padding: 0;
+    width: 80%;
+    height: 50%;
+    padding: 1rem 1rem 1rem 1rem;
   }
   section.front_landing--3 p {
     width: 90%;
