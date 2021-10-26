@@ -24,7 +24,7 @@
   height: auto;
   /* height: 70vh; */
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .main__container--landing .header--landing h1 {
@@ -189,7 +189,6 @@ section.front_landing div.thumb {
   width: 50%;
   height: 30%;
   text-align: center;
-  padding-bottom: 1.5rem;
 }
 
 section.front_landing div.thumb img {
@@ -215,7 +214,7 @@ section.front_landing--2 {
 }
 
 section.front_landing--2 img {
-  padding: 1.5rem 0 1.5rem 0rem;
+  padding: 1.5rem 0 1.5rem 01.5rem;
 }
 
 section.front_landing--2 p {
@@ -243,7 +242,6 @@ section.front_landing--2 .container {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-bottom: 1.5rem;
 }
 
 section.front_landing--2 .container div {
