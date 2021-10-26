@@ -276,7 +276,7 @@ a.buttonContact:hover {
   color: white;
   font-size: 1.5rem;
   width: 100%;
-  background-color: rgba(16, 177, 185, 0.2);
+  background-color: var(--couleur-primaire);
   padding-top: 1rem;
   position: relative;
   display: -webkit-box;
@@ -359,61 +359,6 @@ a.buttonContact:hover {
 
 .main__container--produits span#carré p {
   padding-top: 2rem;
-}
-
-section.avis {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-section.avis .parent_cadre_avis {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: 1px solid blue;
-}
-
-section.avis .parent_cadre_avis .cadre_avis {
-  width: 20rem;
-  border: 1px solid red;
-  overflow: hidden;
-  position: relative;
-}
-
-section.avis .parent_cadre_avis .cadre_avis .cadre_avis__intermediaire {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-section.avis .parent_cadre_avis .cadre_avis .cadre_avis__intermediaire .cadre_avis__child {
-  width: 20rem;
-  min-width: 20rem;
-  max-width: 20rem;
-  padding: 1rem 0rem;
-}
-
-section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after {
-  width: 3rem;
-  height: 3rem;
-  margin: 1rem;
-  cursor: pointer;
 }
 
 @media (max-width: 867px) {
@@ -578,7 +523,7 @@ section.avis .parent_cadre_avis .return, section.avis .parent_cadre_avis .after 
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: rgba(16, 177, 185, 0.2);
+    background-color: var(--couleur-primaire);
     width: 100%;
     height: auto;
     /* height: 70vh; */

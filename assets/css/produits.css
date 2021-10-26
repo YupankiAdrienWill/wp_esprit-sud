@@ -1,3 +1,8 @@
+strong {
+  font-weight: 700;
+  color: var(--couleur-primaire);
+}
+
 section.produits {
   z-index: 99;
   position: relative;
@@ -21,11 +26,6 @@ section.produits p.texte_produit {
   text-align: center !important;
 }
 
-section.produits p.texte_produit strong {
-  font-weight: 700;
-  color: var(--couleur-primaire);
-}
-
 section.produits div.wp-block-media-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,7 +46,7 @@ section.produits div.wp-block-media-text {
   padding-top: 1rem;
   padding-bottom: 2rem;
   margin: 2rem 5rem 5rem 5rem;
-  background-color: rgba(16, 177, 185, 0.2);
+  background-color: rgba(16, 176, 185, 0.22);
   border: solid 2px var(--couleur-primaire);
 }
 

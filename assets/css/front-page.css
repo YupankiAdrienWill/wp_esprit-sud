@@ -1,4 +1,9 @@
 @charset "UTF-8";
+strong {
+  font-weight: 700;
+  color: var(--couleur-primaire);
+}
+
 .main__container--landing {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,6 +199,7 @@ section.front_landing div.thumb {
 section.front_landing div.thumb img {
   width: 100%;
   height: 100%;
+  padding-bottom: 0.5rem;
 }
 
 section.front_landing--2 {
@@ -359,8 +365,6 @@ section.front_landing--3 .container div img {
   }
   section.front_landing--2 p {
     width: 90%;
-    /* 
-                font-size: 16px; */
     line-height: 20px;
     margin: auto;
     padding-bottom: 0.7rem;

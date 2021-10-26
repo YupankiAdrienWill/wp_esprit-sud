@@ -537,5 +537,9 @@ nav.cmtp .burger {
             justify-content: center;
     color: white !important;
   }
+  .section__cmtp__form p {
+    width: 80%;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=cmtp.css.map */

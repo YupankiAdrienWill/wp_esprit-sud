@@ -1,3 +1,5 @@
+
+
 section.page-real{
     padding: 3rem 3rem 3rem 3rem;
     background-color: white;
@@ -5,6 +7,10 @@ section.page-real{
 
  }
 section.page{
+    strong{
+        font-weight: 700;
+        color: var(--couleur-primaire);
+    }
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,14 +30,6 @@ section.page{
                         width: 33%;
                     }
         }
-        /* h3{
-            font-size: 2rem;
-            color: var(--couleur-primaire);
-              text-decoration-line: underline;
-                text-decoration-style: wavy;
-                text-decoration-color: var(--couleur-tertiaire);
-                text-underline-offset: 0.5rem;
-        } */
         img{
             padding: 1.5rem 0 1.5rem 01.5rem;
         }
@@ -43,34 +41,12 @@ section.page{
            
 
         }
-/*         .wp-block-column{
-            padding-left: 1rem;
-            padding-right: 1rem;
-        } */
-       /*  button{
-            width: 595px;
-            height: 55px;
-            left: 296px;
-            top: 1437px;
-                        text-shadow: 2px 2px 2px white;
-             background: var(--couleur-primaire);
-             border: 8px solid var(--couleur-secondaire);
-            border-radius: 14px;
-
-
-        }
-        button:hover{
-            cursor: pointer;
-            width: 595px;
-            height: 55px;
-            left: 296px;
-            top: 1437px;
-
-                    background: #FFFFFF;
-                    border: 8px solid #FECF34;
-                    border-radius: 14px; */
         }
 section.page--3{
+    strong{
+        font-weight: 700;
+        color: var(--couleur-primaire);
+    }
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,14 +66,6 @@ section.page--3{
                         width: 33%;
                     }
         }
-        /* h3{
-            font-size: 2rem;
-            color: var(--couleur-primaire);
-              text-decoration-line: underline;
-                text-decoration-style: wavy;
-                text-decoration-color: var(--couleur-tertiaire);
-                text-underline-offset: 0.5rem;
-        } */
         img{
             padding: 1.5rem 0 1.5rem 01.5rem;
         }
@@ -108,38 +76,13 @@ section.page--3{
            
 
         }
-/*         .wp-block-column{
-            padding-left: 1rem;
-            padding-right: 1rem;
-        } */
-       /*  button{
-            width: 595px;
-            height: 55px;
-            left: 296px;
-            top: 1437px;
-                        text-shadow: 2px 2px 2px white;
-             background: var(--couleur-primaire);
-             border: 8px solid var(--couleur-secondaire);
-            border-radius: 14px;
-
-
-        }
-        button:hover{
-            cursor: pointer;
-            width: 595px;
-            height: 55px;
-            left: 296px;
-            top: 1437px;
-
-                    background: #FFFFFF;
-                    border: 8px solid #FECF34;
-                    border-radius: 14px; */
         }
 
-
-
- 
 section.page--2{
+    strong{
+        font-weight: 700;
+        color: var(--couleur-primaire);
+    }
     display: flex;
     flex-direction: column;
     /* align-items: center;
@@ -148,17 +91,6 @@ section.page--2{
     padding-top:3rem;
     background-color: white;
 
-        /* h3{
-            font-size: 2rem;
-            color: var(--couleur-primaire);
-              text-decoration-line: underline;
-                text-decoration-style: wavy;
-                text-decoration-color: var(--couleur-tertiaire);
-                text-underline-offset: 0.5rem;
-        } */
-       /*  img{
-            padding: 1.5rem 0 1.5rem 01.5rem;
-        } */
         p{
             width: 80%;
             line-height: 36px; 
@@ -167,30 +99,6 @@ section.page--2{
             text-align: center;
 
         }
-
-       /*  button{
-            width: 595px;
-            height: 55px;
-            left: 296px;
-            top: 1437px;
-                        text-shadow: 2px 2px 2px white;
-             background: var(--couleur-primaire);
-             border: 8px solid var(--couleur-secondaire);
-            border-radius: 14px;
-
-
-        }
-        button:hover{
-            cursor: pointer;
-            width: 595px;
-            height: 55px;
-            left: 296px;
-            top: 1437px;
-
-                    background: #FFFFFF;
-                    border: 8px solid #FECF34;
-                    border-radius: 14px;
-        } */
             &:nth-child(2){
                 background-color: rgba(16, 177, 185, 0.20) !important;}
             &:nth-child(3){
@@ -210,6 +118,10 @@ section.page--2{
  }
 
  section.catalogue{
+    strong{
+        font-weight: 700;
+        color: var(--couleur-primaire);
+    }
     z-index: 99;
     position: relative;
     display: flex;
@@ -289,16 +201,6 @@ section.page--2{
                    
                     
                 }
-                /* button{
-                    width: 200.75px;
-                    height: 51px;
-                    left: 766.53px;
-                    top: 1459px;
-                    text-shadow: 2px 2px 2px white;
-                    background: var(--couleur-primaire);
-                    border: 8px solid var(--couleur-secondaire);
-                    border-radius: 14px;
-                } */
 
             }
 }
