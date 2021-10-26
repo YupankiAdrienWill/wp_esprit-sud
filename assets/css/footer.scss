@@ -172,7 +172,7 @@ footer.cmtp {
 	.footer__container {
 		position: relative;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		align-items: center;
 		padding-bottom: 2rem;
 	}
@@ -304,7 +304,7 @@ footer.cmtp {
 		.footer__container {
 			flex-wrap: wrap;
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-evenly;
 			padding-bottom: 1rem;
 			div:nth-child(odd) {
 				padding-top: 0!important;
@@ -358,7 +358,7 @@ footer.cmtp {
 		.footer__container {
 			flex-wrap: wrap;
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-evenly;
 			padding-bottom: 1rem;
 			div:nth-child(odd) {
 				padding-top: 0!important;
