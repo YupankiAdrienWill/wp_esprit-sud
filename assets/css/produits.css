@@ -19,7 +19,6 @@ section.produits h2 {
 section.produits p.texte_produit {
   width: 80% !important;
   text-align: center !important;
-  font-size: 1.2rem !important;
 }
 
 section.produits p.texte_produit strong {
