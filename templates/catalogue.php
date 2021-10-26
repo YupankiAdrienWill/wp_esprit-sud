@@ -29,9 +29,9 @@ $loop = new WP_Query( array(
 
 <div>       
         <h3><?php the_title(); ?></h3>
-        <span>
-        <?php the_post_thumbnail(); ?>
-        </span>
+        <div style="background-image: url('<?php the_post_thumbnail_url() ?>');" class='thumb_catalogue'>
+        <?php /* the_post_thumbnail() */; ?>
+</div>
         <span><?php the_excerpt(); ?></span>
         <a href="<?php the_permalink(); ?>"><button class='btn-front'>Je découvre</button></a>
     </div>

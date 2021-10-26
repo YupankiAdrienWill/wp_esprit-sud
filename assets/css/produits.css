@@ -58,10 +58,8 @@ section.produits div.wp-block-media-text__content p {
   text-align: center;
 }
 
-section.produits div.wp-block-media-text__content img {
-  width: 80%;
-  height: 50%;
-  margin: auto;
+section.produits div.wp-block-media-text__content .wp-img img {
+  border: solid red 2px;
 }
 
 @media (max-width: 867px) {

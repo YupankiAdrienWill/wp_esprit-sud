@@ -236,11 +236,18 @@ section.page--2{
                 font-size: 1rem!important;
                 margin: auto;
             }
-            img{
+         /*    img{
                 width:300px;
                 height: 300px;
                 
-            }            
+            }  */  
+            div.thumb_catalogue{
+                width: 80%;
+               height: 200px;
+                background-size: cover; 
+        background-position:bottom;
+        margin: 0!important;
+            }         
  }
 
 
@@ -257,7 +264,6 @@ section.page--2{
         flex-wrap: wrap;
         justify-content: center;
         padding-top: 2rem;
-        background-color: #fcc92313;
             div{
                 display: flex;
                 flex-direction: column;
@@ -415,7 +421,6 @@ section.page--2{
         flex-wrap: wrap;
         justify-content: center;
         padding-top: 2rem;
-        background-color: #fcc92313;
             div{
                 display: flex;
                 flex-direction: column;

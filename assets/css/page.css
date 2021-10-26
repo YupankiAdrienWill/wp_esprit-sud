@@ -268,6 +268,11 @@ section.catalogue {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 2rem;
+  /*    img{
+                width:300px;
+                height: 300px;
+                
+            }  */
 }
 
 section.catalogue div {
@@ -300,9 +305,12 @@ section.catalogue p {
   margin: auto;
 }
 
-section.catalogue img {
-  width: 300px;
-  height: 300px;
+section.catalogue div.thumb_catalogue {
+  width: 80%;
+  height: 200px;
+  background-size: cover;
+  background-position: bottom;
+  margin: 0 !important;
 }
 
 @media (max-width: 1600px) {
@@ -318,7 +326,6 @@ section.catalogue img {
         -ms-flex-pack: center;
             justify-content: center;
     padding-top: 2rem;
-    background-color: #fcc92313;
     /* button{
                     width: 200.75px;
                     height: 51px;
@@ -516,7 +523,6 @@ section.catalogue img {
         -ms-flex-pack: center;
             justify-content: center;
     padding-top: 2rem;
-    background-color: #fcc92313;
   }
   section.catalogue div {
     display: -webkit-box;
