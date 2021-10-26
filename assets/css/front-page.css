@@ -259,8 +259,8 @@ section.front_landing--2 .container div {
 }
 
 section.front_landing--2 .container div img {
-  /* width: 300px; */
-  height: 300px;
+  width: 300px;
+  /* height: 300px; */
 }
 
 section.front_landing--3 {
@@ -329,8 +329,79 @@ section.front_landing--3 .container div {
 }
 
 section.front_landing--3 .container div img {
-  width: 325px;
-  height: 325px;
+  width: 225px !important;
+  /* height: 325px; */
+}
+
+@media (max-width: 1200px) {
+  section.front_landing--2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  section.front_landing--2 h3 {
+    font-size: 2rem;
+    color: var(--couleur-primaire);
+    border-bottom: var(--couleur-tertiaire) solid 5px;
+  }
+  section.front_landing--2 img {
+    width: 100%;
+    padding: 0;
+  }
+  section.front_landing--2 p {
+    width: 90%;
+    /* 
+                font-size: 16px; */
+    line-height: 20px;
+    margin: auto;
+    padding-bottom: 0.7rem;
+  }
+  section.front_landing--2:nth-child(2) {
+    background-color: rgba(16, 177, 185, 0.2) !important;
+  }
+  section.front_landing--2:nth-child(3) {
+    background-color: white !important;
+  }
+  section.front_landing--2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-bottom: 1rem;
+  }
+  section.front_landing--2 .container div {
+    width: 49%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  section.front_landing--2 .container div img {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
 }
 
 @media (max-width: 867px) {
@@ -452,33 +523,6 @@ section.front_landing--3 .container div img {
     text-align: center;
     /*  padding-top:3rem;
         padding-bottom: 3rem; */
-    /* div button{
-                width: 80%;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            }
-            button:hover{
-                cursor: pointer;
-                width: 0;
-                height:0;
-                left: 0;
-                top:0;
-
-            }
-            button:active{
-                cursor: pointer;
-                width: 250px;
-                height: 55px;
-                left: 0;
-                top:0;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            } */
   }
   section.front_landing h3 {
     font-size: 2rem;
@@ -587,7 +631,6 @@ section.front_landing--3 .container div img {
   }
   section.front_landing--2 .container div img {
     width: 100%;
-    height: 160px;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
   }
@@ -604,26 +647,6 @@ section.front_landing--3 .container div img {
     margin: auto;
     padding-top: 0rem;
     padding-bottom: 0.5rem;
-    /*  div 
-                button{
-                width: 80%;
-                height: 55px;
-                left: 296px;
-                top: 1437px;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            }
-            button:hover{
-                cursor: pointer;
-                width: 595px;
-                height: 55px;
-                left: 0;
-                top:0;
-                background: #FFFFFF;
-                border: 8px solid #FECF34;
-                border-radius: 14px;
-            } */
   }
   section.front_landing--3 h3 {
     font-size: 2rem;
