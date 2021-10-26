@@ -382,7 +382,6 @@ nav.cmtp .burger {
     display: none;
   }
   nav.cmtp .menu .current_page {
-    margin-bottom: 1rem;
     /* span{
                               color:var(--couleur-tertiaire)
                         } */
@@ -391,11 +390,12 @@ nav.cmtp .burger {
     color: var(--couleur-5);
   }
   nav.cmtp .menu .anav:nth-child(7) {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   nav.cmtp .menu .forMobile {
     display: block;
     text-align: center;
+    margin-bottom: 0rem;
     border-bottom: 3px solid var(--couleur-primaire);
     color: white;
     display: -webkit-box;
@@ -417,12 +417,6 @@ nav.cmtp .burger {
     height: 100vh;
     width: 100vw;
     background-color: var(--couleur-secondaire);
-  }
-  nav.cmtp .menu .forMobile span#trait {
-    width: 50%;
-    height: 5px;
-    background-color: white;
-    text-align: center;
   }
   nav.cmtp .menu .forMobile ul {
     display: -webkit-box;
@@ -448,11 +442,11 @@ nav.cmtp .burger {
     padding-bottom: 0rem;
   }
   nav.cmtp .menu div:nth-child(7) {
-    margin-top: 0.5rem;
+    margin-top: 0rem;
   }
   nav.cmtp .menu a {
-    padding: 0.5rem;
-    margin: 0 0.5rem;
+    padding: 0rem;
+    margin: 0 0rem;
     color: white;
     border-bottom: transparent 3px solid;
   }
@@ -498,7 +492,7 @@ nav.cmtp .burger {
   }
   nav.cmtp span#close {
     color: var(--couleur-5);
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
   }
   nav.cmtp span#close:active {
