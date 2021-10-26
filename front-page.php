@@ -9,8 +9,8 @@
 
 <section class='front_landing'>
     <?php 
-    $id = 104; 
-    $content = apply_filters('the_excerpt', get_post_field('post_excerpt', $post_id)); 
+    $page = get_page_by_title('Notre catalogue'); 
+    $content =  apply_filters('the_excerpt', $page->post_excerpt); 
     $title = 'Un large choix d’articles décoratifs et d’entretien'; 
     $link = get_page_link( $id); 
     $thumb = get_the_post_thumbnail( $id, 'post-thumbnail' );
