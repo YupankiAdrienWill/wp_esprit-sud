@@ -257,8 +257,8 @@ nav.cmtp .burger {
 
 .section__cmtp__form p {
   color: var(--couleur-secondaire);
-  width: 80%;
   margin: auto;
+  padding-bottom: 0.5rem;
 }
 
 .section__cmtp__form .submit_cmtp {
@@ -310,6 +310,10 @@ nav.cmtp .burger {
 
 .section__cmtp__form h3 {
   font-size: 1.5rem;
+}
+
+.section__cmtp__form h2 {
+  color: var(--couleur-5) !important;
 }
 
 .section__cmtp__form .form__flex_submit--cmtp {

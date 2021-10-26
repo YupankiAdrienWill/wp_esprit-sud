@@ -128,6 +128,7 @@ section.front_landing{
              width: 50%;
              height: 30%;
              text-align: center;
+             padding-bottom: 1.5rem;
                 img{
                     width:100% ;
                     height: 100%;   
@@ -146,7 +147,7 @@ section.front_landing--2{
     background-color:white;
 
         img{
-            padding: 1.5rem 0 1.5rem 01.5rem;
+            padding: 1.5rem 0 1.5rem 0rem;
         }
         p{
             width:80%;
@@ -165,6 +166,7 @@ section.front_landing--2{
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
+                        padding-bottom: 1.5rem;
                             & div{
                                 display: flex;
                                 text-align: center;
@@ -172,7 +174,7 @@ section.front_landing--2{
                                 justify-content: space-evenly;
                                 width: 33%;
                                     img{
-                                        width: 300px;
+                                        /* width: 300px; */
                                         height: 300px;
                                     }
                             }

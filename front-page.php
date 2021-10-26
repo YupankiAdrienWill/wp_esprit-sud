@@ -49,7 +49,7 @@ $loop = new WP_Query( array(
 
 
 
-        <div><a href="<?php bloginfo('wpurl') ?>/qui-sommes-nous/#showroom"><button class='btn-front'>Venez découvir notre showroom</button></a></div>
+        <div><a href="<?php bloginfo('wpurl') ?>/qui-sommes-nous/#showroom"><button class='btn-front'>Notre showroom</button></a></div>
 </section >
 <?php get_template_part ('parts/footerPart' )?>
 <?php get_footer();?>
