@@ -12,8 +12,8 @@
     $page = get_page_by_title('Notre catalogue'); 
     $content =  apply_filters('the_excerpt', $page->post_excerpt); 
     $title = 'Un large choix d’articles décoratifs et d’entretien'; 
-    $link = get_page_link( $id); 
-    $thumb = get_the_post_thumbnail( $id, 'post-thumbnail' );
+    $link = get_page_link( $page); 
+    $thumb = get_the_post_thumbnail( $page, 'post-thumbnail' );
     ?>
     <h2><?php echo $title; ?></h2>
     <?php echo $content; ?>

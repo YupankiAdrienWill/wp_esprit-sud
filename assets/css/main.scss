@@ -116,6 +116,7 @@ a.buttonContact:hover{
           /* height: 70vh; */
           background-size: cover; 
           background-position:center;
+          background-repeat: no-repeat;
       }
        .header--page h1{
            color: white;
@@ -304,7 +305,7 @@ a.buttonContact:hover{
     } */
 
     .titre{
-        font-size: 2.5rem!important;
+        font-size: 2.3rem!important;
         color: var(--couleur-tertiaire);
     }
 
@@ -332,7 +333,31 @@ a.buttonContact:hover{
         font-size: 1rem !important;
         color: var(--couleur-secondaire);
     }
-
+    .btn-front{
+        background: var(--couleur-tertiaire);
+                 /* border: 4px solid var(--couleur-secondaire); */
+                 color: var(--couleur-quaternaire);
+                 font-size: 18px;
+                border-radius: 7px;
+                width: 275px;
+                height: 55px;
+                border-style: none;
+                margin-top: 0.5rem;
+                font-weight: bold;
+    }
+    .btn-front:hover{
+        background: var(--couleur-quaternaire);
+        /* border: 4px solid var(--couleur-secondaire); */
+        color: white;
+        font-size: 18px;
+       border-radius: 7px;
+       width: 275px;
+       height: 55px;
+       border-style: none;
+       margin-top: 0.5rem;
+       font-weight: bold;
+       cursor: pointer;
+    }
 
 .main__container--page{
 
@@ -345,9 +370,9 @@ a.buttonContact:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top !important;
+        background-size: 150% !important;
+        background-repeat: no-repeat; 
+        background-position:top !important;
         }
          .header--page h1{
              color: white;

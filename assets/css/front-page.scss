@@ -15,6 +15,8 @@ strong{
         /* height: 70vh; */
         background-size: cover; 
         background-position:bottom;
+        background-repeat: no-repeat;
+        
     }
      .header--landing h1{
          color:  var(--couleur-tertiaire) !important;;
@@ -256,7 +258,6 @@ section.front_landing--3{
             }
             p{
                 width: 90%;
-                line-height: 20px; 
                 margin: auto;
                 padding-bottom: 0.7rem;
     
@@ -301,9 +302,9 @@ section.front_landing--3{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-size: cover;
+        background-size: 220% !important;
         background-repeat: no-repeat; 
-        background-position:center;
+        background-position:top !important;
         }
          .header--landing h1{
              color: white;
