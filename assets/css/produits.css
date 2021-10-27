@@ -15,6 +15,7 @@ section.produits {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 2rem;
+  background: white;
 }
 
 section.produits h2 {
@@ -59,6 +60,11 @@ section.produits div.wp-block-media-text__content p {
 
 section.produits div.wp-block-media-text__content .wp-img img {
   border: solid red 2px;
+}
+
+.back {
+  text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 867px) {

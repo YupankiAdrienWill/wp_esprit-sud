@@ -5,7 +5,12 @@
 </div>
 <section class='produits'>
 <?php the_content();?>
-</section>
+<?php 
+    $page = get_page_by_title('Notre catalogue'); 
+    $link = get_page_link( $page); 
+    ?>
 
+</section>
+<div class='back'><a href="<?php echo $link; ?>"><button class='btn-front'>Retour au catalogue</button></a></div>
 <?php get_template_part ('parts/footerPart' )?>
 <?php get_footer();?>

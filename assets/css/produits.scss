@@ -13,6 +13,7 @@ section.produits{
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 2rem;
+    background: white;
 
     p.texte_produit{
         
@@ -56,7 +57,10 @@ section.produits{
    
             
 }
-
+.back{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
 @media (max-width:867px) {
     section.produits{
         h2{
